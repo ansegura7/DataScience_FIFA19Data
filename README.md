@@ -2,7 +2,7 @@
 - **Created by Andrés Segura Tinoco**
 - **Created on May 1, 2019**
 
-![FIFA 19 Logo](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/image/fifa19-logo1.jpg)
+![FIFA 19 Logo](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/fifa19-logo1.jpg)
 **Source:** <a href="https://www.easports.com/es/fifa" target="_blank" >EA Sport</a>
 
 # Analysis List
