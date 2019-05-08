@@ -14,8 +14,9 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Project data in <a href="https://github.com/ansegura7/DataScience_FIFA19Data/tree/master/data" target="_blank" >GitHub</a>
 
 ## Analysis List
-1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" target="_blank" >Initial Exploration of the Data</a>
-2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/DataVisualization.html"  target="_blank" >Data Visualization</a>
+1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" target="_blank" >Exploration and Profiling</a>
+2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html"  target="_blank" >Querying Data</a>
+3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/DataVisualization.html"  target="_blank" >Data Visualization</a>
 
 ## Insights
 - The team with the most potential is FC Barcelona, whose players initially have an overall average of 78 but can reach 85.
@@ -31,7 +32,9 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 
 ## Python Libraries
 - pandas
+- pandas_profiling
 - pandasql
+- numpy
 - sklearn
 - matplotlib
 - seaborn
