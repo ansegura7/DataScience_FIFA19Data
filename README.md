@@ -39,6 +39,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - sklearn
 - matplotlib
 - seaborn
+- ipywidgets
 
 ## License Type
 This project is licensed under the terms of the MIT license.
