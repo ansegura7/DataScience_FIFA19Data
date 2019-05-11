@@ -34,10 +34,14 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 ## Python Libraries
 - pandas
 - pandas_profiling
-- pandasql
 - numpy
+- pandasql
 - sklearn
-- matplotlib
+- StandardScaler
+- PCA
+- KMeans
+- matplotlib.pyplot
+- mpl_toolkits.mplot3d
 - seaborn
 - ipywidgets
 
