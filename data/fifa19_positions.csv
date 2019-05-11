@@ -1,0 +1,28 @@
+Position,Description,Zone
+GK,Goal Keper,GoalKeper
+CB,Centre Back,Defense
+LCB,Left Centre Back,Defense
+RCB,Right Centre Back,Defense
+LB,Left Back,Defense
+RB,Right Back,Defense
+LWB,Left Wing Back,Defense
+RWB,Right Wing Back,Defense
+CDM,Centre Defensive Midfielder,Midfield
+LDM,Left Defensive Midfielder,Midfield
+RDM,Right Defensive Midfielder,Midfield
+CM,Centre Midfielder,Midfield
+LCM,Left Centre Midfielder,Midfield
+RCM,Right Centre Midfielder,Midfield
+LM,Left Midfielder,Midfield
+RM,Right Midfielder,Midfield
+CAM,Centre Attacking Midfielder,Midfield
+LAM,Left Attacking Midfielder,Midfield
+RAM,Right Attacking Midfielder,Midfield
+LW,Left Winger,Midfield
+RW,Right Winger,Midfield
+CF,Centre Fordward,Attack
+LF,Left Fordward,Attack
+RF,Right Forward,Attack
+ST,Striker,Attack
+LS,Left Striker,Attack
+RS,Right Striker,Attack
