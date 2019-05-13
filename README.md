@@ -26,7 +26,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - It is possible to perform a PCA on the skills of the players and maintain 80% of the variance of the data, to then plot them on the plane and understand which players resemble each other.
 
 ## Technologies and Techniques
-- Python 3.6.6
+- Python 3.7.3
 - <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda Navigator 1.9.7</a>
 - Jupyter Notebook 5.7.8
 - Principal Component Analysis (PCA)
