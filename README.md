@@ -14,10 +14,10 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 
 ## Analysis List
 1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" target="_blank" >Exploration and Profiling</a>
-2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html"  target="_blank" >Querying Data</a>
-3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html"  target="_blank" >Principal Component Analysis</a>
-4. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ClusteringData.html"  target="_blank" >Clustering Data - KMeans</a>
-5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html"  target="_blank" >Networks and Force System</a>
+2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html" target="_blank" >Querying Data</a>
+3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html" target="_blank" >Principal Component Analysis</a>
+4. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ClusteringData.html" target="_blank" >Clustering Data - KMeans</a>
+5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" target="_blank" >Networks and Force System</a>
 
 ## Insights
 - It is possible to perform a PCA of the skills of the players and maintain 80.5% of the variance of the data with only 2 components. Which allows us to plot the players on the plane and analyze which players resemble each other.
@@ -33,6 +33,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Python 3.7.3
 - <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda Navigator 1.9.7</a>
 - Jupyter Notebook 5.7.8
+- Force System of d3.js
 - Principal Component Analysis (PCA)
 - K-Means
 
