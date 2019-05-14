@@ -111,7 +111,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 				.domain([1, util.getMaxValue(nodes, "count")])
 				.range([iheight, margin.bottom]),
 		x = d3.scaleLinear()
-				.domain([1, util.getMaxValue(nodes, "count") / 4])
+				.domain([0, 90])
 				.range([0, iwidth]);
 	
     // Nodes tooltip
@@ -126,15 +126,15 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 
 	if (ordered) {
 		simulation
-			.force("center", d3.forceCenter(290, iheight / 2))
+			.force("center", d3.forceCenter(260, iheight / 2))
 			.force("charge", d3.forceManyBody()
 				.strength(-2.5))
-			.force("x", d3.forceX((d) => x(d.count))
+			.force("x", d3.forceX((d) => { return (d.group == "Zone" ? x(d.count) * 1.7 : (d.group == "Position" ? x(d.count) * 1.3 : x(d.count))) })
 				.strength(0.1))
 			.force("collide", d3.forceCollide(d => r(d.group) + 1))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(10)
+				.distance(30)
 				.strength(0.15))
 			.on("tick", ticked);
 	}
@@ -221,8 +221,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 			.attr("class", "axis")
 			.attr("transform", "translate(0," + (iheight*0.91) + ")")  
 			.style("font-size", "12px")
-			.call(d3.axisBottom(x)
-			.ticks(null, "0"));
+			.call(d3.axisBottom(x));
 		
 		// text label for the x axis
 		g.append("text")
