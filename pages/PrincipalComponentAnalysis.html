@@ -14985,9 +14985,10 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Eigen-vectors data</span>
-<span class="n">lengths</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">explained_variance_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_components</span><span class="p">]</span>
-<span class="n">vectors</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">components_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_components</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="n">n_components</span><span class="p">]</span>
-<span class="n">means</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">mean_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_components</span><span class="p">]</span>
+<span class="n">n_vectors</span> <span class="o">=</span> <span class="mi">2</span>
+<span class="n">lengths</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">explained_variance_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_vectors</span><span class="p">]</span>
+<span class="n">vectors</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">components_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_components</span><span class="p">,</span> <span class="mi">0</span><span class="p">:</span><span class="n">n_vectors</span><span class="p">]</span>
+<span class="n">means</span> <span class="o">=</span> <span class="n">pca</span><span class="o">.</span><span class="n">mean_</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">n_vectors</span><span class="p">]</span>
 </pre></div>
 
     </div>
