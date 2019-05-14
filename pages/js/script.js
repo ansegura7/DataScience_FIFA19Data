@@ -59,6 +59,12 @@ ast.createNetworks = () => {
 	ast.changeOrder();
 }
 
+ast.filterData = () => {
+	let currCountry = d3.select("#cmbCountry").node().value.toLowerCase();
+	let currTeam = d3.select("#cmbTeam").node().value.toLowerCase();
+	console.log("currCountry:" + currCountry + ", currTeam: " + currTeam);
+}
+
 ast.changeOrder = () => {
 	let orderType = d3.select("#cmbOrder").node().value.toLowerCase();
 	
@@ -75,7 +81,7 @@ ast.changeOrder = () => {
 	util.addDictToJsonArray(nodes, ast.positionList, 'Position');
 	util.addDictToJsonArray(nodes, ast.zoneList, 'Zone');
 	util.addDictToJsonArrayWithSplit(links, ast.linkList, '|');
-
+	
 	// Chart 1 - Line chart
 	let ordered = (orderType.indexOf("no") == -1);
 	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered);
@@ -92,12 +98,12 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 
 	// Legend - Item list
 	let legendList = ["Player", "Position", "Goalkeper", "Defense", "Midfield", "Attack"];
-	let zoneColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
+	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
 	
  	// Create scales
 	let c = d3.scaleOrdinal()
 				.domain(legendList)
-				.range(zoneColors),
+				.range(legendColors),
 		r = d3.scaleOrdinal()
 				.domain(["Player", "Position", "Zone"])
 				.range([3, 5, 7]),
@@ -111,13 +117,16 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
     // Nodes tooltip
     let tooltip = svg.append("text");
     let adjlist = [];
-
+	
+	ast.nodes = nodes;
+	ast.links = links;
+	
 	// Simulation Force
 	let simulation = d3.forceSimulation(nodes);
 
 	if (ordered) {
 		simulation
-			.force("center", d3.forceCenter(250, iheight / 2))
+			.force("center", d3.forceCenter(290, iheight / 2))
 			.force("charge", d3.forceManyBody()
 				.strength(-2.5))
 			.force("x", d3.forceX((d) => x(d.count))
@@ -133,9 +142,9 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		simulation
 			.force("charge", d3.forceManyBody()
 				.strength(-25))
-			.force("x", d3.forceX(iwidth/2)
+			.force("x", d3.forceX(iwidth/2 + 20)
 				.strength(0.1))
-			.force("y", d3.forceY(iheight/2)
+			.force("y", d3.forceY(iheight/2 + 20)
 				.strength(0.1))
 			.force("collide", d3.forceCollide(d => r(d.group) + 1))
 			.force("link", d3.forceLink(links)
@@ -176,11 +185,11 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 			.on("end", dragended));
 
 	selNodes.append("title")
-		.text(d => d.name)
+		.text(d => (d.name  + " [weight = " + d.count + "]"))
 		.style("fill", "#000000")
 		.style("font-family", "Calibri")
         .style("font-size", 12);
-
+				
 	// Focus/Unfocus events
 	selNodes.on("mouseover", focus)
 		.on("mouseout", unfocus);
@@ -228,29 +237,29 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 
 	// Add legend
 	var legend = g.append("g")
-    	.attr("transform", "translate(" + (iwidth*0.15) + "," + (iheight*0.985) + ")");
+    	.attr("transform", "translate(" + (iwidth*0.16) + "," + (iheight*0.985) + ")");
 	
-	legend.selectAll("rect")
+	legend.selectAll(".circle")
 		.data(legendList)
 		.enter()
-		.append("rect")
-		.attr("width", "12px")
-		.attr("height", "12px")
-		.attr("x", (d, i) => { return i*120; })
-		.attr("y", (d, i) => { return 2; })
-		.attr("fill", (d) => { return c(d); });
+		.append("circle")
+		.attr("class", "circle")
+		.style("fill", (d, i) => { return legendColors[i] })
+		.attr("r", "8")
+		.attr("cx", (d, i) => { return i*120; })
+		.attr("cy", (d, i) => { return 7; });
 
 	legend.selectAll("text")
 		.data(legendList)
 		.enter()
 		.append("text")
-		.attr("x", (d, i) => { return 17 + (i*120); })
+		.attr("x", (d, i) => { return 14 + (i*120); })
 		.attr("y", "1em")
 		.attr("font-size", 13)
 		.text((d, i) => {
 			return legendList[i];
 		});
-
+	
 	// Begin Nodes events
 	function ticked() {
 		selLinks
