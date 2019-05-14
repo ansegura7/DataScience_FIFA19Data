@@ -95,22 +95,23 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		iheight = ast.height - margin.top - margin.bottom;
 
 	// Legend - Item list
-	let legendList = ["Player", "Position", "Zone"];
-
+	let legendList = ["Player", "Position", "Goalkeper", "Defense", "Midfield", "Attack"];
+	let zoneColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
+	
  	// Create scales
 	let c = d3.scaleOrdinal()
 				.domain(legendList)
-				.range(["black", "steelblue", "green"]),
+				.range(zoneColors),
 		r = d3.scaleOrdinal()
 				.domain(["Player", "Position", "Zone"])
-				.range([3, 4, 5]),
-		y = d3.scaleLog()
+				.range([3, 5, 7]),
+		y = d3.scaleLinear()
 				.domain([1, util.getMaxValue(nodes, "count")])
 				.range([iheight, margin.bottom]),
-		x = d3.scaleLog()
-				.domain([1, util.getMaxValue(nodes, "count")])
+		x = d3.scaleLinear()
+				.domain([1, util.getMaxValue(nodes, "count") / 4])
 				.range([0, iwidth]);
-    
+	
     // Nodes tooltip
     let tooltip = svg.append("text");
     let adjlist = [];
@@ -136,12 +137,12 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		simulation
 			.force("center", d3.forceCenter(iwidth / 2, iheight / 2))
 			.force("charge", d3.forceManyBody()
-				.strength(-3))
+				.strength(-2))
 			.force("collide", d3.forceCollide(d => r(d.group) + 1))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(15)
-				.strength(0.1))
+				.distance(50)
+				.strength(0.3))
 			.on("tick", ticked);
 	}
 
@@ -161,7 +162,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		.enter()
 		.append("circle")
 		.attr("class", "node")
-		.style("fill", (d) => c(d.group))
+		.style("fill", (d) => { return (d.group == "Zone" ? c(d.name) : c(d.group)) })
 		.attr("r", (d) => r(d.group))
 		.on("mouseover", (d) => {
 			tooltip.text(d.name)
@@ -210,7 +211,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		// Add width scale
 		g.append("g")
 			.attr("class", "axis")
-			.attr("transform", "translate(0," + (iheight*0.87) + ")")  
+			.attr("transform", "translate(0," + (iheight*0.91) + ")")  
 			.style("font-size", "12px")
 			.call(d3.axisBottom(x)
 			.ticks(null, "0"));
@@ -218,7 +219,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		// text label for the x axis
 		g.append("text")
 			.attr("x", (iwidth / 2))
-			.attr("y", (iheight * 0.91))
+			.attr("y", (iheight * 0.94))
 			.attr("dy", "1em")
 			.style("text-anchor", "middle")
 			.style("font-family", "sans-serif")
@@ -228,24 +229,25 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 
 	// Add legend
 	var legend = g.append("g")
-    	.attr("transform", "translate(" + (iwidth*0.3) + "," + (iheight*0.98) + ")");
+    	.attr("transform", "translate(" + (iwidth*0.15) + "," + (iheight*0.985) + ")");
 	
 	legend.selectAll("rect")
 		.data(legendList)
 		.enter()
 		.append("rect")
-		.attr("width","15px")
-		.attr("height","15px")
-		.attr("x", (d, i) => { return i*150; })
+		.attr("width", "12px")
+		.attr("height", "12px")
+		.attr("x", (d, i) => { return i*120; })
+		.attr("y", (d, i) => { return 2; })
 		.attr("fill", (d) => { return c(d); });
 
 	legend.selectAll("text")
 		.data(legendList)
 		.enter()
 		.append("text")
-		.attr("x", (d, i) => { return 20 + (i*150); })
-		.attr("y","1em")
-		.attr("font-size", 15)
+		.attr("x", (d, i) => { return 17 + (i*120); })
+		.attr("y", "1em")
+		.attr("font-size", 13)
 		.text((d, i) => {
 			return legendList[i];
 		});
@@ -264,7 +266,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 	}
 
 	function dragstarted(d) {
-		if (!d3.event.active) simulation.alphaTarget(0.3).restart();
+		if (!d3.event.active) simulation.alphaTarget(0.4).restart();
 		d.fx = d.x;
 		d.fy = d.y;
 	}
