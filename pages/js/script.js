@@ -77,12 +77,8 @@ ast.changeOrder = () => {
 	util.addDictToJsonArrayWithSplit(links, ast.linkList, '|');
 
 	// Chart 1 - Line chart
-	if (orderType.indexOf("no") == 0) {
-		ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, false);
-	}
-	else {
-		ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, true);
-	}
+	let ordered = (orderType.indexOf("no") == -1);
+	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered);
 }
 
 // Create Network chart
@@ -121,28 +117,31 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 
 	if (ordered) {
 		simulation
-			.force("center", d3.forceCenter(260, iheight / 2))
+			.force("center", d3.forceCenter(250, iheight / 2))
+			.force("charge", d3.forceManyBody()
+				.strength(-2.5))
 			.force("x", d3.forceX((d) => x(d.count))
 				.strength(0.1))
-			.force("charge", d3.forceManyBody()
-				.strength(-2))
 			.force("collide", d3.forceCollide(d => r(d.group) + 1))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(15)
-				.strength(0.1))
+				.distance(10)
+				.strength(0.15))
 			.on("tick", ticked);
 	}
 	else {
 		simulation
-			.force("center", d3.forceCenter(iwidth / 2, iheight / 2))
 			.force("charge", d3.forceManyBody()
-				.strength(-2))
+				.strength(-25))
+			.force("x", d3.forceX(iwidth/2)
+				.strength(0.1))
+			.force("y", d3.forceY(iheight/2)
+				.strength(0.1))
 			.force("collide", d3.forceCollide(d => r(d.group) + 1))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(50)
-				.strength(0.3))
+				.distance(30)
+				.strength(0.45))
 			.on("tick", ticked);
 	}
 
