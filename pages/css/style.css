@@ -17,10 +17,10 @@
 	margin: 0px; padding: 0px; font-size: 10.5pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black;
 }
 #divMain {
-	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 12pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 11pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #divReadme {
-	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 12pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 11pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #svgNetwork1 {
 	width:1000px; height:800px; border: 1px solid #337ab7;

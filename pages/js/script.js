@@ -3,6 +3,8 @@ var ast = [],
     util = [];
 ast.width = 1000;
 ast.height = 800;
+ast.bImage = false;
+ast.photoList = {};
 
 // Init dynamic components
 ast.init = () => {
@@ -28,6 +30,7 @@ ast.loadData = () => {
 				d.PC2 = +d.PC2;
 				d.Overall = +d.Overall;
 				d.Potential = +d.Potential;
+				ast.photoList[d.Name] = d.Photo;
 			});
 			
 			ast.loadFilters(ast.data);
@@ -84,7 +87,6 @@ ast.filterData = () => {
 	if (currClub != "All")
 		currData = currData.filter(d => d.Club === currClub);
 	
-	console.log("currNationality:" + currNationality + ", currClub: " + currClub + ", Original data size: " + ast.data.length + ", Filtered data size: " + currData.length);
 	ast.createNetworks(currData);
 }
 
@@ -92,7 +94,7 @@ ast.changeOrder = () => {
 	let orderType = d3.select("#cmbOrder").node().value.toLowerCase();
 	
 	// Charts variables
-	let xTitle = "Count";
+	let xTitle = "Weight";
 	let yTitle = "";
 	let cTitle = "Players by Zones";
 	let svgNetwork1 = d3.select("#svgNetwork1");
@@ -107,11 +109,16 @@ ast.changeOrder = () => {
 	
 	// Chart 1 - Line chart
 	let ordered = (orderType.indexOf("no") == -1);
-	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered);
+	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
+}
+
+ast.activePlayerImage = (checked) => {
+	ast.bImage = checked;
+	ast.changeOrder();
 }
 
 // Create Network chart
-ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
+ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage) => {
 	svg.html("");
 
 	// Network margins
@@ -120,7 +127,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		iheight = ast.height - margin.top - margin.bottom;
 
 	// Legend - Item list
-	let legendList = ["Player", "Position", "Goalkeper", "Defense", "Midfield", "Attack"];
+	let legendList = ["Player", "Position", "GoalKeper", "Defense", "Midfield", "Attack"];
 	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
 	
  	// Create scales
@@ -134,27 +141,24 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 				.domain([1, util.getMaxValue(nodes, "count")])
 				.range([iheight, margin.bottom]),
 		x = d3.scaleLinear()
-				.domain([0, 90])
+				.domain([0, 70])
 				.range([0, iwidth]);
 	
     // Nodes tooltip
     let tooltip = svg.append("text");
     let adjlist = [];
 	
-	ast.nodes = nodes;
-	ast.links = links;
-	
 	// Simulation Force
 	let simulation = d3.forceSimulation(nodes);
 
 	if (ordered) {
 		simulation
-			.force("center", d3.forceCenter(260, iheight / 2))
+			.force("center", d3.forceCenter(250, iheight / 2))
 			.force("charge", d3.forceManyBody()
 				.strength(-2.5))
 			.force("x", d3.forceX((d) => { return (d.group == "Zone" ? x(d.count) * 1.7 : (d.group == "Position" ? x(d.count) * 1.3 : x(d.count))) })
-				.strength(0.1))
-			.force("collide", d3.forceCollide(d => r(d.group) + 1))
+				.strength(0.08))
+			.force("collide", d3.forceCollide(d => r(d.group) * 2))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
 				.distance(30)
@@ -164,16 +168,16 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 	else {
 		simulation
 			.force("charge", d3.forceManyBody()
-				.strength(-25))
+				.strength(-30))
 			.force("x", d3.forceX(iwidth/2 + 20)
+				.strength(0.08))
+			.force("y", d3.forceY(iheight/2)
 				.strength(0.1))
-			.force("y", d3.forceY(iheight/2 + 20)
-				.strength(0.1))
-			.force("collide", d3.forceCollide(d => r(d.group) + 1))
+			.force("collide", d3.forceCollide(d => r(d.group) * 2))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(30)
-				.strength(0.45))
+				.distance(40)
+				.strength(0.5))
 			.on("tick", ticked);
 	}
 
@@ -191,10 +195,9 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 	let selNodes = svg.selectAll(".node")
 		.data(nodes)
 		.enter()
-		.append("circle")
+		.append("g")
 		.attr("class", "node")
-		.style("fill", (d) => { return (d.group == "Zone" ? c(d.name) : c(d.group)) })
-		.attr("r", (d) => r(d.group))
+		.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
 		.on("mouseover", (d) => {
 			tooltip.text(d.name)
 				.transition()
@@ -206,13 +209,26 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 			.on("start", dragstarted)
 			.on("drag", dragged)
 			.on("end", dragended));
-
+	
+	selNodes.append("circle")
+		.style("fill", (d) => { return (d.group == "Zone" ? c(d.name) : c(d.group)) })
+		.attr("r", (d) => r(d.group));
+	
 	selNodes.append("title")
 		.text(d => (d.name  + " [weight = " + d.count + "]"))
 		.style("fill", "#000000")
 		.style("font-family", "Calibri")
         .style("font-size", 12);
-				
+	
+	if(bImage) {
+		selNodes.append("image")
+			.attr("xlink:href", (d) => { return (d.group == "Player" ? ast.photoList[d.name] : "") }) 
+			.attr("x", "-16")
+			.attr("y", "-16")
+			.attr("width", 32)
+			.attr("height", 32);
+	}
+	
 	// Focus/Unfocus events
 	selNodes.on("mouseover", focus)
 		.on("mouseout", unfocus);
@@ -235,7 +251,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		.style("text-anchor", "middle")
 		.style("font-family", "sans-serif")
 		.style("font-size", "16pt")
-		.text(cTitle)
+		.text(cTitle + " [" + nodes.length + "]")
 		.style("color", "steelblue");
 
 	if (ordered) {
@@ -300,8 +316,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 			.attr("y2", (l) => l.target.y);
 
 		selNodes
-			.attr("cx", (n) => n.x)
-			.attr("cy", (n) => n.y);
+			.attr("transform", (n) => "translate(" + n.x + "," + n.y + ")");  
 	}
 
 	function dragstarted(d) {
@@ -391,7 +406,6 @@ util.normalize = (word) => {
 	return util.titleCase(word);
 }
 
-// Add data types to ComboBox
 util.addComboBoxData = (cmbID, varList, defValue) => {
 	var options = d3.select("#"+cmbID);
 
