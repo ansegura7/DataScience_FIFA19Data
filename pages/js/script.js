@@ -14,12 +14,24 @@ ast.init = () => {
 // Load yearly data and charts
 ast.loadData = () => {
 	let filepath = "https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/data/";
-	let filename = filepath + "fifa19_pca_data.csv";
+	let filename = filepath + "fifa19_pca_data_best500.csv";
 	
 	d3.csv(filename).then(
-		function(data) {
-			ast.data = data;
-			ast.createNetworks();
+		function(rawdata) {
+			// Load data and apply quality process
+			ast.data = rawdata;
+			ast.data.forEach(function(d, i) {
+				d.Name = util.normalize(d.Name);
+				d.Nationality = util.normalize(d.Nationality);
+				d.Club = util.normalize(d.Club);
+				d.PC1 = +d.PC1;
+				d.PC2 = +d.PC2;
+				d.Overall = +d.Overall;
+				d.Potential = +d.Potential;
+			});
+			
+			ast.loadFilters(ast.data);
+			ast.createNetworks(ast.data);
 		},
 		function(error) {
 			// Error log message
@@ -28,23 +40,18 @@ ast.loadData = () => {
 	);
 }
 
-// Derive data and create Networks
-ast.createNetworks = () => {
+// Derive current data and create Networks
+ast.createNetworks = (currData) => {
 	ast.playerList = {},
 	ast.positionList = {},
 	ast.zoneList = {},
 	ast.linkList = {};
 
-	// Load and parse data
-	ast.data.forEach(function(d, i) {
-		d.PC1 = +d.PC1;
-		d.PC2 = +d.PC2;
-		d.Overall = +d.Overall;
-		d.Potential = +d.Potential;
-		
-		let player = normalize(d.Name);
-		let position = normalize(d.Position);
-		let zone = normalize(d.Zone);
+	// Load and parse current data
+	currData.forEach(function(d, i) {		
+		let player = d.Name;
+		let position = d.Position;
+		let zone = d.Zone;
 		let playerPosition = player + "|" + position;
 		let positionZone = position + "|" + zone;
 		
@@ -59,10 +66,26 @@ ast.createNetworks = () => {
 	ast.changeOrder();
 }
 
+ast.loadFilters = (currData) => {
+	var nationalityList = util.getDistinctValueFromJsonArray(currData, "Nationality", "All");
+	var clubList = util.getDistinctValueFromJsonArray(currData, "Club", "All");
+	
+	util.addComboBoxData("cmbNationality", nationalityList, "All");
+	util.addComboBoxData("cmbClub", clubList, "All")
+}
+
 ast.filterData = () => {
-	let currCountry = d3.select("#cmbCountry").node().value.toLowerCase();
-	let currTeam = d3.select("#cmbTeam").node().value.toLowerCase();
-	console.log("currCountry:" + currCountry + ", currTeam: " + currTeam);
+	let currNationality = d3.select("#cmbNationality").node().value;
+	let currClub = d3.select("#cmbClub").node().value;
+	
+	var currData = JSON.parse(JSON.stringify(ast.data));
+	if (currNationality != "All")
+		currData = currData.filter(d => d.Nationality === currNationality);
+	if (currClub != "All")
+		currData = currData.filter(d => d.Club === currClub);
+	
+	console.log("currNationality:" + currNationality + ", currClub: " + currClub + ", Original data size: " + ast.data.length + ", Filtered data size: " + currData.length);
+	ast.createNetworks(currData);
 }
 
 ast.changeOrder = () => {
@@ -246,7 +269,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		.style("fill", (d, i) => { return legendColors[i] })
 		.attr("r", "8")
 		.attr("cx", (d, i) => { return i*120; })
-		.attr("cy", (d, i) => { return 7; });
+		.attr("cy", (d, i) => { return 10; });
 
 	legend.selectAll("text")
 		.data(legendList)
@@ -254,10 +277,19 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered) => {
 		.append("text")
 		.attr("x", (d, i) => { return 14 + (i*120); })
 		.attr("y", "1em")
-		.attr("font-size", 13)
+		.attr("font-size", 15)
 		.text((d, i) => {
 			return legendList[i];
 		});
+	
+	svg.append("line")
+		.attr("x1", x(0))
+		.attr("y1", iheight)
+		.attr("x2", x(iwidth))
+		.attr("y2", iheight)
+		.style("stroke-width", 1)
+		.style("stroke", "#337ab7")
+		.style("fill", "none");
 	
 	// Begin Nodes events
 	function ticked() {
@@ -354,25 +386,40 @@ util.titleCase = (str) => {
 	return splitStr.join(' ').trim(); 
 }
 
-var normalize = (function() {
-  var from = "ÃÀÁÄÂÈÉËÊÌÍÏÎÒÓÖÔÙÚÜÛãàáäâèéëêìíïîòóöôùúüûÑñÇç", 
-      to   = "AAAAAEEEEIIIIOOOOUUUUaaaaaeeeeiiiioooouuuuNnCc",
-      mapping = {};
- 
-  for(var i = 0, j = from.length; i < j; i++ )
-      mapping[ from.charAt( i ) ] = to.charAt( i );
- 
-  return function( str ) {
-      var ret = [];
-      for( var i = 0, j = str.length; i < j; i++ ) {
-          var c = str.charAt( i );
-          if( mapping.hasOwnProperty( str.charAt( i ) ) )
-              ret.push( mapping[ c ] );
-          else
-              ret.push( c );
-      }      
-      return util.titleCase(ret.join( '' ));
-  }
- 
-})();
+util.normalize = (word) => {
+	word = word.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+	return util.titleCase(word);
+}
+
+// Add data types to ComboBox
+util.addComboBoxData = (cmbID, varList, defValue) => {
+	var options = d3.select("#"+cmbID);
+
+	const addItem = (d, i) => options
+		.append("option")
+		.text(d)
+		.attr("value", d)
+		.property("selected", (d == defValue));
+	
+	varList.forEach(addItem);
+}
+
+util.getDistinctValueFromJsonArray = (items, column, defaultValue) => {
+	var lookup = {};
+	var result = [];
+	
+	for (var item, i = 0; item = items[i++];) {
+		var cellValue = item[column];
+		if (cellValue && !(cellValue in lookup)) {
+			lookup[cellValue] = 1;
+			result.push(cellValue);
+		}
+	}
+	result = result.sort()
+	
+	if (defaultValue && defaultValue != "")
+		result = [defaultValue].concat(result);
+	
+	return result;
+}
 /********** End Utility Fundtions **********/
