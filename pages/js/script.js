@@ -129,6 +129,8 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	// Legend - Item list
 	let legendList = ["Player", "Position", "GoalKeper", "Defense", "Midfield", "Attack"];
 	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
+	let nNodes = nodes.length;
+	let maxNodes = 500;
 	
  	// Create scales
 	let c = d3.scaleOrdinal()
@@ -148,9 +150,10 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
     let tooltip = svg.append("text");
     let adjlist = [];
 	
-	// Simulation Force
+	// Simulation Force system
 	let simulation = d3.forceSimulation(nodes);
-
+	let factor = nNodes / maxNodes;  // By default is one (1)
+	
 	if (ordered) {
 		simulation
 			.force("center", d3.forceCenter(250, iheight / 2))
@@ -210,15 +213,24 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 			.on("drag", dragged)
 			.on("end", dragended));
 	
+	// Add circle to node
 	selNodes.append("circle")
 		.style("fill", (d) => { return (d.group == "Zone" ? c(d.name) : c(d.group)) })
 		.attr("r", (d) => r(d.group));
 	
+	// Add text to 'position' nodes
+	selNodes.append("text")
+		.attr("dy", ".35em")    
+		.style("font-size", "10pt")
+		.attr("x", "6")
+		.text((d) => { return (d.group == "Position" ? d.name.toUpperCase() : "") });
+	
+		// Add tooltip text to node
 	selNodes.append("title")
 		.text(d => (d.name  + " [weight = " + d.count + "]"))
 		.style("fill", "#000000")
 		.style("font-family", "Calibri")
-        .style("font-size", 12);
+		.style("font-size", "11pt");
 	
 	if(bImage) {
 		selNodes.append("image")
@@ -240,6 +252,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
     	adjlist[d.target.index + "-" + d.source.index] = true;
 	});
 
+	// Graph object
 	let g = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 	
@@ -251,7 +264,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.style("text-anchor", "middle")
 		.style("font-family", "sans-serif")
 		.style("font-size", "16pt")
-		.text(cTitle + " [" + nodes.length + "]")
+		.text(cTitle + " [" + nNodes + "]")
 		.style("color", "steelblue");
 
 	if (ordered) {
