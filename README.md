@@ -27,7 +27,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Others:
     - The team with the most potential is FC Barcelona, whose players initially have an overall average of 78 but can reach 85.
     - The player with the most potential is MBappe from PSG, who can reach 95 of overall.
-    - However, the player with the most improvement margen is Donnarumma of AC Milan, who initially has an overall of 82 but can reach 83 (+11).
+    - However, the player with the most improvement margen is Donnarumma of AC Milan, who initially has an overall of 82 but can reach 93 (+11).
 
 ## Technologies and Techniques
 - Python 3.7.3
