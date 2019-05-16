@@ -10,7 +10,9 @@ ast.photoList = {};
 ast.init = () => {
 
 	// Fire main event
-	ast.loadData();
+	setTimeout(() => {
+		ast.loadData();
+	}, 10);
 }
 
 // Load yearly data and charts
@@ -43,6 +45,64 @@ ast.loadData = () => {
 	);
 }
 
+/********** Begin Events Fundtions **********/
+ast.evChangeOrder = () => {
+	let orderType = d3.select("#cmbOrder").node().value.toLowerCase();
+	
+	// Charts variables
+	let xTitle = "Weight";
+	let yTitle = "";
+	let cTitle = "Force-Directed Graph of Players";
+	let svgNetwork1 = d3.select("#svgNetwork1");
+
+	// Update data
+	let nodes = [],
+		links = [];
+	util.addDictToJsonArray(nodes, ast.playerList, 'Player');
+	util.addDictToJsonArray(nodes, ast.positionList, 'Position');
+	util.addDictToJsonArray(nodes, ast.zoneList, 'Zone');
+	util.addDictToJsonArrayWithSplit(links, ast.linkList, '|');
+	
+	// Chart 1 - Line chart
+	let ordered = (orderType.indexOf("no") == -1);
+	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
+}
+
+ast.evChangeVariable = () => {
+	let currVariable = d3.select("#cmbVariable").node().value;
+	console.log(currVariable);
+}
+
+ast.evFilterData = () => {
+	let currNationality = d3.select("#cmbNationality").node().value;
+	let currClub = d3.select("#cmbClub").node().value;
+	
+	var currData = JSON.parse(JSON.stringify(ast.data));
+	if (currNationality != "All")
+		currData = currData.filter(d => d.Nationality === currNationality);
+	if (currClub != "All")
+		currData = currData.filter(d => d.Club === currClub);
+	
+	ast.createNetworks(currData);
+}
+
+ast.evActivePlayerImage = (checked) => {
+	ast.bImage = checked;
+	ast.evChangeOrder();
+}
+/*********** End Events Fundtions ***********/
+
+// Load the page filters into combobox
+ast.loadFilters = (currData) => {
+	var variableList = ["Overall", "Potential"];
+	var nationalityList = util.getDistinctValueFromJsonArray(currData, "Nationality", "All");
+	var clubList = util.getDistinctValueFromJsonArray(currData, "Club", "All");
+	
+	util.addComboBoxData("cmbVariable", variableList, "");
+	util.addComboBoxData("cmbNationality", nationalityList, "All");
+	util.addComboBoxData("cmbClub", clubList, "All")
+}
+
 // Derive current data and create Networks
 ast.createNetworks = (currData) => {
 	ast.playerList = {},
@@ -66,55 +126,7 @@ ast.createNetworks = (currData) => {
 	});
 	
 	// Create Network chart
-	ast.changeOrder();
-}
-
-ast.loadFilters = (currData) => {
-	var nationalityList = util.getDistinctValueFromJsonArray(currData, "Nationality", "All");
-	var clubList = util.getDistinctValueFromJsonArray(currData, "Club", "All");
-	
-	util.addComboBoxData("cmbNationality", nationalityList, "All");
-	util.addComboBoxData("cmbClub", clubList, "All")
-}
-
-ast.filterData = () => {
-	let currNationality = d3.select("#cmbNationality").node().value;
-	let currClub = d3.select("#cmbClub").node().value;
-	
-	var currData = JSON.parse(JSON.stringify(ast.data));
-	if (currNationality != "All")
-		currData = currData.filter(d => d.Nationality === currNationality);
-	if (currClub != "All")
-		currData = currData.filter(d => d.Club === currClub);
-	
-	ast.createNetworks(currData);
-}
-
-ast.changeOrder = () => {
-	let orderType = d3.select("#cmbOrder").node().value.toLowerCase();
-	
-	// Charts variables
-	let xTitle = "Weight";
-	let yTitle = "";
-	let cTitle = "Force-Directed Graph of Players";
-	let svgNetwork1 = d3.select("#svgNetwork1");
-
-	// Update data
-	let nodes = [],
-		links = [];
-	util.addDictToJsonArray(nodes, ast.playerList, 'Player');
-	util.addDictToJsonArray(nodes, ast.positionList, 'Position');
-	util.addDictToJsonArray(nodes, ast.zoneList, 'Zone');
-	util.addDictToJsonArrayWithSplit(links, ast.linkList, '|');
-	
-	// Chart 1 - Line chart
-	let ordered = (orderType.indexOf("no") == -1);
-	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
-}
-
-ast.activePlayerImage = (checked) => {
-	ast.bImage = checked;
-	ast.changeOrder();
+	ast.evChangeOrder();
 }
 
 // Create Network chart

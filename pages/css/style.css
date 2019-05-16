@@ -41,5 +41,5 @@
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size:10pt; color:#337ab7; margin-top:2px;
 }
 .divText select {
-	margin-right:20px;
+	margin-right:22px; width: 130px;
 }

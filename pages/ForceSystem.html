@@ -39,19 +39,22 @@
 				
 				<div class="divText" align="left">
 					<label for="cmbOrder">Alignment:</label>
-					<select id="cmbOrder" onchange="ast.changeOrder()">
+					<select id="cmbOrder" onchange="ast.evChangeOrder()">
 						<option id="no-ordered">No Ordered</option>
 						<option id="ordered">Ordered</option>
 					</select>
 					
+					<label for="cmbVariable">Variable:</label>
+					<select id="cmbVariable" onchange="ast.evChangeVariable()"> </select>
+
 					<label for="cmbNationality">Nationality:</label>
-					<select id="cmbNationality" onchange="ast.filterData()" > </select>
+					<select id="cmbNationality" onchange="ast.evFilterData()" > </select>
 					
 					<label for="cmbClub">Club:</label>
-					<select id="cmbClub" onchange="ast.filterData()" > </select>
+					<select id="cmbClub" onchange="ast.evFilterData()" > </select>
 					
-					<label for="chkImage">Players image:</label>
-					<input id="chkImage" type="checkbox" onchange="ast.activePlayerImage(this.checked)" />
+					<label for="chkImage">Players photo:</label>
+					<input id="chkImage" type="checkbox" onchange="ast.evActivePlayerImage(this.checked)" />
 				</div>
 				
 				<svg id="svgNetwork1" class="svgChart" ></svg>
@@ -64,10 +67,8 @@
 			</div>
 			
 			<script type="text/javascript">
-		        // Run Page Script
-				$(document).ready(function() {
-					setTimeout( () => { ast.init() }, 10);
-				});
+		        // Run page script
+				$(document).ready(() => { ast.init(); });
 			</script>
 
 		</div>
