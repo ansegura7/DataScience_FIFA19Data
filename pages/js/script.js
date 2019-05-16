@@ -180,6 +180,12 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 			.on("tick", ticked);
 	}
 
+	// Create adjacency matrix
+	links.forEach(function(d) {
+		adjlist[d.source.index + "-" + d.target.index] = true;
+    adjlist[d.target.index + "-" + d.source.index] = true;
+	});
+
 	// Drawing links
 	let selLinks = svg.selectAll(".link")
 		.data(links)
@@ -188,7 +194,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("class", "link")
 		.attr("stroke", "#aaa")
 		.style("stroke-width", "2px")
-		.style("opacity", 0.5);
+		.style("opacity", 0.6);
 
 	// Drawing nodes
 	let selNodes = svg.selectAll(".node")
@@ -238,11 +244,6 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	selNodes.on("mouseover", focus)
 		.on("mouseout", unfocus);
 	
-	links.forEach(function(d) {
-		adjlist[d.source.index + "-" + d.target.index] = true;
-    adjlist[d.target.index + "-" + d.source.index] = true;
-	});
-
 	// Graph object
 	let g = svg.append("g")
 		.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
@@ -371,7 +372,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	// Node unfocus event
   function unfocus() {
 		selNodes.style("opacity", 1);
-		selLinks.style("opacity", 1);
+		selLinks.style("opacity", 0.6);
 		d3.select(this).select("circle")
 			.transition()
       .duration(300)
