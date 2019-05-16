@@ -1,10 +1,6 @@
 // Init parameters
-var ast = [],
-    util = [];
-ast.width = 1000;
-ast.height = 800;
-ast.bImage = false;
-ast.photoList = {};
+var ast = { "width": 1000, "height": 800, "bImage": false, "photoList": {}},
+    util = {};
 
 // Init dynamic components
 ast.init = () => {
@@ -15,16 +11,16 @@ ast.init = () => {
 	}, 10);
 }
 
-// Load yearly data and charts
+// Load dataW
 ast.loadData = () => {
 	let filepath = "https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/data/";
 	let filename = filepath + "fifa19_pca_data_best500.csv";
 	
 	d3.csv(filename).then(
 		function(rawdata) {
+			
 			// Load data and apply quality process
-			ast.data = rawdata;
-			ast.data.forEach(function(d, i) {
+			rawdata.forEach(function(d, i) {
 				d.Name = util.normalize(d.Name);
 				d.Nationality = util.normalize(d.Nationality);
 				d.Club = util.normalize(d.Club);
@@ -35,6 +31,8 @@ ast.loadData = () => {
 				ast.photoList[d.Name] = d.Photo;
 			});
 			
+			// Save and show data
+			ast.data = rawdata;
 			ast.loadFilters(ast.data);
 			ast.createNetworks(ast.data);
 		},
@@ -46,31 +44,8 @@ ast.loadData = () => {
 }
 
 /********** Begin Events Fundtions **********/
-ast.evChangeOrder = () => {
-	let orderType = d3.select("#cmbOrder").node().value.toLowerCase();
-	
-	// Charts variables
-	let xTitle = "Weight";
-	let yTitle = "";
-	let cTitle = "Force-Directed Graph of Players";
-	let svgNetwork1 = d3.select("#svgNetwork1");
-
-	// Update data
-	let nodes = [],
-		links = [];
-	util.addDictToJsonArray(nodes, ast.playerList, 'Player');
-	util.addDictToJsonArray(nodes, ast.positionList, 'Position');
-	util.addDictToJsonArray(nodes, ast.zoneList, 'Zone');
-	util.addDictToJsonArrayWithSplit(links, ast.linkList, '|');
-	
-	// Chart 1 - Line chart
-	let ordered = (orderType.indexOf("no") == -1);
-	ast.doNetworkChart(svgNetwork1, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
-}
-
-ast.evChangeVariable = () => {
-	let currVariable = d3.select("#cmbVariable").node().value;
-	console.log(currVariable);
+ast.evShowNetworks = () => {
+	ast.evFilterData();
 }
 
 ast.evFilterData = () => {
@@ -88,7 +63,7 @@ ast.evFilterData = () => {
 
 ast.evActivePlayerImage = (checked) => {
 	ast.bImage = checked;
-	ast.evChangeOrder();
+	ast.evFilterData();
 }
 /*********** End Events Fundtions ***********/
 
@@ -110,6 +85,11 @@ ast.createNetworks = (currData) => {
 	ast.zoneList = {},
 	ast.linkList = {};
 
+	// Create Network chart
+	let orderType = d3.select("#cmbOrder").node().value.toLowerCase() || "No Ordered";
+	let currVariable = d3.select("#cmbVariable").node().value || "Overall";
+	console.log("orderType: " + orderType + ", currVariable: " + currVariable);
+
 	// Load and parse current data
 	currData.forEach(function(d, i) {		
 		let player = d.Name;
@@ -124,12 +104,25 @@ ast.createNetworks = (currData) => {
 		util.addCounterToDict(ast.linkList, playerPosition);
 		util.addCounterToDict(ast.linkList, positionZone);
 	});
+
+	// Update data
+	let nodes = [],
+		links = [];
+	util.addDictToJsonArray(nodes, ast.playerList, "Player");
+	util.addDictToJsonArray(nodes, ast.positionList, "Position");
+	util.addDictToJsonArray(nodes, ast.zoneList, "Zone");
+	util.addDictToJsonArrayWithSplit(links, ast.linkList, "|");
 	
-	// Create Network chart
-	ast.evChangeOrder();
+	// Network variables
+	let xTitle = "Weight";
+	let yTitle = "";
+	let cTitle = "Force-Directed Graph of Players";
+	let svgNetwork = d3.select("#svgNetwork1");
+	let ordered = (orderType.indexOf("no") == -1);
+	ast.doNetworkChart(svgNetwork, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
 }
 
-// Create Network chart
+// Create Network diagram
 ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage) => {
 	svg.empty();
 	svg.html("");
@@ -227,7 +220,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("stroke", "#090909")
     .style("stroke-width", 1);
 	
-	// Add text to 'position' nodes
+	// Add text to position nodes
 	selNodes.append("text")
 		.attr("dy", ".35em")    
 		.style("font-size", "10pt")
@@ -434,15 +427,15 @@ util.getMaxValue = (data, varname) => {
 }
 
 util.titleCase = (str) => {
-	var splitStr = str.toLowerCase().split(' ');
+	var splitStr = str.toLowerCase().split(" ");
 	for (var i = 0; i < splitStr.length; i++) {
 		splitStr[i] = splitStr[i].charAt(0).toUpperCase() + splitStr[i].substring(1);     
 	}
-	return splitStr.join(' ').trim(); 
+	return splitStr.join(" ").trim(); 
 }
 
 util.normalize = (word) => {
-	word = word.normalize('NFD').replace(/[\u0300-\u036f]/g, "")
+	word = word.normalize("NFD").replace(/[\u0300-\u036f]/g, "")
 	return util.titleCase(word);
 }
 
