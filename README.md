@@ -2,7 +2,9 @@
 - **Created by Andrés Segura Tinoco**
 - **Created on May 1, 2019**
 
-![PCA Results](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/pca-results.jpg)
+![PCA Plot](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/pca-results.jpg)
+
+![PCA Network](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/force-directed-graph.jpg)
 
 ## Abstract
 Data Science Project to analyze and discover insights of the attributes of each player registered in the latest edition of FIFA 19 database.
