@@ -8,7 +8,7 @@
     line-height: 1.0;
 }
 #divHeader {
-	width:1000px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; margin-bottom: 10px;
+	width:1000px; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 14px; margin-bottom: 0px;
 }
 #divHeader p {
 	margin: 0px; padding: 0px; font-size: 14pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black;
@@ -17,9 +17,6 @@
 	margin: 0px; padding: 0px; font-size: 10.5pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; color: black;
 }
 #divMain {
-	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 11pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-#divReadme {
 	width:1000px; min-height: 100px; border: 0px solid gray; padding:10px 0 10px 0; font-size: 11pt; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 #svgNetwork1 {

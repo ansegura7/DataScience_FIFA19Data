@@ -13,7 +13,6 @@
 		<!-- Scripts -->
 		<script type="text/javascript" language="javascript" src="https://code.jquery.com/jquery-3.3.1.js"></script>
 		<script type="text/javascript" language="javascript" src="https://d3js.org/d3.v5.min.js"></script>
-		<script type="text/javascript" language="javascript" src="https://d3js.org/d3-format.v1.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 		
 		<!-- Style -->
@@ -27,14 +26,15 @@
 					<li><strong>Created by Andrés Segura Tinoco</strong></li>
 					<li><strong>Created on May 14, 2019</strong></li>
 				</ul>
-				<h1>5. Networks and Force System</h1>
 			</div>
 			
 			<div id="divMain" align="center" >
-
-				<!-- Chart 1 -->
+				<div align="left" >
+					<h1>5. Networks and Force System</h1>
+				</div>
 				<div class="divText" >
-					<p>Network visualization that shows the best FIFA 19 players grouped by positions and by zones. The network is self-organizing using the force system of d3.js.</p>
+					<p>Network visualization that shows the best FIFA 19 players grouped by positions and by zones. 
+					   The network self-organizes using the force system of d3.js to find interesting topologies and paths between the data.</p>
 				</div>
 				
 				<div class="divText" align="left">
@@ -66,8 +66,8 @@
 				</div>
 			</div>
 			
+			<!-- Run page script -->
 			<script type="text/javascript">
-		        // Run page script
 				$(document).ready(() => { ast.init(); });
 			</script>
 
