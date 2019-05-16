@@ -1,501 +1,501 @@
-Order,PC1,PC2,Position,Zone,Name,Photo,Nationality,Club,Club Logo,Preferred Foot,Overall,Potential
-0,-9.391933134,-7.024874118,RF,Attack,L. Messi,https://cdn.sofifa.org/players/4/19/158023.png,Argentina,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,94,94
-1,-8.935502823,-4.993332302,ST,Attack,Cristiano Ronaldo,https://cdn.sofifa.org/players/4/19/20801.png,Portugal,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,94,94
-2,-8.717718753,-6.896612111,LW,Midfield,Neymar Jr,https://cdn.sofifa.org/players/4/19/190871.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,92,93
-3,17.67301208,-2.497028237,GK,GoalKeper,De Gea,https://cdn.sofifa.org/players/4/19/193080.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,91,93
-4,-10.0274955,-2.585399379,RCM,Midfield,K. De Bruyne,https://cdn.sofifa.org/players/4/19/192985.png,Belgium,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,91,92
-5,-8.658268568,-5.968099277,LF,Attack,E. Hazard,https://cdn.sofifa.org/players/4/19/183277.png,Belgium,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,91,91
-6,-10.08328652,-1.885598735,RCM,Midfield,L. Modri?,https://cdn.sofifa.org/players/4/19/177003.png,Croatia,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,91,91
-7,-7.932120082,-3.156977739,RS,Attack,L. Suárez,https://cdn.sofifa.org/players/4/19/176580.png,Uruguay,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,91,91
-8,-7.397440708,3.511173487,RCB,Defense,Sergio Ramos,https://cdn.sofifa.org/players/4/19/155862.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,91,91
-9,18.91820012,-1.809078236,GK,GoalKeper,J. Oblak,https://cdn.sofifa.org/players/4/19/200389.png,Slovenia,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,90,93
-10,-7.596399621,-3.828944763,ST,Attack,R. Lewandowski,https://cdn.sofifa.org/players/4/19/188545.png,Poland,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,90,90
-11,-8.937948966,-0.638402219,LCM,Midfield,T. Kroos,https://cdn.sofifa.org/players/4/19/182521.png,Germany,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,90,90
-12,-4.004385549,5.635373853,CB,Defense,D. Godín,https://cdn.sofifa.org/players/4/19/182493.png,Uruguay,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,90,90
-13,-8.310098694,-3.88221194,LCM,Midfield,David Silva,https://cdn.sofifa.org/players/4/19/168542.png,Spain,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,90,90
-14,-8.210293692,2.281245262,LDM,Midfield,N. Kanté,https://cdn.sofifa.org/players/4/19/215914.png,France,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,89,90
-15,-7.783714819,-6.157666868,LF,Attack,P. Dybala,https://cdn.sofifa.org/players/4/19/211110.png,Argentina,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,89,94
-16,-7.544953204,-2.385789544,ST,Attack,H. Kane,https://cdn.sofifa.org/players/4/19/202126.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,89,91
-17,-8.900247267,-3.719917308,CAM,Midfield,A. Griezmann,https://cdn.sofifa.org/players/4/19/194765.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,89,90
-18,18.84215581,-1.602656256,GK,GoalKeper,M. ter Stegen,https://cdn.sofifa.org/players/4/19/192448.png,Germany,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,89,92
-19,18.9743119,-1.630244545,GK,GoalKeper,T. Courtois,https://cdn.sofifa.org/players/4/19/192119.png,Belgium,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,89,90
-20,-7.181874421,3.191609891,CDM,Midfield,Sergio Busquets,https://cdn.sofifa.org/players/4/19/189511.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,89,89
-21,-7.336192848,-2.190278707,LS,Attack,E. Cavani,https://cdn.sofifa.org/players/4/19/179813.png,Uruguay,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,89,89
-22,17.68754526,-2.022708783,GK,GoalKeper,M. Neuer,https://cdn.sofifa.org/players/4/19/167495.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,89,89
-23,-7.315286385,-6.18330463,ST,Attack,S. Agüero,https://cdn.sofifa.org/players/4/19/153079.png,Argentina,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,89,89
-24,-2.564147888,6.198268104,LCB,Defense,G. Chiellini,https://cdn.sofifa.org/players/4/19/138956.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,89,89
-25,-8.209924333,-4.897878369,RM,Midfield,K. Mbappé,https://cdn.sofifa.org/players/4/19/231747.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,95
-26,-8.116073754,-4.043419698,RM,Midfield,M. Salah,https://cdn.sofifa.org/players/4/19/209331.png,Egypt,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,88,89
-27,-6.783325682,3.758566019,CDM,Midfield,Casemiro,https://cdn.sofifa.org/players/4/19/200145.png,Brazil,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,88,90
-28,-8.04203861,-3.558738222,LAM,Midfield,J. Rodríguez,https://cdn.sofifa.org/players/4/19/198710.png,Colombia,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,88,89
-29,-7.256283416,-6.734081414,LW,Midfield,L. Insigne,https://cdn.sofifa.org/players/4/19/198219.png,Italy,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,88,88
-30,-8.143898377,-2.614080586,LW,Midfield,Isco,https://cdn.sofifa.org/players/4/19/197781.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,88,91
-31,-8.475951375,-3.843050422,CAM,Midfield,C. Eriksen,https://cdn.sofifa.org/players/4/19/190460.png,Denmark,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,88,91
-32,-8.908793909,-4.379928889,LW,Midfield,Coutinho,https://cdn.sofifa.org/players/4/19/189242.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,88,89
-33,-6.655244305,-4.310810576,LM,Midfield,P. Aubameyang,https://cdn.sofifa.org/players/4/19/188567.png,Gabon,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,88,88
-34,-6.058491138,4.123072015,LCB,Defense,M. Hummels,https://cdn.sofifa.org/players/4/19/178603.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,88,88
-35,-10.18535229,0.494730003,LB,Defense,Marcelo,https://cdn.sofifa.org/players/4/19/176676.png,Brazil,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,88,88
-36,-9.110297453,-2.289202115,ST,Attack,G. Bale,https://cdn.sofifa.org/players/4/19/173731.png,Wales,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,88,88
-37,18.34253424,-1.981370973,GK,GoalKeper,H. Lloris,https://cdn.sofifa.org/players/4/19/167948.png,France,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,88,88
-38,-5.355149171,-4.303963716,LS,Attack,G. Higuaín,https://cdn.sofifa.org/players/4/19/167664.png,Argentina,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,88,88
-39,-5.857326625,3.868965219,RCB,Defense,Thiago Silva,https://cdn.sofifa.org/players/4/19/164240.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,88
-40,19.31582365,-1.151405423,GK,GoalKeper,S. Handanovi?,https://cdn.sofifa.org/players/4/19/162835.png,Slovenia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,88,88
-41,18.71414677,-1.586398921,GK,GoalKeper,G. Buffon,https://cdn.sofifa.org/players/4/19/1179.png,Italy,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,88
-42,-6.249957635,3.351635789,CB,Defense,S. Umtiti,https://cdn.sofifa.org/players/4/19/205600.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,87,92
-43,-4.853479024,-3.896437261,ST,Attack,M. Icardi,https://cdn.sofifa.org/players/4/19/201399.png,Argentina,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,87,90
-44,-0.355062903,7.350414561,LCB,Defense,K. Koulibaly,https://cdn.sofifa.org/players/4/19/201024.png,Senegal,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,90
-45,-9.535459212,-0.188573263,RDM,Midfield,P. Pogba,https://cdn.sofifa.org/players/4/19/195864.png,France,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,87,91
-46,18.48546519,-2.240021164,GK,GoalKeper,K. Navas,https://cdn.sofifa.org/players/4/19/193041.png,Costa Rica,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,87,87
-47,-5.570181937,-2.414753834,ST,Attack,R. Lukaku,https://cdn.sofifa.org/players/4/19/192505.png,Belgium,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,87,89
-48,-5.639225593,-3.069566762,ST,Attack,C. Immobile,https://cdn.sofifa.org/players/4/19/192387.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,87,87
-49,-8.587354758,0.302918788,LB,Defense,Jordi Alba,https://cdn.sofifa.org/players/4/19/189332.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,87,87
-50,-7.450864192,-6.267691018,RF,Attack,D. Mertens,https://cdn.sofifa.org/players/4/19/175943.png,Belgium,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,87
-51,-6.061554801,3.911884369,LCB,Defense,J. Vertonghen,https://cdn.sofifa.org/players/4/19/172871.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,87,87
-52,-8.702754911,-0.676838881,LCM,Midfield,M. Hamšík,https://cdn.sofifa.org/players/4/19/171877.png,Slovakia,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,87
-53,-8.388007729,-0.570684034,RCM,Midfield,I. Rakiti?,https://cdn.sofifa.org/players/4/19/168651.png,Croatia,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,87,87
-54,-4.438214484,4.721945119,RCB,Defense,Piqué,https://cdn.sofifa.org/players/4/19/152729.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,87,87
-55,-6.940558065,-4.621720512,LW,Midfield,L. Sané,https://cdn.sofifa.org/players/4/19/222492.png,Germany,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,92
-56,-7.199703383,-4.399296282,RW,Midfield,Bernardo Silva,https://cdn.sofifa.org/players/4/19/218667.png,Portugal,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,91
-57,17.47596016,-2.643672413,GK,GoalKeper,Ederson,https://cdn.sofifa.org/players/4/19/210257.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,90
-58,-7.42307352,-4.306216727,LM,Midfield,S. Mané,https://cdn.sofifa.org/players/4/19/208722.png,Senegal,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,87
-59,-4.922964455,4.689768672,LCB,Defense,V. van Dijk,https://cdn.sofifa.org/players/4/19/203376.png,Netherlands,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,88
-60,-6.825404167,-4.710550233,RW,Midfield,R. Sterling,https://cdn.sofifa.org/players/4/19/202652.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,86,89
-61,-8.64509101,-1.94953001,CAM,Midfield,Roberto Firmino,https://cdn.sofifa.org/players/4/19/201942.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,87
-62,-3.648499657,5.018689232,RCB,Defense,R. Varane,https://cdn.sofifa.org/players/4/19/201535.png,France,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,86,91
-63,-8.398674348,-0.042729065,LCM,Midfield,M. Verratti,https://cdn.sofifa.org/players/4/19/199556.png,Italy,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,86,89
-64,-8.02787869,1.888288936,LB,Defense,Alex Sandro,https://cdn.sofifa.org/players/4/19/191043.png,Brazil,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,86,86
-65,-7.730773908,-4.963793923,LM,Midfield,Douglas Costa,https://cdn.sofifa.org/players/4/19/190483.png,Brazil,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,86,86
-66,-7.154578423,-2.545096406,CAM,Midfield,T. Müller,https://cdn.sofifa.org/players/4/19/189596.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,86,86
-67,-8.809472907,-2.093933334,CM,Midfield,Thiago,https://cdn.sofifa.org/players/4/19/189509.png,Spain,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,86,86
-68,-8.023026224,-4.831129797,LM,Midfield,M. Reus,https://cdn.sofifa.org/players/4/19/188350.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,86,86
-69,-6.82206007,3.163560794,RB,Defense,Azpilicueta,https://cdn.sofifa.org/players/4/19/184432.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,86,86
-70,-5.178242535,4.676660257,RCB,Defense,L. Bonucci,https://cdn.sofifa.org/players/4/19/184344.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86
-71,-5.217685494,4.453589749,RCB,Defense,T. Alderweireld,https://cdn.sofifa.org/players/4/19/184087.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,86,87
-72,-8.416326393,-0.293848893,CDM,Midfield,M. Pjani?,https://cdn.sofifa.org/players/4/19/180206.png,Bosnia Herzegovina,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86
-73,-2.213662224,6.128734934,CB,Defense,M. Benatia,https://cdn.sofifa.org/players/4/19/177509.png,Morocco,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86
-74,-5.480335014,-5.546640431,CAM,Midfield,M. Özil,https://cdn.sofifa.org/players/4/19/176635.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,86,86
-75,-7.938760437,1.53996624,CDM,Midfield,Fernandinho,https://cdn.sofifa.org/players/4/19/135507.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,86,86
-76,-7.78606978,-2.559431057,LF,Attack,Iniesta,https://cdn.sofifa.org/players/4/19/41.png,Spain,Vissel Kobe,https://cdn.sofifa.org/teams/2/light/101146.png,Right,86,86
-77,-2.182358073,5.670635632,LCB,Defense,M. Škriniar,https://cdn.sofifa.org/players/4/19/232363.png,Slovakia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,92
-78,-8.501740087,1.112527745,CM,Midfield,S. Milinkovi?-Savi?,https://cdn.sofifa.org/players/4/19/223848.png,Serbia,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,85,90
-79,-6.957316885,-4.26856302,RW,Midfield,Marco Asensio,https://cdn.sofifa.org/players/4/19/220834.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,85,92
-80,-7.031468877,-4.882711857,CAM,Midfield,N. Fekir,https://cdn.sofifa.org/players/4/19/216594.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Left,85,89
-81,18.64420803,-1.920302073,GK,GoalKeper,Alisson,https://cdn.sofifa.org/players/4/19/212831.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,85,90
-82,-8.197913263,0.547204183,RCM,Midfield,J. Kimmich,https://cdn.sofifa.org/players/4/19/212622.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,85,88
-83,-8.373941205,0.845058804,RCM,Midfield,Saúl,https://cdn.sofifa.org/players/4/19/208421.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,85,90
-84,-6.898622023,-5.874963685,RW,Midfield,R. Mahrez,https://cdn.sofifa.org/players/4/19/204485.png,Algeria,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,85,85
-85,-8.737479635,0.646496375,LB,Defense,D. Alaba,https://cdn.sofifa.org/players/4/19/197445.png,Austria,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,85,87
-86,-8.330253934,-0.59723726,LM,Midfield,Koke,https://cdn.sofifa.org/players/4/19/193747.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,85,86
-87,-6.8909028,-4.242901023,ST,Attack,A. Lacazette,https://cdn.sofifa.org/players/4/19/193301.png,France,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,85,86
-88,0.155512616,7.23705721,LCB,Defense,K. Manolas,https://cdn.sofifa.org/players/4/19/192774.png,Greece,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,85,87
-89,-3.481425426,4.660621263,CB,Defense,N. Otamendi,https://cdn.sofifa.org/players/4/19/192366.png,Argentina,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,85,85
-90,-7.413630356,-0.410922728,RCM,Midfield,Parejo,https://cdn.sofifa.org/players/4/19/189513.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,85,85
-91,-8.534341819,1.219131482,LDM,Midfield,Paulinho,https://cdn.sofifa.org/players/4/19/187961.png,Brazil,Guangzhou Evergrande Taobao FC,https://cdn.sofifa.org/teams/2/light/111839.png,Right,85,85
-92,18.98157336,-1.519594378,GK,GoalKeper,W. Szcz?sny,https://cdn.sofifa.org/players/4/19/186153.png,Poland,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,85,87
-93,-7.622799715,-3.786167126,RW,Midfield,A. Sánchez,https://cdn.sofifa.org/players/4/19/184941.png,Chile,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,85,85
-94,-6.570746948,-5.136925289,LM,Midfield,Y. Brahimi,https://cdn.sofifa.org/players/4/19/184267.png,Algeria,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,85,85
-95,-4.420464754,4.880291016,RCB,Defense,J. Boateng,https://cdn.sofifa.org/players/4/19/183907.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,85,85
-96,-8.880016214,1.841132846,CAM,Midfield,A. Vidal,https://cdn.sofifa.org/players/4/19/181872.png,Chile,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,85,85
-97,-8.498785847,-1.57750093,LM,Midfield,I. Periši?,https://cdn.sofifa.org/players/4/19/181458.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85
-98,-4.767017927,-1.893053086,ST,Attack,E. Džeko,https://cdn.sofifa.org/players/4/19/180930.png,Bosnia Herzegovina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,85,85
-99,-7.536508065,2.60605613,RCM,Midfield,S. Khedira,https://cdn.sofifa.org/players/4/19/179846.png,Germany,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,85,85
-100,-5.092525787,-1.206836651,LS,Attack,Diego Costa,https://cdn.sofifa.org/players/4/19/179844.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,85,85
-101,-9.076008838,1.296340853,CAM,Midfield,R. Nainggolan,https://cdn.sofifa.org/players/4/19/178518.png,Belgium,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85
-102,-4.122873162,4.182585702,CB,Defense,Naldo,https://cdn.sofifa.org/players/4/19/171919.png,Brazil,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,85,85
-103,-7.787755666,2.323222654,LM,Midfield,B. Matuidi,https://cdn.sofifa.org/players/4/19/170890.png,France,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,85,85
-104,-3.322042554,4.891480807,CB,Defense,Miranda,https://cdn.sofifa.org/players/4/19/168609.png,Brazil,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85
-105,-5.969273412,-4.420989162,ST,Attack,K. Benzema,https://cdn.sofifa.org/players/4/19/165153.png,France,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,85,85
-106,-7.500876313,2.175396794,LB,Defense,Filipe Luís,https://cdn.sofifa.org/players/4/19/164169.png,Brazil,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,85,85
-107,-3.539226486,5.075668549,CB,Defense,V. Kompany,https://cdn.sofifa.org/players/4/19/139720.png,Belgium,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,85,85
-108,-2.419189507,5.262446094,RCB,Defense,Pepe,https://cdn.sofifa.org/players/4/19/120533.png,Portugal,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,85,85
-109,-5.553496239,-3.214825386,RS,Attack,Z. Ibrahimovi?,https://cdn.sofifa.org/players/4/19/41236.png,Sweden,LA Galaxy,https://cdn.sofifa.org/teams/2/light/697.png,Right,85,85
-110,-2.726579969,5.392433231,RCB,Defense,D. Sánchez,https://cdn.sofifa.org/players/4/19/220793.png,Colombia,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,88
-111,-0.824824053,6.245127908,RCB,Defense,J. Giménez,https://cdn.sofifa.org/players/4/19/216460.png,Uruguay,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,84,88
-112,-8.614213851,0.97373653,LB,Defense,Alex Telles,https://cdn.sofifa.org/players/4/19/212462.png,Brazil,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Left,84,87
-113,-3.796186095,4.905654117,LCB,Defense,A. Laporte,https://cdn.sofifa.org/players/4/19/212218.png,France,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,84,88
-114,-8.464117606,-1.936172657,LCM,Midfield,Bruno Fernandes,https://cdn.sofifa.org/players/4/19/212198.png,Portugal,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,84,88
-115,-0.071892158,7.00001881,CB,Defense,N. Süle,https://cdn.sofifa.org/players/4/19/212190.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,84,90
-116,-6.508911583,-3.881841497,LW,Midfield,A. Martial,https://cdn.sofifa.org/players/4/19/211300.png,France,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,84,90
-117,-8.646479042,-0.129561647,LCM,Midfield,D. Alli,https://cdn.sofifa.org/players/4/19/211117.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,90
-118,-7.627279666,2.715345594,CDM,Midfield,Fabinho,https://cdn.sofifa.org/players/4/19/209499.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,84,88
-119,-3.81592637,4.943802235,LDM,Midfield,Marquinhos,https://cdn.sofifa.org/players/4/19/207865.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,84,89
-120,-5.725309114,3.486306525,CDM,Midfield,William Carvalho,https://cdn.sofifa.org/players/4/19/207566.png,Portugal,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,84,86
-121,-7.516822201,-0.00300432,CM,Midfield,Jorginho,https://cdn.sofifa.org/players/4/19/205498.png,Italy,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,84,87
-122,-7.147508385,-4.152881353,RM,Midfield,F. Thauvin,https://cdn.sofifa.org/players/4/19/204970.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,84,87
-123,-5.866590978,2.824574317,RB,Defense,Carvajal,https://cdn.sofifa.org/players/4/19/204963.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,84,87
-124,-6.836044325,-4.843045073,ST,Attack,M. Depay,https://cdn.sofifa.org/players/4/19/202556.png,Netherlands,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,84,89
-125,-7.259631349,-4.70286926,LM,Midfield,H. Son,https://cdn.sofifa.org/players/4/19/200104.png,Korea Republic,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,85
-126,18.43173785,-2.136816521,GK,GoalKeper,A. Lopes,https://cdn.sofifa.org/players/4/19/199482.png,Portugal,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Left,84,86
-127,-2.610773689,5.18582534,CB,Defense,S. de Vrij,https://cdn.sofifa.org/players/4/19/198176.png,Netherlands,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,84,86
-128,18.83479256,-2.455408182,GK,GoalKeper,M. Perin,https://cdn.sofifa.org/players/4/19/198009.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,89
-129,-8.265868695,-1.578000024,RAM,Midfield,J. Cuadrado,https://cdn.sofifa.org/players/4/19/193082.png,Colombia,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84
-130,-6.335544516,-5.037864608,ST,Attack,Iago Aspas,https://cdn.sofifa.org/players/4/19/192629.png,Spain,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Left,84,84
-131,18.7081551,-1.573571231,GK,GoalKeper,B. Leno,https://cdn.sofifa.org/players/4/19/192563.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,84,87
-132,-6.61466888,3.096298407,CDM,Midfield,N. Mati?,https://cdn.sofifa.org/players/4/19/191202.png,Serbia,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,84,84
-133,20.01761132,-1.631731664,GK,GoalKeper,L. Hrádecký,https://cdn.sofifa.org/players/4/19/190941.png,Finland,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,84,84
-134,-7.208257355,0.887708397,RDM,Midfield,Illarramendi,https://cdn.sofifa.org/players/4/19/190584.png,Spain,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,84,84
-135,-7.030955887,2.01255115,RB,Defense,K. Walker,https://cdn.sofifa.org/players/4/19/188377.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,84,84
-136,-7.95765806,-0.811413544,CM,Midfield,I. Gündo?an,https://cdn.sofifa.org/players/4/19/186942.png,Germany,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,84,84
-137,-6.450875107,-3.832289053,RM,Midfield,José Callejón,https://cdn.sofifa.org/players/4/19/185020.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,84,84
-138,-7.415197128,-3.598707571,RM,Midfield,A. Di María,https://cdn.sofifa.org/players/4/19/183898.png,Argentina,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,84,84
-139,-6.581932486,0.89251874,ST,Attack,M. Mandžuki?,https://cdn.sofifa.org/players/4/19/181783.png,Croatia,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84
-140,-6.939283995,-3.9161337,RW,Midfield,Willian,https://cdn.sofifa.org/players/4/19/180403.png,Brazil,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,84,84
-141,18.57369781,-2.034925657,GK,GoalKeper,Sergio Asenjo,https://cdn.sofifa.org/players/4/19/178750.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,84,85
-142,-7.880072093,-0.910222006,CDM,Midfield,E. Banega,https://cdn.sofifa.org/players/4/19/178562.png,Argentina,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,84,84
-143,-8.551616949,1.635389877,LCM,Midfield,A. Witsel,https://cdn.sofifa.org/players/4/19/177413.png,Belgium,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,84,84
-144,-6.643861458,-4.519682848,CAM,Midfield,D. Payet,https://cdn.sofifa.org/players/4/19/177388.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,84,84
-145,-6.31983752,-4.441844116,ST,Attack,Jonas,https://cdn.sofifa.org/players/4/19/176769.png,Brazil,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,84,84
-146,-1.860712012,5.313865009,RCB,Defense,Sokratis,https://cdn.sofifa.org/players/4/19/172879.png,Greece,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,84,84
-147,19.14720593,-1.57303265,GK,GoalKeper,S. Ruffier,https://cdn.sofifa.org/players/4/19/167628.png,France,AS Saint-Étienne,https://cdn.sofifa.org/teams/2/light/1819.png,Right,84,84
-148,-5.755141182,-3.144393848,RS,Attack,Falcao,https://cdn.sofifa.org/players/4/19/167397.png,Colombia,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,84,84
-149,18.15386238,-2.35574711,GK,GoalKeper,K. Schmeichel,https://cdn.sofifa.org/players/4/19/163587.png,Denmark,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,84,84
-150,-1.90236604,5.840601898,RCB,Defense,Raúl Albiol,https://cdn.sofifa.org/players/4/19/157481.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,84,84
-151,-7.111351332,-5.56971298,LS,Attack,A. Gómez,https://cdn.sofifa.org/players/4/19/143076.png,Argentina,Atalanta,https://cdn.sofifa.org/teams/2/light/39.png,Right,84,84
-152,-1.804244111,5.616862158,CB,Defense,A. Barzagli,https://cdn.sofifa.org/players/4/19/137186.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84
-153,-5.921877928,-6.47659079,RM,Midfield,Quaresma,https://cdn.sofifa.org/players/4/19/20775.png,Portugal,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,84,84
-154,-6.490780079,-5.492585463,RM,Midfield,A. Robben,https://cdn.sofifa.org/players/4/19/9014.png,Netherlands,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,84,84
-155,-6.355632781,-5.766449912,RW,Midfield,O. Dembélé,https://cdn.sofifa.org/players/4/19/231443.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,83,92
-156,-6.56424612,-4.505516811,ST,Attack,Gabriel Jesus,https://cdn.sofifa.org/players/4/19/230666.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,83,92
-157,-6.866542832,-4.528494954,RW,Midfield,Ronaldo Cabrais,https://cdn.sofifa.org/players/4/19/230481.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,83,83
-158,-2.727856756,4.474233604,LCB,Defense,Josué Chiamulera,https://cdn.sofifa.org/players/4/19/230375.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,83,83
-159,-3.430898332,-3.137729204,ST,Attack,Louri Beretta,https://cdn.sofifa.org/players/4/19/230294.png,Brazil,Atlético Mineiro,https://cdn.sofifa.org/teams/2/light/1035.png,Right,83,83
-160,-3.799143493,4.597953434,LCB,Defense,P. Kimpembe,https://cdn.sofifa.org/players/4/19/225850.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,83,89
-161,-7.423153151,-1.65940681,CM,Midfield,N. Keïta,https://cdn.sofifa.org/players/4/19/220971.png,Guinea,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,83,88
-162,-7.851753371,1.114907423,CM,Midfield,C. Tolisso,https://cdn.sofifa.org/players/4/19/219683.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88
-163,-8.019744625,-2.65952704,LM,Midfield,T. Lemar,https://cdn.sofifa.org/players/4/19/213565.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,83,89
-164,-5.545670968,-6.376396867,LM,Midfield,K. Coman,https://cdn.sofifa.org/players/4/19/213345.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,87
-165,-0.622786052,6.576720065,CB,Defense,J. Tah,https://cdn.sofifa.org/players/4/19/213331.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,83,88
-166,-7.349080099,-2.035927917,CAM,Midfield,Anderson Talisca,https://cdn.sofifa.org/players/4/19/212523.png,Brazil,Guangzhou Evergrande Taobao FC,https://cdn.sofifa.org/teams/2/light/111839.png,Left,83,90
-167,-5.414605111,-4.395526301,RW,Midfield,T. Werner,https://cdn.sofifa.org/players/4/19/212188.png,Germany,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,83,87
-168,-7.757417636,1.253324749,CM,Midfield,A. Rabiot,https://cdn.sofifa.org/players/4/19/210008.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,83,87
-169,-8.202271377,0.737128088,CM,Midfield,L. Goretzka,https://cdn.sofifa.org/players/4/19/209658.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88
-170,-6.771967304,-5.096402919,RM,Midfield,Q. Promes,https://cdn.sofifa.org/players/4/19/208808.png,Netherlands,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,83,84
-171,-7.546486453,-2.651838887,RAM,Midfield,H. Ziyech,https://cdn.sofifa.org/players/4/19/208670.png,Morocco,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,83,86
-172,-6.877210126,-3.466431951,RW,Midfield,Lucas Vázquez,https://cdn.sofifa.org/players/4/19/208618.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,83,83
-173,-6.196954087,-4.648728665,LM,Midfield,Y. Carrasco,https://cdn.sofifa.org/players/4/19/208418.png,Belgium,Dalian YiFang FC,https://cdn.sofifa.org/teams/2/light/112378.png,Right,83,86
-174,-5.034062155,-2.803265652,LS,Attack,Gerard Moreno,https://cdn.sofifa.org/players/4/19/208093.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Left,83,85
-175,-1.675135047,5.947628961,RCB,Defense,Felipe,https://cdn.sofifa.org/players/4/19/207863.png,Brazil,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,83,83
-176,-7.887446523,-0.800206299,LCM,Midfield,M. Kova?i?,https://cdn.sofifa.org/players/4/19/207410.png,Croatia,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,89
-177,19.0515593,-2.014194033,GK,GoalKeper,Kepa,https://cdn.sofifa.org/players/4/19/206585.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,91
-178,-7.479644875,-0.438180058,RCM,Midfield,Manu Trigueros,https://cdn.sofifa.org/players/4/19/206545.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,83,84
-179,-6.44846649,-4.053935148,ST,Attack,S. Gnabry,https://cdn.sofifa.org/players/4/19/206113.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88
-180,17.50136926,-2.697776397,GK,GoalKeper,J. Pickford,https://cdn.sofifa.org/players/4/19/204935.png,England,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Left,83,88
-181,-0.401800222,6.215674635,CB,Defense,S. Savi?,https://cdn.sofifa.org/players/4/19/204639.png,Montenegro,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,83,86
-182,-4.00587417,4.490694428,RCB,Defense,J. Stones,https://cdn.sofifa.org/players/4/19/203574.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,83,87
-183,-5.820972977,-6.101762703,RW,Midfield,Suso,https://cdn.sofifa.org/players/4/19/202651.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,83,86
-184,-7.621005086,-2.798053278,CM,Midfield,J. Draxler,https://cdn.sofifa.org/players/4/19/202166.png,Germany,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,83,86
-185,-7.258410729,-3.109410125,LM,Midfield,Felipe Anderson,https://cdn.sofifa.org/players/4/19/201995.png,Brazil,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,83,85
-186,-6.648764394,-4.004289371,RM,Midfield,Lucas Moura,https://cdn.sofifa.org/players/4/19/200949.png,Brazil,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,83,84
-187,-5.824004949,3.377039541,CDM,Midfield,Danilo Pereira,https://cdn.sofifa.org/players/4/19/200888.png,Portugal,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,83,86
-188,-3.141546867,4.542189468,CB,Defense,Nacho Fernández,https://cdn.sofifa.org/players/4/19/200724.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,83,85
-189,19.55570099,-1.532119993,GK,GoalKeper,T. Horn,https://cdn.sofifa.org/players/4/19/200316.png,Germany,1. FC Köln,https://cdn.sofifa.org/teams/2/light/31.png,Left,83,87
-190,-8.155489357,1.613699454,RCM,Midfield,Allan,https://cdn.sofifa.org/players/4/19/199914.png,Brazil,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,83,83
-191,-2.845396067,5.380260464,CB,Defense,F. Acerbi,https://cdn.sofifa.org/players/4/19/199845.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Left,83,83
-192,-7.42254701,0.89685655,RB,Defense,Sergi Roberto,https://cdn.sofifa.org/players/4/19/199564.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,83,86
-193,-6.240165021,-3.529448525,ST,Attack,Rodrigo,https://cdn.sofifa.org/players/4/19/198329.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,83,84
-194,-7.625913047,-1.86478718,LCM,Midfield,Pizzi,https://cdn.sofifa.org/players/4/19/197965.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,83,83
-195,-7.058534421,-1.808121946,LCM,Midfield,K. Kampl,https://cdn.sofifa.org/players/4/19/195365.png,Slovenia,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,83,83
-196,18.72189318,-1.705874539,GK,GoalKeper,Neto,https://cdn.sofifa.org/players/4/19/194404.png,Brazil,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,83,84
-197,19.45424385,-1.176499455,GK,GoalKeper,O. Baumann,https://cdn.sofifa.org/players/4/19/193698.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,83,84
-198,-6.397076199,2.725161761,RDM,Midfield,I. Gueye,https://cdn.sofifa.org/players/4/19/193474.png,Senegal,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,83,83
-199,-7.388680207,-3.014718638,RM,Midfield,H. Mkhitaryan,https://cdn.sofifa.org/players/4/19/192883.png,Armenia,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,83,83
-200,-7.870383588,1.84896185,LB,Defense,Marcos Alonso,https://cdn.sofifa.org/players/4/19/192638.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Left,83,84
-201,19.03292374,-1.623204404,GK,GoalKeper,D. Subaši?,https://cdn.sofifa.org/players/4/19/192593.png,Croatia,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,83,83
-202,1.085586775,7.502589316,RCB,Defense,K. Glik,https://cdn.sofifa.org/players/4/19/190547.png,Poland,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,83,83
-203,-7.681259727,1.69485442,CDM,Midfield,K. Strootman,https://cdn.sofifa.org/players/4/19/189712.png,Netherlands,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,83,83
-204,-2.635809966,-0.382380588,ST,Attack,B. Dost,https://cdn.sofifa.org/players/4/19/189068.png,Netherlands,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,83,83
-205,-6.457044839,-3.481690831,LCM,Midfield,Oscar,https://cdn.sofifa.org/players/4/19/188152.png,Brazil,Shanghai SIPG FC,https://cdn.sofifa.org/teams/2/light/112540.png,Right,83,84
-206,-5.138200215,-4.236877405,LS,Attack,M. Balotelli,https://cdn.sofifa.org/players/4/19/186627.png,Italy,OGC Nice,https://cdn.sofifa.org/teams/2/light/72.png,Right,83,83
-207,-5.381313423,3.642493756,LCB,Defense,Luiz Gustavo,https://cdn.sofifa.org/players/4/19/185221.png,Brazil,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,83,83
-208,-6.855871999,-3.557101049,CAM,Midfield,Giuliano,https://cdn.sofifa.org/players/4/19/184942.png,Brazil,Al Nassr,https://cdn.sofifa.org/teams/2/light/112139.png,Right,83,83
-209,-5.532248065,2.961817521,LCB,Defense,David Luiz,https://cdn.sofifa.org/players/4/19/179944.png,Brazil,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,83
-210,19.71765762,-0.410668241,GK,GoalKeper,R. Fährmann,https://cdn.sofifa.org/players/4/19/179783.png,Germany,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,83,84
-211,-6.33293948,-5.41701812,RM,Midfield,Juan Mata,https://cdn.sofifa.org/players/4/19/178088.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,83,83
-212,19.02157828,-1.056811323,GK,GoalKeper,Adán,https://cdn.sofifa.org/players/4/19/178086.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,83,83
-213,18.41294352,-2.029370957,GK,GoalKeper,Rui Patrício,https://cdn.sofifa.org/players/4/19/178005.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Left,83,83
-214,18.51471424,-2.328593667,GK,GoalKeper,Y. Sommer,https://cdn.sofifa.org/players/4/19/177683.png,Switzerland,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,83,84
-215,-4.230503596,5.311110873,CDM,Midfield,Javi Martínez,https://cdn.sofifa.org/players/4/19/177610.png,Spain,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,83
-216,-6.151879336,3.433344911,RB,Defense,L. Bender,https://cdn.sofifa.org/players/4/19/177457.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,83,83
-217,-7.004205767,1.966504071,LDM,Midfield,Lucas Leiva,https://cdn.sofifa.org/players/4/19/176266.png,Brazil,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,83,83
-218,19.08254168,-1.765358327,GK,GoalKeper,S. Mandanda,https://cdn.sofifa.org/players/4/19/163705.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,83,83
-219,-6.518364481,-1.583642053,CM,Midfield,Cesc Fàbregas,https://cdn.sofifa.org/players/4/19/162895.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,83
-220,-7.667575622,1.388808439,CM,Midfield,M. Dembélé,https://cdn.sofifa.org/players/4/19/162240.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,83,83
-221,-5.824554578,-6.076247978,LM,Midfield,F. Ribéry,https://cdn.sofifa.org/players/4/19/156616.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,83
-222,19.46337815,-1.448355264,GK,GoalKeper,R. Jarstein,https://cdn.sofifa.org/players/4/19/104389.png,Norway,Hertha BSC,https://cdn.sofifa.org/teams/2/light/166.png,Right,83,83
-223,-6.058210331,3.156089063,RDM,Midfield,D. De Rossi,https://cdn.sofifa.org/players/4/19/53302.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,83,83
-224,18.9677963,-1.744240538,GK,GoalKeper,Pepe Reina,https://cdn.sofifa.org/players/4/19/24630.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,83,83
-225,20.43288604,-1.353408624,GK,GoalKeper,J. Pavlenka,https://cdn.sofifa.org/players/4/19/236583.png,Czech Republic,SV Werder Bremen,https://cdn.sofifa.org/teams/2/light/38.png,Right,82,85
-226,-3.926594251,4.232384236,RCB,Defense,M. de Ligt,https://cdn.sofifa.org/players/4/19/235243.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,82,91
-227,-6.546784415,1.544776741,CM,Midfield,Rodri,https://cdn.sofifa.org/players/4/19/231866.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,87
-228,-7.403116847,-0.444822091,LCM,Midfield,Arthur,https://cdn.sofifa.org/players/4/19/230658.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,82,90
-229,18.83761998,-1.67808128,GK,GoalKeper,G. Donnarumma,https://cdn.sofifa.org/players/4/19/230621.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,93
-230,-6.294519276,1.773000354,RCM,Midfield,Rosberto Dourado,https://cdn.sofifa.org/players/4/19/230258.png,Brazil,Atlético Mineiro,https://cdn.sofifa.org/teams/2/light/1035.png,Right,82,82
-231,-3.409408857,3.595586731,RCB,Defense,Juiano Mestres,https://cdn.sofifa.org/players/4/19/230225.png,Brazil,Cruzeiro,https://cdn.sofifa.org/teams/2/light/568.png,Right,82,82
-232,19.6982719,-1.030142733,GK,GoalKeper,Raphaelito Anjos,https://cdn.sofifa.org/players/4/19/230168.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,82,82
-233,-6.715118126,-4.380175903,RM,Midfield,Gelson Martins,https://cdn.sofifa.org/players/4/19/227055.png,Portugal,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,87
-234,-5.981425237,-4.330483414,LM,Midfield,Gonçalo Guedes,https://cdn.sofifa.org/players/4/19/224411.png,Portugal,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,86
-235,-7.409917827,0.873220947,LCM,Midfield,L. Torreira,https://cdn.sofifa.org/players/4/19/223959.png,Uruguay,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,87
-236,-5.907125665,-6.013255094,RW,Midfield,Malcom,https://cdn.sofifa.org/players/4/19/222737.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,89
-237,18.37648434,-2.496789533,GK,GoalKeper,Pau López,https://cdn.sofifa.org/players/4/19/221087.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,82,87
-238,-4.894159279,3.750273153,LB,Defense,L. Hernández,https://cdn.sofifa.org/players/4/19/220814.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,82,88
-239,-2.399407651,5.105687158,LCB,Defense,C. Lenglet,https://cdn.sofifa.org/players/4/19/220440.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,88
-240,-5.64409363,-5.185917472,LCM,Midfield,A. Kramari?,https://cdn.sofifa.org/players/4/19/216354.png,Croatia,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,82,83
-241,-6.096819997,1.653318176,LB,Defense,A. Robertson,https://cdn.sofifa.org/players/4/19/216267.png,Scotland,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,82,87
-242,-4.60523759,2.787124602,RCM,Midfield,Dani García,https://cdn.sofifa.org/players/4/19/216194.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,82,83
-243,-7.15051179,-3.033762189,RM,Midfield,F. Bernardeschi,https://cdn.sofifa.org/players/4/19/212404.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,82,87
-244,-4.816091499,-4.782493236,LM,Midfield,J. Brandt,https://cdn.sofifa.org/players/4/19/212194.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,82,88
-245,-1.130637896,5.732388304,CB,Defense,D. Rugani,https://cdn.sofifa.org/players/4/19/211320.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,82,86
-246,-5.44974436,-4.24217217,RM,Midfield,Samu Castillejo,https://cdn.sofifa.org/players/4/19/210617.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,82,86
-247,-7.854861097,0.552797544,RB,Defense,João Cancelo,https://cdn.sofifa.org/players/4/19/210514.png,Portugal,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,82,88
-248,-1.593996016,5.79720114,LCB,Defense,A. Romagnoli,https://cdn.sofifa.org/players/4/19/210413.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,82,89
-249,-6.334741357,2.622710247,CDM,Midfield,T. Partey,https://cdn.sofifa.org/players/4/19/209989.png,Ghana,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,88
-250,-7.983319952,-0.552951252,CM,Midfield,Fred,https://cdn.sofifa.org/players/4/19/209297.png,Brazil,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,82,84
-251,-6.007850955,-1.976528838,ST,Attack,J. Vardy,https://cdn.sofifa.org/players/4/19/208830.png,England,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,82,82
-252,-4.430863853,-2.921138314,LS,Attack,A. Belotti,https://cdn.sofifa.org/players/4/19/208596.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Right,82,87
-253,-5.322513815,-4.621281647,LM,Midfield,E. Forsberg,https://cdn.sofifa.org/players/4/19/208448.png,Sweden,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,82,83
-254,-7.321888841,-3.092684763,CAM,Midfield,J. Lingard,https://cdn.sofifa.org/players/4/19/207494.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,82,83
-255,-5.596271478,-1.820899726,LCM,Midfield,F. Vázquez,https://cdn.sofifa.org/players/4/19/207471.png,Argentina,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Left,82,82
-256,-6.470759225,-4.367959968,RM,Midfield,E. Viš?a,https://cdn.sofifa.org/players/4/19/205678.png,Bosnia Herzegovina,Medipol Ba?ak?ehir FK,https://cdn.sofifa.org/teams/2/light/101014.png,Right,82,82
-257,-2.459629987,5.236229862,CB,Defense,A. Rüdiger,https://cdn.sofifa.org/players/4/19/205452.png,Germany,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,84
-258,-8.678650559,-0.470642798,RB,Defense,A. Florenzi,https://cdn.sofifa.org/players/4/19/203551.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,83
-259,-2.761396068,5.45217017,LCB,Defense,H. Maguire,https://cdn.sofifa.org/players/4/19/203263.png,England,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,82,85
-260,-7.499036126,1.878498613,RM,Midfield,T. Meunier,https://cdn.sofifa.org/players/4/19/202371.png,Belgium,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,82,83
-261,-3.020973292,4.956640696,CB,Defense,S. Sané,https://cdn.sofifa.org/players/4/19/201956.png,Senegal,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,82,82
-262,-7.654439038,2.50021763,CM,Midfield,G. Kondogbia,https://cdn.sofifa.org/players/4/19/201455.png,Central African Rep.,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,82,85
-263,-7.266821703,-1.468109642,CAM,Midfield,Rafinha,https://cdn.sofifa.org/players/4/19/201400.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,87
-264,-3.749513256,4.218580898,LCB,Defense,Gabriel Paulista,https://cdn.sofifa.org/players/4/19/201305.png,Brazil,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,83
-265,-4.640022358,-3.680994644,ST,Attack,Morata,https://cdn.sofifa.org/players/4/19/201153.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,85
-266,18.45936921,-2.137746222,GK,GoalKeper,J. Cillessen,https://cdn.sofifa.org/players/4/19/199987.png,Netherlands,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,82,84
-267,-6.703488423,-5.191512925,RS,Attack,W. Ben Yedder,https://cdn.sofifa.org/players/4/19/199451.png,France,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,82,82
-268,-5.807897579,-3.836952483,ST,Attack,C. Bakambu,https://cdn.sofifa.org/players/4/19/198951.png,DR Congo,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,82,83
-269,-6.639766381,-3.589356685,RCM,Midfield,Pablo Sarabia,https://cdn.sofifa.org/players/4/19/198950.png,Spain,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Left,82,83
-270,-5.284020839,-4.952841203,LS,Attack,W. Zaha,https://cdn.sofifa.org/players/4/19/198717.png,Ivory Coast,Crystal Palace,https://cdn.sofifa.org/teams/2/light/1799.png,Right,82,85
-271,-5.827792697,-5.057910277,CF,Attack,Luis Alberto,https://cdn.sofifa.org/players/4/19/198706.png,Spain,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,82,85
-272,-7.564363672,-2.466247164,LF,Attack,Jonathan Viera,https://cdn.sofifa.org/players/4/19/198164.png,Spain,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,82,82
-273,-5.647167834,2.660337032,CB,Defense,Bartra,https://cdn.sofifa.org/players/4/19/198141.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,82,83
-274,-0.816728234,6.477625027,RCB,Defense,S. Coates,https://cdn.sofifa.org/players/4/19/197655.png,Uruguay,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,82,83
-275,-4.262005521,-2.280810593,ST,Attack,Willian José,https://cdn.sofifa.org/players/4/19/195093.png,Brazil,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,82,83
-276,-6.440141082,2.489932585,RB,Defense,Mário Fernandes,https://cdn.sofifa.org/players/4/19/193525.png,Russia,PFC CSKA Moscow,https://cdn.sofifa.org/teams/2/light/315.png,Right,82,82
-277,-2.352142779,5.360975775,LCB,Defense,Víctor Ruiz,https://cdn.sofifa.org/players/4/19/193469.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Left,82,83
-278,-7.623735845,1.897947777,LCM,Midfield,T. Delaney,https://cdn.sofifa.org/players/4/19/193283.png,Denmark,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Left,82,83
-279,19.31649254,-1.272416108,GK,GoalKeper,K. Casteels,https://cdn.sofifa.org/players/4/19/192984.png,Belgium,VfL Wolfsburg,https://cdn.sofifa.org/teams/2/light/175.png,Left,82,85
-280,-7.654782756,-2.418283399,CM,Midfield,M. Götze,https://cdn.sofifa.org/players/4/19/192318.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,82,85
-281,-3.481958879,3.995612065,RCB,Defense,S. Mustafi,https://cdn.sofifa.org/players/4/19/192227.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,84
-282,-6.88541047,-2.074229985,CAM,Midfield,J. Pastore,https://cdn.sofifa.org/players/4/19/191180.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82
-283,-6.040338025,-4.617600674,RW,Midfield,Pedro,https://cdn.sofifa.org/players/4/19/189505.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,82
-284,-8.331500517,-0.60427277,CM,Midfield,G. Bonaventura,https://cdn.sofifa.org/players/4/19/189125.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,82
-285,19.0965972,-1.546428924,GK,GoalKeper,R. Bürki,https://cdn.sofifa.org/players/4/19/189117.png,Switzerland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,82,85
-286,-6.760292137,-3.962254787,LM,Midfield,Taison,https://cdn.sofifa.org/players/4/19/188803.png,Brazil,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Right,82,82
-287,-5.199035919,4.252157611,CDM,Midfield,S. Nzonzi,https://cdn.sofifa.org/players/4/19/187936.png,France,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82
-288,-7.261949562,-4.032411405,RM,Midfield,Marlos,https://cdn.sofifa.org/players/4/19/187754.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,82,82
-289,-7.3455199,-0.242653209,CAM,Midfield,A. Ramsey,https://cdn.sofifa.org/players/4/19/186561.png,Wales,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,83
-290,-7.356174466,0.915222381,RB,Defense,K. Trippier,https://cdn.sofifa.org/players/4/19/186345.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,82,82
-291,-7.646341294,2.034674074,LB,Defense,A. Kolarov,https://cdn.sofifa.org/players/4/19/185103.png,Serbia,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Left,82,82
-292,-6.850424985,-1.691614067,CAM,Midfield,G. Sigurðsson,https://cdn.sofifa.org/players/4/19/184484.png,Iceland,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,82,82
-293,-6.559868743,-6.818138498,CF,Attack,S. Giovinco,https://cdn.sofifa.org/players/4/19/184431.png,Italy,Toronto FC,https://cdn.sofifa.org/teams/2/light/111651.png,Right,82,82
-294,-6.619939892,-2.102915138,LS,Attack,M. Arnautovi?,https://cdn.sofifa.org/players/4/19/184200.png,Austria,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,82,82
-295,-6.22493044,-4.330986333,CAM,Midfield,N. Gaitán,https://cdn.sofifa.org/players/4/19/184144.png,Argentina,Dalian YiFang FC,https://cdn.sofifa.org/teams/2/light/112378.png,Left,82,82
-296,-7.415686349,1.404973549,RCM,Midfield,J. Henderson,https://cdn.sofifa.org/players/4/19/183711.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,82,82
-297,-6.891148683,-3.384218548,ST,Attack,M. Kruse,https://cdn.sofifa.org/players/4/19/183574.png,Germany,SV Werder Bremen,https://cdn.sofifa.org/teams/2/light/38.png,Left,82,82
-298,-7.575136144,1.640394676,RDM,Midfield,M. Parolo,https://cdn.sofifa.org/players/4/19/183498.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,82,82
-299,-3.94465187,4.237994278,CDM,Midfield,L. Fejsa,https://cdn.sofifa.org/players/4/19/183376.png,Serbia,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,82,82
-300,-2.066630031,5.600199738,RCB,Defense,A. Rami,https://cdn.sofifa.org/players/4/19/183280.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,82,82
-301,-3.416048747,4.623872115,LCB,Defense,V. ?orluka,https://cdn.sofifa.org/players/4/19/181786.png,Croatia,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,82,82
-302,-7.998625126,-0.402175613,CAM,Midfield,G. Wijnaldum,https://cdn.sofifa.org/players/4/19/181291.png,Netherlands,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,82,82
-303,-0.245074821,7.113126091,LCB,Defense,F. Fazio,https://cdn.sofifa.org/players/4/19/179847.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82
-304,-4.046453336,-1.306260746,ST,Attack,O. Giroud,https://cdn.sofifa.org/players/4/19/178509.png,France,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Left,82,82
-305,-2.166831681,5.301911997,CB,Defense,Marcano,https://cdn.sofifa.org/players/4/19/173521.png,Spain,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Left,82,82
-306,-7.65923405,-0.457712902,CM,Midfield,A. Guardado,https://cdn.sofifa.org/players/4/19/171897.png,Mexico,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,82,82
-307,-2.839066221,4.660748513,RCB,Defense,E. Garay,https://cdn.sofifa.org/players/4/19/170481.png,Argentina,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,82
-308,-0.145410953,6.608413351,LCB,Defense,Jardel,https://cdn.sofifa.org/players/4/19/168530.png,Brazil,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,82,82
-309,19.28576923,-1.787131936,GK,GoalKeper,S. Sirigu,https://cdn.sofifa.org/players/4/19/168435.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Right,82,82
-310,19.70450633,-1.299651854,GK,GoalKeper,E. Viviano,https://cdn.sofifa.org/players/4/19/168354.png,Italy,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,82,82
-311,-2.32820408,4.806867616,CB,Defense,L. Koscielny,https://cdn.sofifa.org/players/4/19/165229.png,France,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,82
-312,19.39840057,-2.285385932,GK,GoalKeper,A. Consigli,https://cdn.sofifa.org/players/4/19/163489.png,Italy,Sassuolo,https://cdn.sofifa.org/teams/2/light/111974.png,Right,82,82
-313,-6.92092756,0.76491881,CDM,Midfield,L. Biglia,https://cdn.sofifa.org/players/4/19/158963.png,Argentina,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,82
-314,-8.524969486,-0.213955029,RB,Defense,Dani Alves,https://cdn.sofifa.org/players/4/19/146530.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,82,82
-315,-5.889784297,-4.723039903,ST,Attack,David Villa,https://cdn.sofifa.org/players/4/19/113422.png,Spain,New York City FC,https://cdn.sofifa.org/teams/2/light/112828.png,Right,82,82
-316,-4.716192191,-1.260194327,ST,Attack,Aduriz,https://cdn.sofifa.org/players/4/19/106231.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,82,82
-317,19.35747559,-1.515252409,GK,GoalKeper,P. ?ech,https://cdn.sofifa.org/players/4/19/48940.png,Czech Republic,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,82,82
-318,18.30532847,-2.170495277,GK,GoalKeper,Casillas,https://cdn.sofifa.org/players/4/19/5479.png,Spain,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Left,82,82
-319,-6.240743751,-4.029665708,LW,Midfield,M. Rashford,https://cdn.sofifa.org/players/4/19/231677.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,89
-320,-4.782200099,-6.467440451,CAM,Midfield,Laure Santeiro,https://cdn.sofifa.org/players/4/19/230271.png,Brazil,Fluminense,https://cdn.sofifa.org/teams/2/light/567.png,Left,81,81
-321,-5.471527823,-5.231636441,LM,Midfield,L. Bailey,https://cdn.sofifa.org/players/4/19/229906.png,Jamaica,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,81,89
-322,-3.463326169,4.521601774,LCB,Defense,M. Akanji,https://cdn.sofifa.org/players/4/19/229237.png,Switzerland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,87
-323,-7.003203812,0.376695024,LDM,Midfield,F. de Jong,https://cdn.sofifa.org/players/4/19/228702.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,81,89
-324,-6.096181632,1.063675706,RB,Defense,Nélson Semedo,https://cdn.sofifa.org/players/4/19/227928.png,Portugal,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,81,86
-325,-6.977911106,-0.333633328,CAM,Midfield,Pablo Fornals,https://cdn.sofifa.org/players/4/19/226456.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,81,86
-326,-7.146770344,-0.074145607,LM,Midfield,Fabián,https://cdn.sofifa.org/players/4/19/226271.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,89
-327,-2.318836011,4.600622002,CB,Defense,E. Bailly,https://cdn.sofifa.org/players/4/19/225508.png,Ivory Coast,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,87
-328,-6.789597441,-0.567626835,LCM,Midfield,Dani Ceballos,https://cdn.sofifa.org/players/4/19/222509.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,81,88
-329,-5.967619299,-4.305502254,LS,Attack,H. Lozano,https://cdn.sofifa.org/players/4/19/221992.png,Mexico,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,81,86
-330,-6.741915615,-2.872261828,LS,Attack,Morales,https://cdn.sofifa.org/players/4/19/216475.png,Spain,Levante UD,https://cdn.sofifa.org/teams/2/light/1853.png,Right,81,81
-331,-7.341141354,-0.672361994,LDM,Midfield,J. Seri,https://cdn.sofifa.org/players/4/19/216451.png,Ivory Coast,Fulham,https://cdn.sofifa.org/teams/2/light/144.png,Right,81,82
-332,-6.059322848,-4.960136614,RM,Midfield,M. Politano,https://cdn.sofifa.org/players/4/19/216409.png,Italy,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Left,81,84
-333,-7.598104785,0.274238339,LDM,Midfield,M. Brozovi?,https://cdn.sofifa.org/players/4/19/216352.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84
-334,-5.308547076,-2.758278821,LW,Midfield,Williams,https://cdn.sofifa.org/players/4/19/216201.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,81,87
-335,-6.740918845,-3.898180498,RM,Midfield,A. Correa,https://cdn.sofifa.org/players/4/19/214997.png,Argentina,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,81,87
-336,-1.999773465,5.306411112,LCB,Defense,A. Christensen,https://cdn.sofifa.org/players/4/19/213661.png,Denmark,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,81,88
-337,-6.891691039,-1.118589391,CAM,Midfield,João Mário,https://cdn.sofifa.org/players/4/19/212814.png,Portugal,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84
-338,19.73165296,-1.744838091,GK,GoalKeper,T. Strakosha,https://cdn.sofifa.org/players/4/19/212151.png,Albania,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,81,86
-339,-4.95196346,2.760903273,RB,Defense,E. Hysaj,https://cdn.sofifa.org/players/4/19/210864.png,Albania,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,81,86
-340,-7.312315077,-1.368488926,RCM,Midfield,P. Zieli?ski,https://cdn.sofifa.org/players/4/19/210406.png,Poland,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,81,88
-341,-7.325971086,0.349094844,RB,Defense,Ricardo Pereira,https://cdn.sofifa.org/players/4/19/210243.png,Portugal,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,81,85
-342,-7.301028794,0.328680198,LB,Defense,Grimaldo,https://cdn.sofifa.org/players/4/19/210035.png,Spain,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Left,81,87
-343,-8.010727637,-1.334275513,LM,Midfield,R. Guerreiro,https://cdn.sofifa.org/players/4/19/209889.png,Portugal,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Left,81,86
-344,-6.422432138,2.168421359,RDM,Midfield,A. Doucouré,https://cdn.sofifa.org/players/4/19/208135.png,France,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,81,85
-345,-3.853986604,-5.206440968,LS,Attack,J. Martínez,https://cdn.sofifa.org/players/4/19/207877.png,Venezuela,Atlanta United,https://cdn.sofifa.org/teams/2/light/112885.png,Right,81,84
-346,-3.875916295,-3.891072477,LS,Attack,C. Bacca,https://cdn.sofifa.org/players/4/19/207664.png,Colombia,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,81,81
-347,-5.738435551,-3.639845426,LW,Midfield,A. Plea,https://cdn.sofifa.org/players/4/19/206467.png,France,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,83
-348,-6.164446057,2.17265263,LB,Defense,B. Davies,https://cdn.sofifa.org/players/4/19/205923.png,Wales,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,84
-349,-1.380349725,5.096006579,LCB,Defense,M. Nastasi?,https://cdn.sofifa.org/players/4/19/205362.png,Serbia,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Left,81,84
-350,-4.083917907,-3.088678531,CF,Attack,A. Milik,https://cdn.sofifa.org/players/4/19/205175.png,Poland,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,88
-351,-6.594897262,-1.903345844,LM,Midfield,M. Sabitzer,https://cdn.sofifa.org/players/4/19/204923.png,Austria,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,81,84
-352,-6.190963767,2.451128327,LB,Defense,B. Mendy,https://cdn.sofifa.org/players/4/19/204884.png,France,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,81,86
-353,-4.381408236,3.30397886,CDM,Midfield,C. Kramer,https://cdn.sofifa.org/players/4/19/204024.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,82
-354,-5.825883096,2.223092367,RB,Defense,S. Vrsaljko,https://cdn.sofifa.org/players/4/19/203890.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84
-355,-6.255419214,-4.664479709,RW,Midfield,T. Hazard,https://cdn.sofifa.org/players/4/19/203486.png,Belgium,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,83
-356,-5.263245302,-4.155776825,RM,Midfield,K. Bellarabi,https://cdn.sofifa.org/players/4/19/202857.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81
-357,-5.137390976,-1.444980843,RS,Attack,S. Zaza,https://cdn.sofifa.org/players/4/19/202685.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Left,81,82
-358,-6.829457906,1.459910823,LB,Defense,F. Ghoulam,https://cdn.sofifa.org/players/4/19/201454.png,Algeria,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,82
-359,19.77342823,-1.770514479,GK,GoalKeper,B. Lecomte,https://cdn.sofifa.org/players/4/19/200726.png,France,Montpellier HSC,https://cdn.sofifa.org/teams/2/light/70.png,Left,81,84
-360,-5.758634438,-3.349437212,CAM,Midfield,J. Ili?i?,https://cdn.sofifa.org/players/4/19/200647.png,Slovenia,Atalanta,https://cdn.sofifa.org/teams/2/light/39.png,Left,81,81
-361,-6.438640121,-2.819853064,ST,Attack,K. Volland,https://cdn.sofifa.org/players/4/19/200610.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,81,83
-362,-4.761554147,-4.548051746,ST,Attack,Paco Alcácer,https://cdn.sofifa.org/players/4/19/200454.png,Spain,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,85
-363,-5.357015878,-3.133899696,LM,Midfield,Vitolo,https://cdn.sofifa.org/players/4/19/199715.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,81,81
-364,-5.513561513,1.817615463,LDM,Midfield,G. Xhaka,https://cdn.sofifa.org/players/4/19/199503.png,Switzerland,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,81,84
-365,-5.313766429,-3.890220817,LAM,Midfield,D. Tadi?,https://cdn.sofifa.org/players/4/19/199434.png,Serbia,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,81,81
-366,-7.382665203,-0.475182201,LDM,Midfield,C. Aránguiz,https://cdn.sofifa.org/players/4/19/199042.png,Chile,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81
-367,-6.979011526,-4.730816561,RW,Midfield,S. Verdi,https://cdn.sofifa.org/players/4/19/196889.png,Italy,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,81
-368,-1.010061451,5.818170255,RCB,Defense,D. Lovren,https://cdn.sofifa.org/players/4/19/195086.png,Croatia,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,81,82
-369,-5.22657796,2.852343463,RCB,Defense,G. Medel,https://cdn.sofifa.org/players/4/19/193532.png,Chile,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,81,81
-370,-7.094777334,-4.04369647,CAM,Midfield,X. Shaqiri,https://cdn.sofifa.org/players/4/19/193348.png,Switzerland,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,81,81
-371,-6.544404832,-5.126272018,RM,Midfield,J. Corona,https://cdn.sofifa.org/players/4/19/193165.png,Mexico,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,81,83
-372,18.86394395,-1.667318779,GK,GoalKeper,A. Areola,https://cdn.sofifa.org/players/4/19/193105.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,81,85
-373,-4.59736273,3.839857557,CB,Defense,K. Vogt,https://cdn.sofifa.org/players/4/19/192641.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,81,82
-374,-7.86068439,0.676935695,CM,Midfield,Ander Herrera,https://cdn.sofifa.org/players/4/19/191740.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,81
-375,-7.61699839,-2.244967146,RW,Midfield,E. Salvio,https://cdn.sofifa.org/players/4/19/190972.png,Argentina,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,81,81
-376,-5.446057738,-4.882646751,LM,Midfield,S. El Shaarawy,https://cdn.sofifa.org/players/4/19/190813.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,81,82
-377,-1.33914466,5.04692363,RCB,Defense,C. Smalling,https://cdn.sofifa.org/players/4/19/189881.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,82
-378,-6.786745756,-2.24216371,RCM,Midfield,Hulk,https://cdn.sofifa.org/players/4/19/189362.png,Brazil,Shanghai SIPG FC,https://cdn.sofifa.org/teams/2/light/112540.png,Left,81,81
-379,-5.878177459,-3.492505743,CAM,Midfield,S. Kagawa,https://cdn.sofifa.org/players/4/19/189358.png,Japan,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,81
-380,-5.368769881,-5.719042547,CAM,Midfield,M. Lanzini,https://cdn.sofifa.org/players/4/19/188988.png,Argentina,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,81,85
-381,-4.728118999,-4.195957809,ST,Attack,F. Smolov,https://cdn.sofifa.org/players/4/19/187491.png,Russia,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81
-382,-7.328969184,-1.810016414,CF,Attack,L. Stindl,https://cdn.sofifa.org/players/4/19/187072.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,81
-383,-2.616740486,4.341584025,CB,Defense,O. Toprak,https://cdn.sofifa.org/players/4/19/185239.png,Turkey,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,82
-384,-5.965802358,-4.305574297,LW,Midfield,D. Perotti,https://cdn.sofifa.org/players/4/19/183900.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,81,81
-385,18.12815768,-2.198416567,GK,GoalKeper,F. Muslera,https://cdn.sofifa.org/players/4/19/182494.png,Uruguay,Galatasaray SK,https://cdn.sofifa.org/teams/2/light/325.png,Right,81,81
-386,-2.418600381,4.539545297,RCB,Defense,B. Höwedes,https://cdn.sofifa.org/players/4/19/179784.png,Germany,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81
-387,-2.21503785,4.767379803,RCB,Defense,S. Kjær,https://cdn.sofifa.org/players/4/19/179645.png,Denmark,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,81,81
-388,-3.116892717,4.473606877,LCB,Defense,S. Bender,https://cdn.sofifa.org/players/4/19/177458.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81
-389,-5.394344457,-5.450078258,LM,Midfield,M. Valbuena,https://cdn.sofifa.org/players/4/19/177326.png,France,Fenerbahçe SK,https://cdn.sofifa.org/teams/2/light/326.png,Right,81,81
-390,-5.608626928,-3.516224842,RM,Midfield,Pedro León,https://cdn.sofifa.org/players/4/19/175379.png,Spain,SD Eibar,https://cdn.sofifa.org/teams/2/light/467.png,Right,81,81
-391,-7.49116702,0.184597706,CM,Midfield,K. Boateng,https://cdn.sofifa.org/players/4/19/173909.png,Ghana,Sassuolo,https://cdn.sofifa.org/teams/2/light/111974.png,Right,81,81
-392,-6.611919896,2.056501098,RB,Defense,L. Piszczek,https://cdn.sofifa.org/players/4/19/173771.png,Poland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,81
-393,-7.244863469,-2.149513427,RM,Midfield,A. Candreva,https://cdn.sofifa.org/players/4/19/173221.png,Italy,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,81
-394,-7.641270453,-0.359497028,RB,Defense,D. Wass,https://cdn.sofifa.org/players/4/19/172522.png,Denmark,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,81,81
-395,-6.720047918,-2.396747263,RM,Midfield,E. Lamela,https://cdn.sofifa.org/players/4/19/170368.png,Argentina,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,82
-396,-6.451297391,1.695063773,LB,Defense,D. Rose,https://cdn.sofifa.org/players/4/19/169595.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,81
-397,-5.540047065,-4.795713692,RW,Midfield,C. Vela,https://cdn.sofifa.org/players/4/19/169416.png,Mexico,Los Angeles FC,https://cdn.sofifa.org/teams/2/light/112996.png,Left,81,81
-398,-6.581449745,0.169161073,LCM,Midfield,Renato Augusto,https://cdn.sofifa.org/players/4/19/169195.png,Brazil,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,81,81
-399,-7.175243522,1.662612643,RM,Midfield,A. Valencia,https://cdn.sofifa.org/players/4/19/167905.png,Ecuador,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,81
-400,19.28811745,-1.760629309,GK,GoalKeper,L. Fabia?ski,https://cdn.sofifa.org/players/4/19/164835.png,Poland,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,81,81
-401,-7.448131733,-0.844310169,RCM,Midfield,João Moutinho,https://cdn.sofifa.org/players/4/19/162347.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Right,81,81
-402,-7.035882476,-0.980721269,CAM,Midfield,Borja Valero,https://cdn.sofifa.org/players/4/19/161956.png,Spain,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,81
-403,-5.158248758,-4.977672539,RS,Attack,F. Quagliarella,https://cdn.sofifa.org/players/4/19/159261.png,Italy,Sampdoria,https://cdn.sofifa.org/teams/2/light/1837.png,Right,81,81
-404,-4.038316215,-3.125159959,ST,Attack,B. Gomis,https://cdn.sofifa.org/players/4/19/159145.png,France,Al Hilal,https://cdn.sofifa.org/teams/2/light/605.png,Right,81,81
-405,-7.470275483,-1.202531266,LM,Midfield,Manuel Fernandes,https://cdn.sofifa.org/players/4/19/157960.png,Portugal,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81
-406,-6.915253763,1.111630195,CM,Midfield,H. Herrera,https://cdn.sofifa.org/players/4/19/156519.png,Mexico,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,81,81
-407,-6.372774653,-3.978183696,CF,Attack,Raffael,https://cdn.sofifa.org/players/4/19/144622.png,Brazil,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,81
-408,-6.240201256,-5.278431499,LM,Midfield,Nani,https://cdn.sofifa.org/players/4/19/139068.png,Portugal,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,81,81
-409,-8.097035509,0.966818769,CM,Midfield,J. Milner,https://cdn.sofifa.org/players/4/19/138412.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,81,81
-410,-4.786925944,3.665911196,LCB,Defense,J. Mathieu,https://cdn.sofifa.org/players/4/19/112316.png,France,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,81,81
-411,-5.585305598,-3.942381536,LS,Attack,Joaquín,https://cdn.sofifa.org/players/4/19/45186.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,81,81
-412,-2.836965015,-2.557367364,ST,Attack,M. Gómez,https://cdn.sofifa.org/players/4/19/239207.png,Uruguay,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Right,80,85
-413,-4.807529608,-3.641123233,CAM,Midfield,K. Havertz,https://cdn.sofifa.org/players/4/19/235790.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,80,89
-414,-7.119836821,0.16019794,CM,Midfield,T. Ndombele,https://cdn.sofifa.org/players/4/19/235569.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,80,89
-415,-6.876014989,-1.456281513,LM,Midfield,H. Aouar,https://cdn.sofifa.org/players/4/19/234906.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,80,90
-416,-6.874915085,-1.632902011,RM,Midfield,Carlos Soler,https://cdn.sofifa.org/players/4/19/234153.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,87
-417,-5.32993672,1.505163999,RB,Defense,Odriozola,https://cdn.sofifa.org/players/4/19/234035.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,80,88
-418,-5.944297596,-3.347380313,CAM,Midfield,M. Almirón,https://cdn.sofifa.org/players/4/19/230977.png,Paraguay,Atlanta United,https://cdn.sofifa.org/teams/2/light/112885.png,Left,80,84
-419,-6.421060873,0.822924615,LB,Defense,Welington Dano,https://cdn.sofifa.org/players/4/19/230347.png,Brazil,Cruzeiro,https://cdn.sofifa.org/teams/2/light/568.png,Left,80,80
-420,-5.601470835,1.979389447,CDM,Midfield,Everton Andrão,https://cdn.sofifa.org/players/4/19/230234.png,Brazil,Fluminense,https://cdn.sofifa.org/teams/2/light/567.png,Right,80,80
-421,-4.586481449,-3.839924943,CAM,Midfield,Oyarzabal,https://cdn.sofifa.org/players/4/19/230142.png,Spain,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Left,80,87
-422,0.127800733,6.14287651,RCB,Defense,F. Balbuena,https://cdn.sofifa.org/players/4/19/228229.png,Paraguay,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,80,83
-423,-3.485106554,-1.375488985,RS,Attack,M. Marega,https://cdn.sofifa.org/players/4/19/227536.png,Mali,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,80,80
-424,-4.576895407,3.359898121,RB,Defense,B. Pavard,https://cdn.sofifa.org/players/4/19/226851.png,France,VfB Stuttgart,https://cdn.sofifa.org/teams/2/light/36.png,Right,80,86
-425,-6.001367307,2.679375272,LDM,Midfield,W. Ndidi,https://cdn.sofifa.org/players/4/19/226790.png,Nigeria,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,80,85
-426,18.21637174,-2.606504328,GK,GoalKeper,A. Onana,https://cdn.sofifa.org/players/4/19/226753.png,Cameroon,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,80,85
-427,-6.924510712,-1.163668364,RCM,Midfield,G. Lo Celso,https://cdn.sofifa.org/players/4/19/226226.png,Argentina,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,86
-428,-8.570083632,0.12001288,LB,Defense,M. Acuña,https://cdn.sofifa.org/players/4/19/224334.png,Argentina,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,80,80
-429,-6.460160751,0.656084138,LCM,Midfield,Rúben Neves,https://cdn.sofifa.org/players/4/19/224293.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Right,80,87
-430,-4.959715667,-2.367404936,ST,Attack,Mariano,https://cdn.sofifa.org/players/4/19/221639.png,Dominican Republic,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,80,85
-431,-2.006425169,4.901763206,CB,Defense,Raúl,https://cdn.sofifa.org/players/4/19/221540.png,Brazil,SC Braga,https://cdn.sofifa.org/teams/2/light/1896.png,Left,80,80
-432,-0.173028022,5.66953983,CB,Defense,M. Caldara,https://cdn.sofifa.org/players/4/19/220477.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,86
-433,-7.279460013,1.518564588,LM,Midfield,M. Vecino,https://cdn.sofifa.org/players/4/19/219985.png,Uruguay,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,80,81
-434,-4.226025874,3.816081024,LCM,Midfield,T. Bakayoko,https://cdn.sofifa.org/players/4/19/219809.png,France,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,85
-435,-6.546244378,-0.862317631,CM,Midfield,M. Dahoud,https://cdn.sofifa.org/players/4/19/218339.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,80,86
-436,-5.073811043,-5.380645365,RW,Midfield,Rafa,https://cdn.sofifa.org/players/4/19/216547.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,80,83
-437,-4.853004413,-4.594660468,RM,Midfield,K. Baldé,https://cdn.sofifa.org/players/4/19/215785.png,Senegal,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,80,85
-438,18.74654944,-2.215045644,GK,GoalKeper,G. Rulli,https://cdn.sofifa.org/players/4/19/215316.png,Argentina,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,80,85
-439,19.29446114,-1.073926164,GK,GoalKeper,F. Armani,https://cdn.sofifa.org/players/4/19/214584.png,Argentina,River Plate,https://cdn.sofifa.org/teams/2/light/1876.png,Right,80,80
-440,-4.571240876,-5.564382039,RM,Midfield,Rony Lopes,https://cdn.sofifa.org/players/4/19/212692.png,Portugal,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Left,80,85
-441,-5.389266908,-1.975383448,LS,Attack,Santi Mina,https://cdn.sofifa.org/players/4/19/212623.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,85
-442,-6.379268781,-1.718446178,RCM,Midfield,K. Demirbay,https://cdn.sofifa.org/players/4/19/211748.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Left,80,84
-443,-6.627719103,0.202883195,LB,Defense,Gayà,https://cdn.sofifa.org/players/4/19/211688.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,80,85
-444,-6.524946096,1.150240398,LDM,Midfield,André Gomes,https://cdn.sofifa.org/players/4/19/211575.png,Portugal,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,85
-445,-5.5394367,1.71002392,LB,Defense,N. Tagliafico,https://cdn.sofifa.org/players/4/19/211256.png,Argentina,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,80,82
-446,-7.64103376,0.082703488,RDM,Midfield,M. Sanson,https://cdn.sofifa.org/players/4/19/210896.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,80,85
-447,19.02068682,-1.733005606,GK,GoalKeper,Pacheco,https://cdn.sofifa.org/players/4/19/209960.png,Spain,Deportivo Alavés,https://cdn.sofifa.org/teams/2/light/463.png,Left,80,83
-448,-7.196445464,2.044177512,CM,Midfield,E. Can,https://cdn.sofifa.org/players/4/19/208333.png,Germany,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,80,85
-449,-7.171224034,-2.645753116,CAM,Midfield,H. Çalhano?lu,https://cdn.sofifa.org/players/4/19/208128.png,Turkey,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,84
-450,-3.851465546,3.913245981,RWB,Defense,M. Ginter,https://cdn.sofifa.org/players/4/19/207862.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,80,82
-451,-2.213628712,4.63563352,RCB,Defense,M. Keane,https://cdn.sofifa.org/players/4/19/207599.png,England,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,83
-452,-7.261999613,0.033499762,CM,Midfield,L. Paredes,https://cdn.sofifa.org/players/4/19/207439.png,Argentina,,https://cdn.sofifa.org/flags/52.png,Right,80,85
-453,-5.192534699,2.830903112,RDM,Midfield,T. Stepanenko,https://cdn.sofifa.org/players/4/19/206413.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80
-454,-6.028718119,1.796861014,LB,Defense,L. Shaw,https://cdn.sofifa.org/players/4/19/205988.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,80,85
-455,-1.471256719,5.458561325,CB,Defense,Z. Feddal,https://cdn.sofifa.org/players/4/19/205705.png,Morocco,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,80
-456,-3.539977356,-1.010832779,RS,Attack,S. Haller,https://cdn.sofifa.org/players/4/19/205693.png,France,Eintracht Frankfurt,https://cdn.sofifa.org/teams/2/light/1824.png,Right,80,83
-457,-5.349670414,-5.82942918,LM,Midfield,Bernard,https://cdn.sofifa.org/players/4/19/205525.png,Brazil,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,81
-458,-5.616455939,-4.34123467,LM,Midfield,T. Inui,https://cdn.sofifa.org/players/4/19/205114.png,Japan,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,80,80
-459,-6.630309937,-1.107506424,RM,Midfield,Portu,https://cdn.sofifa.org/players/4/19/205070.png,Spain,Girona FC,https://cdn.sofifa.org/teams/2/light/110062.png,Right,80,81
-460,-3.606780855,-4.1561304,ST,Attack,M. Batshuayi,https://cdn.sofifa.org/players/4/19/204529.png,Belgium,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,84
-461,-5.48022838,-3.732097105,LS,Attack,E. Zahavi,https://cdn.sofifa.org/players/4/19/204399.png,Israel,Guangzhou R&F; FC,https://cdn.sofifa.org/teams/2/light/112429.png,Right,80,80
-462,19.26946806,-1.20090229,GK,GoalKeper,T. Vaclík,https://cdn.sofifa.org/players/4/19/204120.png,Czech Republic,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,80,81
-463,19.23515547,-1.225237185,GK,GoalKeper,N. Pope,https://cdn.sofifa.org/players/4/19/203841.png,England,Burnley,https://cdn.sofifa.org/teams/2/light/1796.png,Right,80,83
-464,-5.348155132,1.101416148,RB,Defense,Héctor Bellerín,https://cdn.sofifa.org/players/4/19/203747.png,Spain,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,80,85
-465,-5.027417396,2.627919914,RWB,Defense,P. Kade?ábek,https://cdn.sofifa.org/players/4/19/203605.png,Czech Republic,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,80,81
-466,18.44191134,-1.419983822,GK,GoalKeper,J. Butland,https://cdn.sofifa.org/players/4/19/203042.png,England,Stoke City,https://cdn.sofifa.org/teams/2/light/1806.png,Right,80,85
-467,-0.353812475,6.099868908,CB,Defense,J. Vestergaard,https://cdn.sofifa.org/players/4/19/202849.png,Denmark,Southampton,https://cdn.sofifa.org/teams/2/light/17.png,Right,80,81
-468,-2.796317362,4.500395944,RCB,Defense,J. Tarkowski,https://cdn.sofifa.org/players/4/19/202695.png,England,Burnley,https://cdn.sofifa.org/teams/2/light/1796.png,Right,80,83
-469,-4.789688491,-5.822015463,RS,Attack,Deulofeu,https://cdn.sofifa.org/players/4/19/202477.png,Spain,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,80,82
-470,-4.865142557,4.251042196,CDM,Midfield,E. Dier,https://cdn.sofifa.org/players/4/19/202335.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,80,84
-471,-2.114802974,4.394350883,LCB,Defense,J. Murillo,https://cdn.sofifa.org/players/4/19/201377.png,Colombia,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,84
-472,-5.6804896,1.963902739,CDM,Midfield,M. Badelj,https://cdn.sofifa.org/players/4/19/201144.png,Croatia,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,80,80
-473,-6.848893652,0.753906626,LB,Defense,Ismaily,https://cdn.sofifa.org/players/4/19/201119.png,Brazil,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80
-474,-5.310055677,1.612549196,LWB,Defense,N. Schulz,https://cdn.sofifa.org/players/4/19/200536.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Left,80,81
-475,-6.619969618,1.273223888,LB,Defense,L. Digne,https://cdn.sofifa.org/players/4/19/200458.png,France,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Left,80,84
-476,-4.796881642,-3.433140162,ST,Attack,M. Uth,https://cdn.sofifa.org/players/4/19/200318.png,Germany,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Left,80,81
-477,-4.795554582,-4.583699681,LM,Midfield,Cristian Tello,https://cdn.sofifa.org/players/4/19/200315.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,80,80
-478,-2.101615663,4.610853415,LCB,Defense,D. Vida,https://cdn.sofifa.org/players/4/19/199206.png,Croatia,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,80,80
-479,-4.590281326,-5.198989508,ST,Attack,L. Muriel,https://cdn.sofifa.org/players/4/19/199110.png,Colombia,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,80,81
-480,-5.656568226,-3.399949724,ST,Attack,V. Aboubakar,https://cdn.sofifa.org/players/4/19/199069.png,Cameroon,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,80,82
-481,-7.594450314,-1.177092745,CM,Midfield,A. Oxlade-Chamberlain,https://cdn.sofifa.org/players/4/19/198784.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,80,85
-482,-6.392542648,2.123756201,RB,Defense,S. Aurier,https://cdn.sofifa.org/players/4/19/197853.png,Ivory Coast,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,80,83
-483,-2.992894939,4.766229881,CB,Defense,J. Matip,https://cdn.sofifa.org/players/4/19/197061.png,Cameroon,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,80,82
-484,-6.140465675,2.518255628,LCB,Defense,Y. Rakitskyi,https://cdn.sofifa.org/players/4/19/195861.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80
-485,-4.706911508,-1.977422317,RS,Attack,Sergi Enrich,https://cdn.sofifa.org/players/4/19/194879.png,Spain,SD Eibar,https://cdn.sofifa.org/teams/2/light/467.png,Right,80,80
-486,-5.898840861,-2.706320069,RM,Midfield,A. Yarmolenko,https://cdn.sofifa.org/players/4/19/194794.png,Ukraine,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Left,80,80
-487,-4.077377409,3.154625703,RB,Defense,Hugo Mallo,https://cdn.sofifa.org/players/4/19/194229.png,Spain,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Right,80,81
-488,-5.835718912,3.03547381,RB,Defense,André Almeida,https://cdn.sofifa.org/players/4/19/194022.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,80,80
-489,-6.119121256,-2.068646642,CAM,Midfield,D. Didavi,https://cdn.sofifa.org/players/4/19/193886.png,Germany,VfB Stuttgart,https://cdn.sofifa.org/teams/2/light/36.png,Left,80,80
-490,-7.157259537,0.82825834,LB,Defense,R. Rodríguez,https://cdn.sofifa.org/players/4/19/193352.png,Switzerland,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,80,83
-491,-7.046382317,-1.16962108,LM,Midfield,R. Pereyra,https://cdn.sofifa.org/players/4/19/193061.png,Argentina,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,80,80
-492,-6.015710107,2.054769347,RB,Defense,Mario Gaspar,https://cdn.sofifa.org/players/4/19/192789.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,80,80
-493,-2.175392881,5.207176252,CB,Defense,Maicon,https://cdn.sofifa.org/players/4/19/191687.png,Brazil,Galatasaray SK,https://cdn.sofifa.org/teams/2/light/325.png,Right,80,80
-494,-6.405130375,1.973640875,LB,Defense,D. Blind,https://cdn.sofifa.org/players/4/19/190815.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,80,80
-495,18.4392576,-2.15370985,GK,GoalKeper,J. Zoet,https://cdn.sofifa.org/players/4/19/190778.png,Netherlands,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,80,83
-496,-5.054631724,-4.737669994,CAM,Midfield,A. Ljaji?,https://cdn.sofifa.org/players/4/19/190544.png,Serbia,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,80,81
-497,-4.089048575,-3.904796511,RCM,Midfield,Canales,https://cdn.sofifa.org/players/4/19/190286.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,80
-498,-5.709177107,-4.838794088,RW,Midfield,Iago Falqué,https://cdn.sofifa.org/players/4/19/190264.png,Spain,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Left,80,80
-499,-3.908385594,-0.905559201,ST,Attack,L. de Jong,https://cdn.sofifa.org/players/4/19/189805.png,Netherlands,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,80,80
+Order,PC1,PC2,Position,Zone,Name,Photo,Nationality,Club,Club Logo,Preferred Foot,Overall,Potential,ShortPassing,Volleys,Dribbling,FKAccuracy,LongPassing,SprintSpeed,Agility,ShotPower,Jumping,Stamina,Strength
+0,-9.391933134,-7.024874118,RF,Attack,L. Messi,https://cdn.sofifa.org/players/4/19/158023.png,Argentina,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,94,94,90,86,97,94,87,86,91,85,68,72,59
+1,-8.935502823,-4.993332302,ST,Attack,Cristiano Ronaldo,https://cdn.sofifa.org/players/4/19/20801.png,Portugal,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,94,94,81,87,88,76,77,91,87,95,95,88,79
+2,-8.717718753,-6.896612111,LW,Midfield,Neymar Jr,https://cdn.sofifa.org/players/4/19/190871.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,92,93,84,84,96,87,78,90,96,80,61,81,49
+3,17.67301208,-2.497028237,GK,GoalKeper,De Gea,https://cdn.sofifa.org/players/4/19/193080.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,91,93,50,13,18,19,51,58,60,31,67,43,64
+4,-10.0274955,-2.585399379,RCM,Midfield,K. De Bruyne,https://cdn.sofifa.org/players/4/19/192985.png,Belgium,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,91,92,92,82,86,83,91,76,79,91,63,90,75
+5,-8.658268568,-5.968099277,LF,Attack,E. Hazard,https://cdn.sofifa.org/players/4/19/183277.png,Belgium,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,91,91,89,80,95,79,83,88,95,82,56,83,66
+6,-10.08328652,-1.885598735,RCM,Midfield,L. Modri?,https://cdn.sofifa.org/players/4/19/177003.png,Croatia,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,91,91,93,76,90,78,88,72,93,79,68,89,58
+7,-7.932120082,-3.156977739,RS,Attack,L. Suárez,https://cdn.sofifa.org/players/4/19/176580.png,Uruguay,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,91,91,82,88,87,84,64,75,82,86,69,90,83
+8,-7.397440708,3.511173487,RCB,Defense,Sergio Ramos,https://cdn.sofifa.org/players/4/19/155862.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,91,91,78,66,63,72,77,75,78,79,93,84,83
+9,18.91820012,-1.809078236,GK,GoalKeper,J. Oblak,https://cdn.sofifa.org/players/4/19/200389.png,Slovenia,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,90,93,29,13,12,14,26,60,67,22,76,41,78
+10,-7.596399621,-3.828944763,ST,Attack,R. Lewandowski,https://cdn.sofifa.org/players/4/19/188545.png,Poland,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,90,90,83,89,85,86,65,78,78,88,84,78,84
+11,-8.937948966,-0.638402219,LCM,Midfield,T. Kroos,https://cdn.sofifa.org/players/4/19/182521.png,Germany,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,90,90,92,82,81,84,93,62,70,87,30,75,73
+12,-4.004385549,5.635373853,CB,Defense,D. Godín,https://cdn.sofifa.org/players/4/19/182493.png,Uruguay,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,90,90,79,47,53,51,70,68,58,67,91,66,88
+13,-8.310098694,-3.88221194,LCM,Midfield,David Silva,https://cdn.sofifa.org/players/4/19/168542.png,Spain,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,90,90,93,82,89,77,87,64,92,72,64,78,52
+14,-8.210293692,2.281245262,LDM,Midfield,N. Kanté,https://cdn.sofifa.org/players/4/19/215914.png,France,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,89,90,86,56,79,49,81,78,82,71,77,96,76
+15,-7.783714819,-6.157666868,LF,Attack,P. Dybala,https://cdn.sofifa.org/players/4/19/211110.png,Argentina,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,89,94,87,88,92,88,75,83,91,82,75,80,65
+16,-7.544953204,-2.385789544,ST,Attack,H. Kane,https://cdn.sofifa.org/players/4/19/202126.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,89,91,80,84,80,68,82,72,71,88,78,89,84
+17,-8.900247267,-3.719917308,CAM,Midfield,A. Griezmann,https://cdn.sofifa.org/players/4/19/194765.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,89,90,83,87,88,78,76,85,90,80,90,83,62
+18,18.84215581,-1.602656256,GK,GoalKeper,M. ter Stegen,https://cdn.sofifa.org/players/4/19/192448.png,Germany,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,89,92,36,14,17,12,42,50,37,22,79,35,79
+19,18.9743119,-1.630244545,GK,GoalKeper,T. Courtois,https://cdn.sofifa.org/players/4/19/192119.png,Belgium,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,89,90,33,12,13,20,35,52,61,36,68,38,70
+20,-7.181874421,3.191609891,CDM,Midfield,Sergio Busquets,https://cdn.sofifa.org/players/4/19/189511.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,89,89,89,44,80,68,82,52,66,61,66,86,77
+21,-7.336192848,-2.190278707,LS,Attack,E. Cavani,https://cdn.sofifa.org/players/4/19/179813.png,Uruguay,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,89,89,78,90,80,76,52,76,77,87,88,92,78
+22,17.68754526,-2.022708783,GK,GoalKeper,M. Neuer,https://cdn.sofifa.org/players/4/19/167495.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,89,89,55,11,30,11,59,60,51,25,77,43,80
+23,-7.315286385,-6.18330463,ST,Attack,S. Agüero,https://cdn.sofifa.org/players/4/19/153079.png,Argentina,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,89,89,81,85,89,73,64,80,86,88,81,76,73
+24,-2.564147888,6.198268104,LCB,Defense,G. Chiellini,https://cdn.sofifa.org/players/4/19/138956.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,89,89,59,45,58,31,59,75,54,78,89,65,89
+25,-8.209924333,-4.897878369,RM,Midfield,K. Mbappé,https://cdn.sofifa.org/players/4/19/231747.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,95,82,78,90,63,73,96,92,79,75,83,71
+26,-8.116073754,-4.043419698,RM,Midfield,M. Salah,https://cdn.sofifa.org/players/4/19/209331.png,Egypt,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,88,89,82,73,89,60,72,91,91,77,68,84,70
+27,-6.783325682,3.758566019,CDM,Midfield,Casemiro,https://cdn.sofifa.org/players/4/19/200145.png,Brazil,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,88,90,85,53,69,74,82,65,62,86,88,87,89
+28,-8.04203861,-3.558738222,LAM,Midfield,J. Rodríguez,https://cdn.sofifa.org/players/4/19/198710.png,Colombia,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,88,89,89,90,85,86,83,67,83,86,54,70,68
+29,-7.256283416,-6.734081414,LW,Midfield,L. Insigne,https://cdn.sofifa.org/players/4/19/198219.png,Italy,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,88,88,85,74,90,77,78,86,94,75,53,75,44
+30,-8.143898377,-2.614080586,LW,Midfield,Isco,https://cdn.sofifa.org/players/4/19/197781.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,88,91,89,65,94,76,83,69,87,69,64,70,59
+31,-8.475951375,-3.843050422,CAM,Midfield,C. Eriksen,https://cdn.sofifa.org/players/4/19/190460.png,Denmark,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,88,91,91,77,84,87,88,73,79,84,50,92,58
+32,-8.908793909,-4.379928889,LW,Midfield,Coutinho,https://cdn.sofifa.org/players/4/19/189242.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,88,89,88,75,91,86,83,75,92,83,59,79,61
+33,-6.655244305,-4.310810576,LM,Midfield,P. Aubameyang,https://cdn.sofifa.org/players/4/19/188567.png,Gabon,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,88,88,77,86,79,74,64,95,76,82,79,76,76
+34,-6.058491138,4.123072015,LCB,Defense,M. Hummels,https://cdn.sofifa.org/players/4/19/178603.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,88,88,81,60,68,53,85,64,63,71,68,66,84
+35,-10.18535229,0.494730003,LB,Defense,Marcelo,https://cdn.sofifa.org/players/4/19/176676.png,Brazil,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,88,88,84,54,90,67,76,82,86,83,76,91,78
+36,-9.110297453,-2.289202115,ST,Attack,G. Bale,https://cdn.sofifa.org/players/4/19/173731.png,Wales,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,88,88,85,85,87,87,80,95,82,92,87,75,80
+37,18.34253424,-1.981370973,GK,GoalKeper,H. Lloris,https://cdn.sofifa.org/players/4/19/167948.png,France,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,88,88,50,11,10,10,50,62,55,23,74,41,43
+38,-5.355149171,-4.303963716,LS,Attack,G. Higuaín,https://cdn.sofifa.org/players/4/19/167664.png,Argentina,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,88,88,75,90,84,62,59,73,75,86,79,70,85
+39,-5.857326625,3.868965219,RCB,Defense,Thiago Silva,https://cdn.sofifa.org/players/4/19/164240.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,88,80,63,62,64,80,72,68,71,90,74,82
+40,19.31582365,-1.151405423,GK,GoalKeper,S. Handanovi?,https://cdn.sofifa.org/players/4/19/162835.png,Slovenia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,88,88,36,12,12,14,34,55,47,22,78,41,71
+41,18.71414677,-1.586398921,GK,GoalKeper,G. Buffon,https://cdn.sofifa.org/players/4/19/1179.png,Italy,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,88,88,37,17,26,13,35,43,55,39,75,39,69
+42,-6.249957635,3.351635789,CB,Defense,S. Umtiti,https://cdn.sofifa.org/players/4/19/205600.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,87,92,81,70,69,62,73,73,68,83,89,78,84
+43,-4.853479024,-3.896437261,ST,Attack,M. Icardi,https://cdn.sofifa.org/players/4/19/201399.png,Argentina,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,87,90,73,85,77,45,54,78,76,84,94,72,76
+44,-0.355062903,7.350414561,LCB,Defense,K. Koulibaly,https://cdn.sofifa.org/players/4/19/201024.png,Senegal,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,90,66,14,66,28,56,75,50,55,81,71,94
+45,-9.535459212,-0.188573263,RDM,Midfield,P. Pogba,https://cdn.sofifa.org/players/4/19/195864.png,France,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,87,91,86,85,87,82,90,79,74,90,83,88,89
+46,18.48546519,-2.240021164,GK,GoalKeper,K. Navas,https://cdn.sofifa.org/players/4/19/193041.png,Costa Rica,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,87,87,30,11,16,15,37,53,60,21,74,39,75
+47,-5.570181937,-2.414753834,ST,Attack,R. Lukaku,https://cdn.sofifa.org/players/4/19/192505.png,Belgium,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,87,89,77,79,80,66,73,90,60,88,71,84,94
+48,-5.639225593,-3.069566762,ST,Attack,C. Immobile,https://cdn.sofifa.org/players/4/19/192387.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,87,87,74,87,83,51,49,85,77,86,77,80,76
+49,-8.587354758,0.302918788,LB,Defense,Jordi Alba,https://cdn.sofifa.org/players/4/19/189332.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,87,87,84,60,80,63,74,93,90,64,81,91,61
+50,-7.450864192,-6.267691018,RF,Attack,D. Mertens,https://cdn.sofifa.org/players/4/19/175943.png,Belgium,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,87,82,70,91,79,74,85,94,80,60,75,42
+51,-6.061554801,3.911884369,LCB,Defense,J. Vertonghen,https://cdn.sofifa.org/players/4/19/172871.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,87,87,79,52,71,73,74,65,61,80,85,75,79
+52,-8.702754911,-0.676838881,LCM,Midfield,M. Hamšík,https://cdn.sofifa.org/players/4/19/171877.png,Slovakia,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,87,87,88,79,86,72,83,68,76,82,71,84,67
+53,-8.388007729,-0.570684034,RCM,Midfield,I. Rakiti?,https://cdn.sofifa.org/players/4/19/168651.png,Croatia,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,87,87,87,80,84,84,90,59,72,84,39,84,66
+54,-4.438214484,4.721945119,RCB,Defense,Piqué,https://cdn.sofifa.org/players/4/19/152729.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,87,87,81,57,59,43,80,60,58,62,74,65,83
+55,-6.940558065,-4.621720512,LW,Midfield,L. Sané,https://cdn.sofifa.org/players/4/19/222492.png,Germany,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,92,79,85,88,68,64,96,88,86,64,79,70
+56,-7.199703383,-4.399296282,RW,Midfield,Bernardo Silva,https://cdn.sofifa.org/players/4/19/218667.png,Portugal,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,91,85,69,92,67,79,74,90,70,50,78,48
+57,17.47596016,-2.643672413,GK,GoalKeper,Ederson,https://cdn.sofifa.org/players/4/19/210257.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,86,90,56,18,23,20,58,63,60,42,58,41,68
+58,-7.42307352,-4.306216727,LM,Midfield,S. Mané,https://cdn.sofifa.org/players/4/19/208722.png,Senegal,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,87,79,71,87,64,71,93,91,82,75,84,67
+59,-4.922964455,4.689768672,LCB,Defense,V. van Dijk,https://cdn.sofifa.org/players/4/19/203376.png,Netherlands,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,88,76,45,70,70,78,77,61,81,85,71,92
+60,-6.825404167,-4.710550233,RW,Midfield,R. Sterling,https://cdn.sofifa.org/players/4/19/202652.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,86,89,84,67,88,63,69,92,93,73,57,78,52
+61,-8.64509101,-1.94953001,CAM,Midfield,Roberto Firmino,https://cdn.sofifa.org/players/4/19/201942.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,86,87,86,81,87,65,75,77,80,81,81,90,74
+62,-3.648499657,5.018689232,RCB,Defense,R. Varane,https://cdn.sofifa.org/players/4/19/201535.png,France,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,86,91,75,42,57,54,76,85,63,52,79,73,84
+63,-8.398674348,-0.042729065,LCM,Midfield,M. Verratti,https://cdn.sofifa.org/players/4/19/199556.png,Italy,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,86,89,90,64,90,64,89,62,87,56,64,77,52
+64,-8.02787869,1.888288936,LB,Defense,Alex Sandro,https://cdn.sofifa.org/players/4/19/191043.png,Brazil,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,86,86,81,68,80,59,71,86,79,80,79,92,79
+65,-7.730773908,-4.963793923,LM,Midfield,Douglas Costa,https://cdn.sofifa.org/players/4/19/190483.png,Brazil,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,86,86,84,76,92,78,68,93,93,86,61,78,63
+66,-7.154578423,-2.545096406,CAM,Midfield,T. Müller,https://cdn.sofifa.org/players/4/19/189596.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,86,86,83,84,75,59,72,75,75,78,81,87,68
+67,-8.809472907,-2.093933334,CM,Midfield,Thiago,https://cdn.sofifa.org/players/4/19/189509.png,Spain,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,86,86,90,90,90,77,87,69,90,75,75,75,59
+68,-8.023026224,-4.831129797,LM,Midfield,M. Reus,https://cdn.sofifa.org/players/4/19/188350.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,86,86,86,90,87,84,75,85,86,88,70,73,67
+69,-6.82206007,3.163560794,RB,Defense,Azpilicueta,https://cdn.sofifa.org/players/4/19/184432.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,86,86,81,51,69,58,80,76,72,68,76,87,71
+70,-5.178242535,4.676660257,RCB,Defense,L. Bonucci,https://cdn.sofifa.org/players/4/19/184344.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86,77,58,69,61,85,65,60,74,85,71,83
+71,-5.217685494,4.453589749,RCB,Defense,T. Alderweireld,https://cdn.sofifa.org/players/4/19/184087.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,86,87,79,38,62,69,85,66,60,78,84,74,79
+72,-8.416326393,-0.293848893,CDM,Midfield,M. Pjani?,https://cdn.sofifa.org/players/4/19/180206.png,Bosnia Herzegovina,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86,89,72,86,92,85,66,77,78,61,78,66
+73,-2.213662224,6.128734934,CB,Defense,M. Benatia,https://cdn.sofifa.org/players/4/19/177509.png,Morocco,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,86,86,65,44,64,27,65,75,59,66,85,69,91
+74,-5.480335014,-5.546640431,CAM,Midfield,M. Özil,https://cdn.sofifa.org/players/4/19/176635.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,86,86,89,80,84,77,82,69,79,70,48,69,57
+75,-7.938760437,1.53996624,CDM,Midfield,Fernandinho,https://cdn.sofifa.org/players/4/19/135507.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,86,86,85,74,77,72,81,67,72,83,76,79,76
+76,-7.78606978,-2.559431057,LF,Attack,Iniesta,https://cdn.sofifa.org/players/4/19/41.png,Spain,Vissel Kobe,https://cdn.sofifa.org/teams/2/light/101146.png,Right,86,86,90,74,90,70,85,67,79,65,47,55,58
+77,-2.182358073,5.670635632,LCB,Defense,M. Škriniar,https://cdn.sofifa.org/players/4/19/232363.png,Slovakia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,92,70,40,59,30,68,73,48,50,78,77,83
+78,-8.501740087,1.112527745,CM,Midfield,S. Milinkovi?-Savi?,https://cdn.sofifa.org/players/4/19/223848.png,Serbia,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,85,90,85,74,86,75,85,70,66,83,85,85,88
+79,-6.957316885,-4.26856302,RW,Midfield,Marco Asensio,https://cdn.sofifa.org/players/4/19/220834.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Left,85,92,83,79,86,76,82,82,79,86,58,76,61
+80,-7.031468877,-4.882711857,CAM,Midfield,N. Fekir,https://cdn.sofifa.org/players/4/19/216594.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Left,85,89,83,77,90,79,75,79,90,84,69,80,82
+81,18.64420803,-1.920302073,GK,GoalKeper,Alisson,https://cdn.sofifa.org/players/4/19/212831.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,85,90,45,20,27,18,44,45,40,21,52,32,78
+82,-8.197913263,0.547204183,RCM,Midfield,J. Kimmich,https://cdn.sofifa.org/players/4/19/212622.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,85,88,85,61,80,61,80,68,84,75,79,85,65
+83,-8.373941205,0.845058804,RCM,Midfield,Saúl,https://cdn.sofifa.org/players/4/19/208421.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,85,90,85,76,83,60,83,73,76,78,79,86,77
+84,-6.898622023,-5.874963685,RW,Midfield,R. Mahrez,https://cdn.sofifa.org/players/4/19/204485.png,Algeria,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,85,85,82,72,91,78,76,83,93,79,61,76,54
+85,-8.737479635,0.646496375,LB,Defense,D. Alaba,https://cdn.sofifa.org/players/4/19/197445.png,Austria,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,85,87,82,68,79,84,80,86,79,83,82,87,71
+86,-8.330253934,-0.59723726,LM,Midfield,Koke,https://cdn.sofifa.org/players/4/19/193747.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,85,86,90,56,82,76,89,68,74,84,61,90,79
+87,-6.8909028,-4.242901023,ST,Attack,A. Lacazette,https://cdn.sofifa.org/players/4/19/193301.png,France,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,85,86,80,81,85,71,59,84,85,83,76,79,73
+88,0.155512616,7.23705721,LCB,Defense,K. Manolas,https://cdn.sofifa.org/players/4/19/192774.png,Greece,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,85,87,60,16,54,10,61,85,68,40,86,76,82
+89,-3.481425426,4.660621263,CB,Defense,N. Otamendi,https://cdn.sofifa.org/players/4/19/192366.png,Argentina,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,85,85,75,57,51,39,72,61,64,69,92,67,80
+90,-7.413630356,-0.410922728,RCM,Midfield,Parejo,https://cdn.sofifa.org/players/4/19/189513.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,85,85,90,72,78,90,87,43,66,78,51,78,72
+91,-8.534341819,1.219131482,LDM,Midfield,Paulinho,https://cdn.sofifa.org/players/4/19/187961.png,Brazil,Guangzhou Evergrande Taobao FC,https://cdn.sofifa.org/teams/2/light/111839.png,Right,85,85,84,75,82,72,80,73,69,83,90,92,81
+92,18.98157336,-1.519594378,GK,GoalKeper,W. Szcz?sny,https://cdn.sofifa.org/players/4/19/186153.png,Poland,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,85,87,32,14,11,14,36,47,55,15,71,45,65
+93,-7.622799715,-3.786167126,RW,Midfield,A. Sánchez,https://cdn.sofifa.org/players/4/19/184941.png,Chile,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,85,85,77,83,87,78,75,79,90,84,87,83,72
+94,-6.570746948,-5.136925289,LM,Midfield,Y. Brahimi,https://cdn.sofifa.org/players/4/19/184267.png,Algeria,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,85,85,79,73,93,78,72,75,92,69,72,85,49
+95,-4.420464754,4.880291016,RCB,Defense,J. Boateng,https://cdn.sofifa.org/players/4/19/183907.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,85,85,75,52,64,31,83,72,56,78,74,69,91
+96,-8.880016214,1.841132846,CAM,Midfield,A. Vidal,https://cdn.sofifa.org/players/4/19/181872.png,Chile,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,85,85,83,78,76,68,79,55,74,86,85,83,79
+97,-8.498785847,-1.57750093,LM,Midfield,I. Periši?,https://cdn.sofifa.org/players/4/19/181458.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85,81,81,84,75,77,88,78,84,84,89,78
+98,-4.767017927,-1.893053086,ST,Attack,E. Džeko,https://cdn.sofifa.org/players/4/19/180930.png,Bosnia Herzegovina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,85,85,77,77,76,54,72,66,57,86,66,76,80
+99,-7.536508065,2.60605613,RCM,Midfield,S. Khedira,https://cdn.sofifa.org/players/4/19/179846.png,Germany,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,85,85,85,78,81,68,82,60,55,82,68,78,87
+100,-5.092525787,-1.206836651,LS,Attack,Diego Costa,https://cdn.sofifa.org/players/4/19/179844.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,85,85,65,81,77,59,52,76,58,83,64,76,92
+101,-9.076008838,1.296340853,CAM,Midfield,R. Nainggolan,https://cdn.sofifa.org/players/4/19/178518.png,Belgium,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85,84,75,80,68,81,73,76,84,76,93,77
+102,-4.122873162,4.182585702,CB,Defense,Naldo,https://cdn.sofifa.org/players/4/19/171919.png,Brazil,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,85,85,76,60,60,76,70,65,46,92,45,61,83
+103,-7.787755666,2.323222654,LM,Midfield,B. Matuidi,https://cdn.sofifa.org/players/4/19/170890.png,France,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,85,85,83,72,78,52,77,77,83,78,84,94,76
+104,-3.322042554,4.891480807,CB,Defense,Miranda,https://cdn.sofifa.org/players/4/19/168609.png,Brazil,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,85,85,70,51,67,39,69,69,61,70,82,65,79
+105,-5.969273412,-4.420989162,ST,Attack,K. Benzema,https://cdn.sofifa.org/players/4/19/165153.png,France,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,85,85,83,82,83,73,62,76,76,81,73,75,80
+106,-7.500876313,2.175396794,LB,Defense,Filipe Luís,https://cdn.sofifa.org/players/4/19/164169.png,Brazil,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,85,85,80,56,77,75,77,75,75,71,71,89,74
+107,-3.539226486,5.075668549,CB,Defense,V. Kompany,https://cdn.sofifa.org/players/4/19/139720.png,Belgium,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,85,85,73,46,63,52,66,59,57,75,72,66,87
+108,-2.419189507,5.262446094,RCB,Defense,Pepe,https://cdn.sofifa.org/players/4/19/120533.png,Portugal,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,85,85,70,23,58,47,61,70,63,63,76,60,86
+109,-5.553496239,-3.214825386,RS,Attack,Z. Ibrahimovi?,https://cdn.sofifa.org/players/4/19/41236.png,Sweden,LA Galaxy,https://cdn.sofifa.org/teams/2/light/697.png,Right,85,85,79,86,79,82,73,59,75,90,68,61,86
+110,-2.726579969,5.392433231,RCB,Defense,D. Sánchez,https://cdn.sofifa.org/players/4/19/220793.png,Colombia,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,88,77,28,63,27,67,79,60,66,73,76,83
+111,-0.824824053,6.245127908,RCB,Defense,J. Giménez,https://cdn.sofifa.org/players/4/19/216460.png,Uruguay,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,84,88,68,30,47,44,58,70,56,72,92,67,85
+112,-8.614213851,0.97373653,LB,Defense,Alex Telles,https://cdn.sofifa.org/players/4/19/212462.png,Brazil,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Left,84,87,83,67,82,79,86,85,73,80,81,92,68
+113,-3.796186095,4.905654117,LCB,Defense,A. Laporte,https://cdn.sofifa.org/players/4/19/212218.png,France,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,84,88,76,40,59,69,78,66,45,68,75,67,82
+114,-8.464117606,-1.936172657,LCM,Midfield,Bruno Fernandes,https://cdn.sofifa.org/players/4/19/212198.png,Portugal,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,84,88,85,84,83,81,82,76,77,87,72,89,67
+115,-0.071892158,7.00001881,CB,Defense,N. Süle,https://cdn.sofifa.org/players/4/19/212190.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,84,90,78,31,42,30,63,84,33,77,38,65,94
+116,-6.508911583,-3.881841497,LW,Midfield,A. Martial,https://cdn.sofifa.org/players/4/19/211300.png,France,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,84,90,77,74,87,54,60,89,85,84,74,75,75
+117,-8.646479042,-0.129561647,LCM,Midfield,D. Alli,https://cdn.sofifa.org/players/4/19/211117.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,90,85,79,83,68,80,76,76,78,67,90,71
+118,-7.627279666,2.715345594,CDM,Midfield,Fabinho,https://cdn.sofifa.org/players/4/19/209499.png,Brazil,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,84,88,83,47,76,53,78,72,69,78,75,92,79
+119,-3.81592637,4.943802235,LDM,Midfield,Marquinhos,https://cdn.sofifa.org/players/4/19/207865.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,84,89,81,31,59,32,78,76,69,53,86,75,74
+120,-5.725309114,3.486306525,CDM,Midfield,William Carvalho,https://cdn.sofifa.org/players/4/19/207566.png,Portugal,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,84,86,84,50,80,50,86,53,51,59,69,84,90
+121,-7.516822201,-0.00300432,CM,Midfield,Jorginho,https://cdn.sofifa.org/players/4/19/205498.png,Italy,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,84,87,89,71,82,76,87,69,80,71,58,79,66
+122,-7.147508385,-4.152881353,RM,Midfield,F. Thauvin,https://cdn.sofifa.org/players/4/19/204970.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,84,87,83,74,85,72,76,80,86,83,76,83,66
+123,-5.866590978,2.824574317,RB,Defense,Carvajal,https://cdn.sofifa.org/players/4/19/204963.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,84,87,81,34,76,47,71,84,81,64,76,84,74
+124,-6.836044325,-4.843045073,ST,Attack,M. Depay,https://cdn.sofifa.org/players/4/19/202556.png,Netherlands,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,84,89,80,74,85,88,74,87,82,87,74,79,80
+125,-7.259631349,-4.70286926,LM,Midfield,H. Son,https://cdn.sofifa.org/players/4/19/200104.png,Korea Republic,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,84,85,79,79,88,70,64,87,82,86,63,85,63
+126,18.43173785,-2.136816521,GK,GoalKeper,A. Lopes,https://cdn.sofifa.org/players/4/19/199482.png,Portugal,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Left,84,86,32,13,15,14,31,64,67,20,82,36,73
+127,-2.610773689,5.18582534,CB,Defense,S. de Vrij,https://cdn.sofifa.org/players/4/19/198176.png,Netherlands,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,84,86,71,27,63,16,71,69,61,65,76,66,80
+128,18.83479256,-2.455408182,GK,GoalKeper,M. Perin,https://cdn.sofifa.org/players/4/19/198009.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,89,33,19,19,13,31,56,70,23,75,30,52
+129,-8.265868695,-1.578000024,RAM,Midfield,J. Cuadrado,https://cdn.sofifa.org/players/4/19/193082.png,Colombia,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84,80,70,90,69,69,93,91,84,75,78,61
+130,-6.335544516,-5.037864608,ST,Attack,Iago Aspas,https://cdn.sofifa.org/players/4/19/192629.png,Spain,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Left,84,84,79,83,86,76,64,78,87,79,68,75,60
+131,18.7081551,-1.573571231,GK,GoalKeper,B. Leno,https://cdn.sofifa.org/players/4/19/192563.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,84,87,45,10,16,8,40,52,52,23,73,43,68
+132,-6.61466888,3.096298407,CDM,Midfield,N. Mati?,https://cdn.sofifa.org/players/4/19/191202.png,Serbia,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,84,84,84,73,80,67,83,59,44,83,67,84,85
+133,20.01761132,-1.631731664,GK,GoalKeper,L. Hrádecký,https://cdn.sofifa.org/players/4/19/190941.png,Finland,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,84,84,15,9,10,15,20,44,43,14,69,34,55
+134,-7.208257355,0.887708397,RDM,Midfield,Illarramendi,https://cdn.sofifa.org/players/4/19/190584.png,Spain,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,84,84,86,58,78,68,82,57,71,69,63,77,68
+135,-7.030955887,2.01255115,RB,Defense,K. Walker,https://cdn.sofifa.org/players/4/19/188377.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,84,84,78,57,79,71,67,93,67,86,83,89,75
+136,-7.95765806,-0.811413544,CM,Midfield,I. Gündo?an,https://cdn.sofifa.org/players/4/19/186942.png,Germany,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,84,84,88,75,85,74,83,68,78,77,61,69,72
+137,-6.450875107,-3.832289053,RM,Midfield,José Callejón,https://cdn.sofifa.org/players/4/19/185020.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,84,84,80,84,82,65,51,89,85,78,73,91,55
+138,-7.415197128,-3.598707571,RM,Midfield,A. Di María,https://cdn.sofifa.org/players/4/19/183898.png,Argentina,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,84,84,82,77,86,82,79,84,92,83,72,73,60
+139,-6.581932486,0.89251874,ST,Attack,M. Mandžuki?,https://cdn.sofifa.org/players/4/19/181783.png,Croatia,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84,75,86,76,49,67,73,67,80,85,83,85
+140,-6.939283995,-3.9161337,RW,Midfield,Willian,https://cdn.sofifa.org/players/4/19/180403.png,Brazil,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,84,84,80,59,88,83,77,86,89,79,41,85,60
+141,18.57369781,-2.034925657,GK,GoalKeper,Sergio Asenjo,https://cdn.sofifa.org/players/4/19/178750.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,84,85,39,15,15,22,39,54,62,24,73,41,73
+142,-7.880072093,-0.910222006,CDM,Midfield,E. Banega,https://cdn.sofifa.org/players/4/19/178562.png,Argentina,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,84,84,88,65,84,81,87,64,79,74,57,74,67
+143,-8.551616949,1.635389877,LCM,Midfield,A. Witsel,https://cdn.sofifa.org/players/4/19/177413.png,Belgium,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,84,84,89,77,78,68,79,74,78,78,76,86,82
+144,-6.643861458,-4.519682848,CAM,Midfield,D. Payet,https://cdn.sofifa.org/players/4/19/177388.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,84,84,84,77,86,84,80,72,79,80,48,73,72
+145,-6.31983752,-4.441844116,ST,Attack,Jonas,https://cdn.sofifa.org/players/4/19/176769.png,Brazil,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,84,84,76,85,84,77,75,64,77,84,69,66,63
+146,-1.860712012,5.313865009,RCB,Defense,Sokratis,https://cdn.sofifa.org/players/4/19/172879.png,Greece,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,84,84,60,46,58,35,51,73,60,77,86,69,86
+147,19.14720593,-1.57303265,GK,GoalKeper,S. Ruffier,https://cdn.sofifa.org/players/4/19/167628.png,France,AS Saint-Étienne,https://cdn.sofifa.org/teams/2/light/1819.png,Right,84,84,33,13,12,12,34,50,51,21,72,37,76
+148,-5.755141182,-3.144393848,RS,Attack,Falcao,https://cdn.sofifa.org/players/4/19/167397.png,Colombia,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,84,84,79,84,75,73,58,66,76,79,91,68,75
+149,18.15386238,-2.35574711,GK,GoalKeper,K. Schmeichel,https://cdn.sofifa.org/players/4/19/163587.png,Denmark,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,84,84,44,15,12,15,46,60,62,36,60,34,64
+150,-1.90236604,5.840601898,RCB,Defense,Raúl Albiol,https://cdn.sofifa.org/players/4/19/157481.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,84,84,74,31,59,45,72,53,53,65,77,55,82
+151,-7.111351332,-5.56971298,LS,Attack,A. Gómez,https://cdn.sofifa.org/players/4/19/143076.png,Argentina,Atalanta,https://cdn.sofifa.org/teams/2/light/39.png,Right,84,84,82,72,89,79,74,86,92,76,70,75,48
+152,-1.804244111,5.616862158,CB,Defense,A. Barzagli,https://cdn.sofifa.org/players/4/19/137186.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,84,84,65,35,64,31,65,77,52,54,81,53,83
+153,-5.921877928,-6.47659079,RM,Midfield,Quaresma,https://cdn.sofifa.org/players/4/19/20775.png,Portugal,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,84,84,79,80,89,73,75,82,91,79,63,65,55
+154,-6.490780079,-5.492585463,RM,Midfield,A. Robben,https://cdn.sofifa.org/players/4/19/9014.png,Netherlands,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Left,84,84,82,86,89,81,71,76,87,86,60,64,67
+155,-6.355632781,-5.766449912,RW,Midfield,O. Dembélé,https://cdn.sofifa.org/players/4/19/231443.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,83,92,78,76,90,64,70,92,90,83,59,73,46
+156,-6.56424612,-4.505516811,ST,Attack,Gabriel Jesus,https://cdn.sofifa.org/players/4/19/230666.png,Brazil,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,83,92,76,72,86,54,66,85,92,78,77,84,68
+157,-6.866542832,-4.528494954,RW,Midfield,Ronaldo Cabrais,https://cdn.sofifa.org/players/4/19/230481.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,83,83,83,76,85,78,82,87,85,82,64,86,70
+158,-2.727856756,4.474233604,LCB,Defense,Josué Chiamulera,https://cdn.sofifa.org/players/4/19/230375.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,83,83,74,44,56,49,61,78,77,53,69,76,73
+159,-3.430898332,-3.137729204,ST,Attack,Louri Beretta,https://cdn.sofifa.org/players/4/19/230294.png,Brazil,Atlético Mineiro,https://cdn.sofifa.org/teams/2/light/1035.png,Right,83,83,73,82,75,67,47,83,55,85,84,56,87
+160,-3.799143493,4.597953434,LCB,Defense,P. Kimpembe,https://cdn.sofifa.org/players/4/19/225850.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,83,89,79,33,58,32,75,78,74,55,77,80,84
+161,-7.423153151,-1.65940681,CM,Midfield,N. Keïta,https://cdn.sofifa.org/players/4/19/220971.png,Guinea,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,83,88,88,71,88,70,78,60,89,76,53,82,58
+162,-7.851753371,1.114907423,CM,Midfield,C. Tolisso,https://cdn.sofifa.org/players/4/19/219683.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88,84,62,77,73,86,66,75,82,90,87,77
+163,-8.019744625,-2.65952704,LM,Midfield,T. Lemar,https://cdn.sofifa.org/players/4/19/213565.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,83,89,84,78,85,81,75,84,87,79,71,79,63
+164,-5.545670968,-6.376396867,LM,Midfield,K. Coman,https://cdn.sofifa.org/players/4/19/213345.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,87,77,77,88,70,63,93,87,77,75,76,61
+165,-0.622786052,6.576720065,CB,Defense,J. Tah,https://cdn.sofifa.org/players/4/19/213331.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,83,88,74,24,55,27,69,77,48,44,72,63,93
+166,-7.349080099,-2.035927917,CAM,Midfield,Anderson Talisca,https://cdn.sofifa.org/players/4/19/212523.png,Brazil,Guangzhou Evergrande Taobao FC,https://cdn.sofifa.org/teams/2/light/111839.png,Left,83,90,81,76,82,87,79,76,76,84,58,76,72
+167,-5.414605111,-4.395526301,RW,Midfield,T. Werner,https://cdn.sofifa.org/players/4/19/212188.png,Germany,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,83,87,77,82,83,56,55,93,81,74,78,83,59
+168,-7.757417636,1.253324749,CM,Midfield,A. Rabiot,https://cdn.sofifa.org/players/4/19/210008.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Left,83,87,85,72,79,59,83,74,79,80,73,82,80
+169,-8.202271377,0.737128088,CM,Midfield,L. Goretzka,https://cdn.sofifa.org/players/4/19/209658.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88,84,68,81,75,79,79,76,77,67,86,70
+170,-6.771967304,-5.096402919,RM,Midfield,Q. Promes,https://cdn.sofifa.org/players/4/19/208808.png,Netherlands,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,83,84,78,69,84,76,73,91,87,82,82,83,61
+171,-7.546486453,-2.651838887,RAM,Midfield,H. Ziyech,https://cdn.sofifa.org/players/4/19/208670.png,Morocco,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,83,86,86,77,83,78,89,74,85,80,38,86,59
+172,-6.877210126,-3.466431951,RW,Midfield,Lucas Vázquez,https://cdn.sofifa.org/players/4/19/208618.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,83,83,83,54,82,75,75,79,79,82,68,90,57
+173,-6.196954087,-4.648728665,LM,Midfield,Y. Carrasco,https://cdn.sofifa.org/players/4/19/208418.png,Belgium,Dalian YiFang FC,https://cdn.sofifa.org/teams/2/light/112378.png,Right,83,86,77,68,88,78,71,87,88,84,68,74,59
+174,-5.034062155,-2.803265652,LS,Attack,Gerard Moreno,https://cdn.sofifa.org/players/4/19/208093.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Left,83,85,78,79,78,56,56,80,70,81,72,72,74
+175,-1.675135047,5.947628961,RCB,Defense,Felipe,https://cdn.sofifa.org/players/4/19/207863.png,Brazil,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,83,83,74,44,57,30,67,67,52,46,90,78,86
+176,-7.887446523,-0.800206299,LCM,Midfield,M. Kova?i?,https://cdn.sofifa.org/players/4/19/207410.png,Croatia,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,89,87,76,88,68,82,74,81,79,63,82,65
+177,19.0515593,-2.014194033,GK,GoalKeper,Kepa,https://cdn.sofifa.org/players/4/19/206585.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,91,32,18,10,19,36,33,41,25,71,37,51
+178,-7.479644875,-0.438180058,RCM,Midfield,Manu Trigueros,https://cdn.sofifa.org/players/4/19/206545.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,83,84,86,63,80,69,83,65,76,81,77,77,63
+179,-6.44846649,-4.053935148,ST,Attack,S. Gnabry,https://cdn.sofifa.org/players/4/19/206113.png,Germany,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,88,79,83,87,62,68,90,87,85,64,68,68
+180,17.50136926,-2.697776397,GK,GoalKeper,J. Pickford,https://cdn.sofifa.org/players/4/19/204935.png,England,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Left,83,88,55,20,14,16,55,44,55,31,72,45,70
+181,-0.401800222,6.215674635,CB,Defense,S. Savi?,https://cdn.sofifa.org/players/4/19/204639.png,Montenegro,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,83,86,72,27,47,28,69,61,61,43,87,58,77
+182,-4.00587417,4.490694428,RCB,Defense,J. Stones,https://cdn.sofifa.org/players/4/19/203574.png,England,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Right,83,87,81,27,69,29,74,71,61,46,75,79,77
+183,-5.820972977,-6.101762703,RW,Midfield,Suso,https://cdn.sofifa.org/players/4/19/202651.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,83,86,86,72,88,80,75,77,86,78,50,77,56
+184,-7.621005086,-2.798053278,CM,Midfield,J. Draxler,https://cdn.sofifa.org/players/4/19/202166.png,Germany,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,83,86,84,84,88,76,79,77,80,86,75,69,66
+185,-7.258410729,-3.109410125,LM,Midfield,Felipe Anderson,https://cdn.sofifa.org/players/4/19/201995.png,Brazil,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,83,85,80,68,90,69,74,89,89,83,38,72,53
+186,-6.648764394,-4.004289371,RM,Midfield,Lucas Moura,https://cdn.sofifa.org/players/4/19/200949.png,Brazil,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,83,84,77,70,88,74,74,90,94,79,77,75,59
+187,-5.824004949,3.377039541,CDM,Midfield,Danilo Pereira,https://cdn.sofifa.org/players/4/19/200888.png,Portugal,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,83,86,82,55,76,53,79,68,58,76,67,83,89
+188,-3.141546867,4.542189468,CB,Defense,Nacho Fernández,https://cdn.sofifa.org/players/4/19/200724.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,83,85,80,38,55,37,61,79,60,54,81,78,79
+189,19.55570099,-1.532119993,GK,GoalKeper,T. Horn,https://cdn.sofifa.org/players/4/19/200316.png,Germany,1. FC Köln,https://cdn.sofifa.org/teams/2/light/31.png,Left,83,87,35,14,20,15,32,51,50,22,64,31,67
+190,-8.155489357,1.613699454,RCM,Midfield,Allan,https://cdn.sofifa.org/players/4/19/199914.png,Brazil,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,83,83,85,56,82,49,77,74,82,70,70,95,77
+191,-2.845396067,5.380260464,CB,Defense,F. Acerbi,https://cdn.sofifa.org/players/4/19/199845.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Left,83,83,73,39,65,56,77,55,33,75,68,81,83
+192,-7.42254701,0.89685655,RB,Defense,Sergi Roberto,https://cdn.sofifa.org/players/4/19/199564.png,Spain,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,83,86,86,50,78,60,78,79,69,65,47,85,69
+193,-6.240165021,-3.529448525,ST,Attack,Rodrigo,https://cdn.sofifa.org/players/4/19/198329.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,83,84,78,77,82,67,58,91,84,83,78,78,72
+194,-7.625913047,-1.86478718,LCM,Midfield,Pizzi,https://cdn.sofifa.org/players/4/19/197965.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,83,83,83,77,80,76,84,73,77,75,67,86,59
+195,-7.058534421,-1.808121946,LCM,Midfield,K. Kampl,https://cdn.sofifa.org/players/4/19/195365.png,Slovenia,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,83,83,84,68,86,75,79,71,91,69,67,88,47
+196,18.72189318,-1.705874539,GK,GoalKeper,Neto,https://cdn.sofifa.org/players/4/19/194404.png,Brazil,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,83,84,36,12,19,13,41,49,59,28,80,39,63
+197,19.45424385,-1.176499455,GK,GoalKeper,O. Baumann,https://cdn.sofifa.org/players/4/19/193698.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,83,84,30,11,19,11,25,51,45,21,73,39,69
+198,-6.397076199,2.725161761,RDM,Midfield,I. Gueye,https://cdn.sofifa.org/players/4/19/193474.png,Senegal,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,83,83,80,32,75,61,72,72,80,80,87,89,70
+199,-7.388680207,-3.014718638,RM,Midfield,H. Mkhitaryan,https://cdn.sofifa.org/players/4/19/192883.png,Armenia,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,83,83,80,81,84,64,71,78,87,85,69,83,62
+200,-7.870383588,1.84896185,LB,Defense,Marcos Alonso,https://cdn.sofifa.org/players/4/19/192638.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Left,83,84,84,70,79,86,73,76,64,84,71,90,76
+201,19.03292374,-1.623204404,GK,GoalKeper,D. Subaši?,https://cdn.sofifa.org/players/4/19/192593.png,Croatia,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,83,83,24,13,11,57,26,54,42,24,75,32,80
+202,1.085586775,7.502589316,RCB,Defense,K. Glik,https://cdn.sofifa.org/players/4/19/190547.png,Poland,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Right,83,83,63,17,51,26,59,52,34,57,81,67,90
+203,-7.681259727,1.69485442,CDM,Midfield,K. Strootman,https://cdn.sofifa.org/players/4/19/189712.png,Netherlands,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,83,83,87,63,75,70,84,66,65,81,53,79,81
+204,-2.635809966,-0.382380588,ST,Attack,B. Dost,https://cdn.sofifa.org/players/4/19/189068.png,Netherlands,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,83,83,73,85,68,30,37,54,32,82,51,82,92
+205,-6.457044839,-3.481690831,LCM,Midfield,Oscar,https://cdn.sofifa.org/players/4/19/188152.png,Brazil,Shanghai SIPG FC,https://cdn.sofifa.org/teams/2/light/112540.png,Right,83,84,86,63,78,75,82,72,86,80,64,76,38
+206,-5.138200215,-4.236877405,LS,Attack,M. Balotelli,https://cdn.sofifa.org/players/4/19/186627.png,Italy,OGC Nice,https://cdn.sofifa.org/teams/2/light/72.png,Right,83,83,78,78,81,78,66,82,71,89,74,66,86
+207,-5.381313423,3.642493756,LCB,Defense,Luiz Gustavo,https://cdn.sofifa.org/players/4/19/185221.png,Brazil,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Left,83,83,79,54,68,60,77,64,65,80,76,85,81
+208,-6.855871999,-3.557101049,CAM,Midfield,Giuliano,https://cdn.sofifa.org/players/4/19/184942.png,Brazil,Al Nassr,https://cdn.sofifa.org/teams/2/light/112139.png,Right,83,83,82,65,84,71,79,79,85,78,61,82,74
+209,-5.532248065,2.961817521,LCB,Defense,David Luiz,https://cdn.sofifa.org/players/4/19/179944.png,Brazil,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,83,77,63,66,76,77,62,69,79,78,66,79
+210,19.71765762,-0.410668241,GK,GoalKeper,R. Fährmann,https://cdn.sofifa.org/players/4/19/179783.png,Germany,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,83,84,25,11,15,11,26,47,39,24,72,32,79
+211,-6.33293948,-5.41701812,RM,Midfield,Juan Mata,https://cdn.sofifa.org/players/4/19/178088.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,83,83,85,71,82,86,79,62,84,75,70,71,37
+212,19.02157828,-1.056811323,GK,GoalKeper,Adán,https://cdn.sofifa.org/players/4/19/178086.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,83,83,34,15,12,12,43,54,55,25,71,32,77
+213,18.41294352,-2.029370957,GK,GoalKeper,Rui Patrício,https://cdn.sofifa.org/players/4/19/178005.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Left,83,83,31,17,20,16,30,57,61,38,79,45,77
+214,18.51471424,-2.328593667,GK,GoalKeper,Y. Sommer,https://cdn.sofifa.org/players/4/19/177683.png,Switzerland,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,83,84,40,8,15,13,31,54,55,23,73,45,68
+215,-4.230503596,5.311110873,CDM,Midfield,Javi Martínez,https://cdn.sofifa.org/players/4/19/177610.png,Spain,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,83,77,58,60,45,74,53,53,76,85,74,84
+216,-6.151879336,3.433344911,RB,Defense,L. Bender,https://cdn.sofifa.org/players/4/19/177457.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,83,83,79,57,72,47,74,67,65,74,77,86,76
+217,-7.004205767,1.966504071,LDM,Midfield,Lucas Leiva,https://cdn.sofifa.org/players/4/19/176266.png,Brazil,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,83,83,82,59,77,47,81,67,78,77,82,80,67
+218,19.08254168,-1.765358327,GK,GoalKeper,S. Mandanda,https://cdn.sofifa.org/players/4/19/163705.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,83,83,37,13,15,12,28,43,52,24,74,31,61
+219,-6.518364481,-1.583642053,CM,Midfield,Cesc Fàbregas,https://cdn.sofifa.org/players/4/19/162895.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,83,83,90,81,79,81,89,54,62,77,63,56,61
+220,-7.667575622,1.388808439,CM,Midfield,M. Dembélé,https://cdn.sofifa.org/players/4/19/162240.png,Belgium,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,83,83,86,73,89,55,80,72,79,81,75,70,89
+221,-5.824554578,-6.076247978,LM,Midfield,F. Ribéry,https://cdn.sofifa.org/players/4/19/156616.png,France,FC Bayern München,https://cdn.sofifa.org/teams/2/light/21.png,Right,83,83,83,79,84,81,74,78,84,75,34,58,60
+222,19.46337815,-1.448355264,GK,GoalKeper,R. Jarstein,https://cdn.sofifa.org/players/4/19/104389.png,Norway,Hertha BSC,https://cdn.sofifa.org/teams/2/light/166.png,Right,83,83,34,16,11,14,34,46,35,21,59,31,70
+223,-6.058210331,3.156089063,RDM,Midfield,D. De Rossi,https://cdn.sofifa.org/players/4/19/53302.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,83,83,81,74,64,71,80,67,64,81,77,74,81
+224,18.9677963,-1.744240538,GK,GoalKeper,Pepe Reina,https://cdn.sofifa.org/players/4/19/24630.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,83,83,19,11,10,11,22,63,50,24,73,34,72
+225,20.43288604,-1.353408624,GK,GoalKeper,J. Pavlenka,https://cdn.sofifa.org/players/4/19/236583.png,Czech Republic,SV Werder Bremen,https://cdn.sofifa.org/teams/2/light/38.png,Right,82,85,28,19,12,14,17,37,39,21,36,20,68
+226,-3.926594251,4.232384236,RCB,Defense,M. de Ligt,https://cdn.sofifa.org/players/4/19/235243.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,82,91,75,40,65,55,72,72,56,79,80,74,87
+227,-6.546784415,1.544776741,CM,Midfield,Rodri,https://cdn.sofifa.org/players/4/19/231866.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,87,83,59,77,54,80,66,69,70,69,86,75
+228,-7.403116847,-0.444822091,LCM,Midfield,Arthur,https://cdn.sofifa.org/players/4/19/230658.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,82,90,85,63,82,60,80,70,79,76,83,78,62
+229,18.83761998,-1.67808128,GK,GoalKeper,G. Donnarumma,https://cdn.sofifa.org/players/4/19/230621.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,93,34,8,28,14,24,54,64,24,72,34,72
+230,-6.294519276,1.773000354,RCM,Midfield,Rosberto Dourado,https://cdn.sofifa.org/players/4/19/230258.png,Brazil,Atlético Mineiro,https://cdn.sofifa.org/teams/2/light/1035.png,Right,82,82,82,57,77,57,78,81,72,60,43,93,68
+231,-3.409408857,3.595586731,RCB,Defense,Juiano Mestres,https://cdn.sofifa.org/players/4/19/230225.png,Brazil,Cruzeiro,https://cdn.sofifa.org/teams/2/light/568.png,Right,82,82,67,63,60,58,58,74,61,74,91,76,79
+232,19.6982719,-1.030142733,GK,GoalKeper,Raphaelito Anjos,https://cdn.sofifa.org/players/4/19/230168.png,Brazil,Grêmio,https://cdn.sofifa.org/teams/2/light/1629.png,Right,82,82,18,8,9,18,16,42,34,21,67,29,79
+233,-6.715118126,-4.380175903,RM,Midfield,Gelson Martins,https://cdn.sofifa.org/players/4/19/227055.png,Portugal,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,87,78,74,85,60,55,94,94,72,65,87,48
+234,-5.981425237,-4.330483414,LM,Midfield,Gonçalo Guedes,https://cdn.sofifa.org/players/4/19/224411.png,Portugal,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,86,77,71,86,70,68,90,85,81,65,81,62
+235,-7.409917827,0.873220947,LCM,Midfield,L. Torreira,https://cdn.sofifa.org/players/4/19/223959.png,Uruguay,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,87,83,65,78,76,77,74,83,78,52,85,66
+236,-5.907125665,-6.013255094,RW,Midfield,Malcom,https://cdn.sofifa.org/players/4/19/222737.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,89,82,71,85,81,73,82,92,85,58,74,64
+237,18.37648434,-2.496789533,GK,GoalKeper,Pau López,https://cdn.sofifa.org/players/4/19/221087.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,82,87,38,17,18,21,41,52,40,21,68,42,52
+238,-4.894159279,3.750273153,LB,Defense,L. Hernández,https://cdn.sofifa.org/players/4/19/220814.png,France,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Left,82,88,80,38,65,28,63,84,70,62,83,82,76
+239,-2.399407651,5.105687158,LCB,Defense,C. Lenglet,https://cdn.sofifa.org/players/4/19/220440.png,France,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,88,78,24,60,27,69,73,62,58,79,73,80
+240,-5.64409363,-5.185917472,LCM,Midfield,A. Kramari?,https://cdn.sofifa.org/players/4/19/216354.png,Croatia,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,82,83,79,84,87,74,53,72,82,82,69,76,68
+241,-6.096819997,1.653318176,LB,Defense,A. Robertson,https://cdn.sofifa.org/players/4/19/216267.png,Scotland,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,82,87,76,32,76,30,68,86,78,67,59,89,66
+242,-4.60523759,2.787124602,RCM,Midfield,Dani García,https://cdn.sofifa.org/players/4/19/216194.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,82,83,86,52,66,57,81,35,67,74,65,88,75
+243,-7.15051179,-3.033762189,RM,Midfield,F. Bernardeschi,https://cdn.sofifa.org/players/4/19/212404.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Left,82,87,82,74,86,80,72,83,85,82,49,80,63
+244,-4.816091499,-4.782493236,LM,Midfield,J. Brandt,https://cdn.sofifa.org/players/4/19/212194.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,82,88,82,66,87,59,69,84,82,80,63,73,69
+245,-1.130637896,5.732388304,CB,Defense,D. Rugani,https://cdn.sofifa.org/players/4/19/211320.png,Italy,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,82,86,65,35,64,25,59,67,59,58,81,67,79
+246,-5.44974436,-4.24217217,RM,Midfield,Samu Castillejo,https://cdn.sofifa.org/players/4/19/210617.png,Spain,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,82,86,80,58,85,75,77,86,83,78,63,55,50
+247,-7.854861097,0.552797544,RB,Defense,João Cancelo,https://cdn.sofifa.org/players/4/19/210514.png,Portugal,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,82,88,78,62,84,69,75,91,78,80,73,89,66
+248,-1.593996016,5.79720114,LCB,Defense,A. Romagnoli,https://cdn.sofifa.org/players/4/19/210413.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,82,89,70,28,65,24,69,69,60,64,78,75,81
+249,-6.334741357,2.622710247,CDM,Midfield,T. Partey,https://cdn.sofifa.org/players/4/19/209989.png,Ghana,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,82,88,85,53,78,58,79,76,72,79,84,87,81
+250,-7.983319952,-0.552951252,CM,Midfield,Fred,https://cdn.sofifa.org/players/4/19/209297.png,Brazil,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,82,84,85,70,79,72,80,79,84,76,83,87,61
+251,-6.007850955,-1.976528838,ST,Attack,J. Vardy,https://cdn.sofifa.org/players/4/19/208830.png,England,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,82,82,65,82,76,57,48,91,75,85,76,86,67
+252,-4.430863853,-2.921138314,LS,Attack,A. Belotti,https://cdn.sofifa.org/players/4/19/208596.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Right,82,87,68,80,78,56,42,79,79,81,83,83,84
+253,-5.322513815,-4.621281647,LM,Midfield,E. Forsberg,https://cdn.sofifa.org/players/4/19/208448.png,Sweden,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,82,83,85,67,82,77,69,70,81,73,53,74,62
+254,-7.321888841,-3.092684763,CAM,Midfield,J. Lingard,https://cdn.sofifa.org/players/4/19/207494.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,82,83,78,70,83,63,66,82,86,80,63,87,53
+255,-5.596271478,-1.820899726,LCM,Midfield,F. Vázquez,https://cdn.sofifa.org/players/4/19/207471.png,Argentina,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Left,82,82,84,81,86,68,78,62,69,76,44,61,79
+256,-6.470759225,-4.367959968,RM,Midfield,E. Viš?a,https://cdn.sofifa.org/players/4/19/205678.png,Bosnia Herzegovina,Medipol Ba?ak?ehir FK,https://cdn.sofifa.org/teams/2/light/101014.png,Right,82,82,78,74,82,60,69,89,93,79,69,84,58
+257,-2.459629987,5.236229862,CB,Defense,A. Rüdiger,https://cdn.sofifa.org/players/4/19/205452.png,Germany,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,84,75,34,59,56,72,78,59,70,73,60,82
+258,-8.678650559,-0.470642798,RB,Defense,A. Florenzi,https://cdn.sofifa.org/players/4/19/203551.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,83,77,87,78,79,75,84,87,82,74,90,67
+259,-2.761396068,5.45217017,LCB,Defense,H. Maguire,https://cdn.sofifa.org/players/4/19/203263.png,England,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,82,85,77,41,70,46,72,53,52,68,74,68,89
+260,-7.499036126,1.878498613,RM,Midfield,T. Meunier,https://cdn.sofifa.org/players/4/19/202371.png,Belgium,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,82,83,82,79,75,56,74,81,63,77,72,92,85
+261,-3.020973292,4.956640696,CB,Defense,S. Sané,https://cdn.sofifa.org/players/4/19/201956.png,Senegal,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Right,82,82,73,26,64,58,71,62,60,77,47,69,88
+262,-7.654439038,2.50021763,CM,Midfield,G. Kondogbia,https://cdn.sofifa.org/players/4/19/201455.png,Central African Rep.,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,82,85,81,59,78,56,79,76,76,86,83,85,91
+263,-7.266821703,-1.468109642,CAM,Midfield,Rafinha,https://cdn.sofifa.org/players/4/19/201400.png,Brazil,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Left,82,87,86,76,87,61,76,70,80,79,73,67,66
+264,-3.749513256,4.218580898,LCB,Defense,Gabriel Paulista,https://cdn.sofifa.org/players/4/19/201305.png,Brazil,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,83,74,48,60,46,69,74,69,61,83,72,82
+265,-4.640022358,-3.680994644,ST,Attack,Morata,https://cdn.sofifa.org/players/4/19/201153.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,85,78,80,83,44,51,86,66,80,84,68,78
+266,18.45936921,-2.137746222,GK,GoalKeper,J. Cillessen,https://cdn.sofifa.org/players/4/19/199987.png,Netherlands,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,82,84,47,19,12,10,33,50,48,35,71,40,67
+267,-6.703488423,-5.191512925,RS,Attack,W. Ben Yedder,https://cdn.sofifa.org/players/4/19/199451.png,France,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,82,82,78,78,84,76,66,83,91,79,81,69,60
+268,-5.807897579,-3.836952483,ST,Attack,C. Bakambu,https://cdn.sofifa.org/players/4/19/198951.png,DR Congo,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,82,83,75,80,80,54,66,88,80,84,79,79,76
+269,-6.639766381,-3.589356685,RCM,Midfield,Pablo Sarabia,https://cdn.sofifa.org/players/4/19/198950.png,Spain,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Left,82,83,83,64,86,74,77,76,80,76,40,72,58
+270,-5.284020839,-4.952841203,LS,Attack,W. Zaha,https://cdn.sofifa.org/players/4/19/198717.png,Ivory Coast,Crystal Palace,https://cdn.sofifa.org/teams/2/light/1799.png,Right,82,85,75,61,90,51,65,92,88,78,57,76,75
+271,-5.827792697,-5.057910277,CF,Attack,Luis Alberto,https://cdn.sofifa.org/players/4/19/198706.png,Spain,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,82,85,88,76,86,81,87,72,79,77,54,73,67
+272,-7.564363672,-2.466247164,LF,Attack,Jonathan Viera,https://cdn.sofifa.org/players/4/19/198164.png,Spain,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,82,82,84,65,84,76,78,76,89,70,88,79,67
+273,-5.647167834,2.660337032,CB,Defense,Bartra,https://cdn.sofifa.org/players/4/19/198141.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,82,83,79,43,70,45,78,72,72,66,89,67,71
+274,-0.816728234,6.477625027,RCB,Defense,S. Coates,https://cdn.sofifa.org/players/4/19/197655.png,Uruguay,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,82,83,72,39,64,19,70,64,32,50,54,81,94
+275,-4.262005521,-2.280810593,ST,Attack,Willian José,https://cdn.sofifa.org/players/4/19/195093.png,Brazil,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,82,83,78,80,79,71,50,65,65,84,72,73,90
+276,-6.440141082,2.489932585,RB,Defense,Mário Fernandes,https://cdn.sofifa.org/players/4/19/193525.png,Russia,PFC CSKA Moscow,https://cdn.sofifa.org/teams/2/light/315.png,Right,82,82,78,52,77,39,74,85,79,71,84,87,75
+277,-2.352142779,5.360975775,LCB,Defense,Víctor Ruiz,https://cdn.sofifa.org/players/4/19/193469.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Left,82,83,74,39,53,46,70,59,56,59,78,72,87
+278,-7.623735845,1.897947777,LCM,Midfield,T. Delaney,https://cdn.sofifa.org/players/4/19/193283.png,Denmark,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Left,82,83,79,66,73,68,77,78,73,78,91,90,79
+279,19.31649254,-1.272416108,GK,GoalKeper,K. Casteels,https://cdn.sofifa.org/players/4/19/192984.png,Belgium,VfL Wolfsburg,https://cdn.sofifa.org/teams/2/light/175.png,Left,82,85,35,13,14,13,37,46,50,21,58,44,72
+280,-7.654782756,-2.418283399,CM,Midfield,M. Götze,https://cdn.sofifa.org/players/4/19/192318.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,82,85,87,86,84,72,82,64,86,68,58,73,68
+281,-3.481958879,3.995612065,RCB,Defense,S. Mustafi,https://cdn.sofifa.org/players/4/19/192227.png,Germany,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,84,77,51,53,47,69,65,63,66,83,68,78
+282,-6.88541047,-2.074229985,CAM,Midfield,J. Pastore,https://cdn.sofifa.org/players/4/19/191180.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82,86,78,87,69,83,69,79,78,49,62,64
+283,-6.040338025,-4.617600674,RW,Midfield,Pedro,https://cdn.sofifa.org/players/4/19/189505.png,Spain,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,82,82,80,70,84,57,71,74,82,77,66,70,47
+284,-8.331500517,-0.60427277,CM,Midfield,G. Bonaventura,https://cdn.sofifa.org/players/4/19/189125.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,82,84,78,83,78,80,77,77,84,69,84,66
+285,19.0965972,-1.546428924,GK,GoalKeper,R. Bürki,https://cdn.sofifa.org/players/4/19/189117.png,Switzerland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,82,85,37,13,12,12,24,54,49,22,74,36,74
+286,-6.760292137,-3.962254787,LM,Midfield,Taison,https://cdn.sofifa.org/players/4/19/188803.png,Brazil,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Right,82,82,77,82,87,73,75,91,90,83,62,79,62
+287,-5.199035919,4.252157611,CDM,Midfield,S. Nzonzi,https://cdn.sofifa.org/players/4/19/187936.png,France,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82,79,55,72,42,77,55,36,79,75,86,92
+288,-7.261949562,-4.032411405,RM,Midfield,Marlos,https://cdn.sofifa.org/players/4/19/187754.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,82,82,81,68,87,72,73,82,92,77,68,78,62
+289,-7.3455199,-0.242653209,CAM,Midfield,A. Ramsey,https://cdn.sofifa.org/players/4/19/186561.png,Wales,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,83,84,79,81,66,80,69,73,81,66,89,67
+290,-7.356174466,0.915222381,RB,Defense,K. Trippier,https://cdn.sofifa.org/players/4/19/186345.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,82,82,79,54,75,83,78,75,74,75,73,88,65
+291,-7.646341294,2.034674074,LB,Defense,A. Kolarov,https://cdn.sofifa.org/players/4/19/185103.png,Serbia,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Left,82,82,77,64,79,86,77,70,63,91,80,84,77
+292,-6.850424985,-1.691614067,CAM,Midfield,G. Sigurðsson,https://cdn.sofifa.org/players/4/19/184484.png,Iceland,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,82,82,84,75,80,86,80,55,68,83,68,86,68
+293,-6.559868743,-6.818138498,CF,Attack,S. Giovinco,https://cdn.sofifa.org/players/4/19/184431.png,Italy,Toronto FC,https://cdn.sofifa.org/teams/2/light/111651.png,Right,82,82,80,75,86,93,76,80,94,80,34,77,42
+294,-6.619939892,-2.102915138,LS,Attack,M. Arnautovi?,https://cdn.sofifa.org/players/4/19/184200.png,Austria,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,82,82,78,79,84,72,74,83,70,84,67,78,84
+295,-6.22493044,-4.330986333,CAM,Midfield,N. Gaitán,https://cdn.sofifa.org/players/4/19/184144.png,Argentina,Dalian YiFang FC,https://cdn.sofifa.org/teams/2/light/112378.png,Left,82,82,81,81,84,72,75,79,87,72,81,69,46
+296,-7.415686349,1.404973549,RCM,Midfield,J. Henderson,https://cdn.sofifa.org/players/4/19/183711.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,82,82,84,72,73,74,84,66,70,77,79,91,72
+297,-6.891148683,-3.384218548,ST,Attack,M. Kruse,https://cdn.sofifa.org/players/4/19/183574.png,Germany,SV Werder Bremen,https://cdn.sofifa.org/teams/2/light/38.png,Left,82,82,84,80,82,69,80,67,74,81,65,71,72
+298,-7.575136144,1.640394676,RDM,Midfield,M. Parolo,https://cdn.sofifa.org/players/4/19/183498.png,Italy,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,82,82,80,76,75,55,83,69,67,87,77,88,77
+299,-3.94465187,4.237994278,CDM,Midfield,L. Fejsa,https://cdn.sofifa.org/players/4/19/183376.png,Serbia,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,82,82,78,53,68,57,74,55,57,73,73,90,78
+300,-2.066630031,5.600199738,RCB,Defense,A. Rami,https://cdn.sofifa.org/players/4/19/183280.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,82,82,66,45,56,55,68,67,54,77,76,84,91
+301,-3.416048747,4.623872115,LCB,Defense,V. ?orluka,https://cdn.sofifa.org/players/4/19/181786.png,Croatia,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,82,82,70,38,65,60,72,65,57,64,81,80,86
+302,-7.998625126,-0.402175613,CAM,Midfield,G. Wijnaldum,https://cdn.sofifa.org/players/4/19/181291.png,Netherlands,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,82,82,84,73,84,70,76,76,80,76,80,85,72
+303,-0.245074821,7.113126091,LCB,Defense,F. Fazio,https://cdn.sofifa.org/players/4/19/179847.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,82,82,64,35,48,37,62,43,29,63,41,74,91
+304,-4.046453336,-1.306260746,ST,Attack,O. Giroud,https://cdn.sofifa.org/players/4/19/178509.png,France,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Left,82,82,79,82,70,65,58,50,57,85,84,62,88
+305,-2.166831681,5.301911997,CB,Defense,Marcano,https://cdn.sofifa.org/players/4/19/173521.png,Spain,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Left,82,82,76,34,54,37,67,69,58,65,91,78,77
+306,-7.65923405,-0.457712902,CM,Midfield,A. Guardado,https://cdn.sofifa.org/players/4/19/171897.png,Mexico,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,82,82,85,69,80,81,83,73,81,74,74,84,57
+307,-2.839066221,4.660748513,RCB,Defense,E. Garay,https://cdn.sofifa.org/players/4/19/170481.png,Argentina,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,82,82,69,49,60,74,72,36,54,80,76,62,88
+308,-0.145410953,6.608413351,LCB,Defense,Jardel,https://cdn.sofifa.org/players/4/19/168530.png,Brazil,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,82,82,68,27,52,35,53,63,35,58,77,68,89
+309,19.28576923,-1.787131936,GK,GoalKeper,S. Sirigu,https://cdn.sofifa.org/players/4/19/168435.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Right,82,82,23,12,15,11,28,51,52,20,68,34,66
+310,19.70450633,-1.299651854,GK,GoalKeper,E. Viviano,https://cdn.sofifa.org/players/4/19/168354.png,Italy,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,82,82,36,13,18,16,37,33,35,21,66,29,58
+311,-2.32820408,4.806867616,CB,Defense,L. Koscielny,https://cdn.sofifa.org/players/4/19/165229.png,France,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,82,82,76,35,62,49,69,66,65,54,78,62,75
+312,19.39840057,-2.285385932,GK,GoalKeper,A. Consigli,https://cdn.sofifa.org/players/4/19/163489.png,Italy,Sassuolo,https://cdn.sofifa.org/teams/2/light/111974.png,Right,82,82,31,19,10,15,27,34,57,24,80,31,51
+313,-6.92092756,0.76491881,CDM,Midfield,L. Biglia,https://cdn.sofifa.org/players/4/19/158963.png,Argentina,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,82,82,86,78,80,76,82,65,76,77,62,75,65
+314,-8.524969486,-0.213955029,RB,Defense,Dani Alves,https://cdn.sofifa.org/players/4/19/146530.png,Brazil,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,82,82,81,68,84,74,79,79,84,86,80,74,55
+315,-5.889784297,-4.723039903,ST,Attack,David Villa,https://cdn.sofifa.org/players/4/19/113422.png,Spain,New York City FC,https://cdn.sofifa.org/teams/2/light/112828.png,Right,82,82,76,79,83,80,67,67,71,81,67,70,66
+316,-4.716192191,-1.260194327,ST,Attack,Aduriz,https://cdn.sofifa.org/players/4/19/106231.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,82,82,72,80,76,54,52,66,50,82,90,60,82
+317,19.35747559,-1.515252409,GK,GoalKeper,P. ?ech,https://cdn.sofifa.org/players/4/19/48940.png,Czech Republic,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,82,82,35,17,12,19,33,38,46,21,50,32,63
+318,18.30532847,-2.170495277,GK,GoalKeper,Casillas,https://cdn.sofifa.org/players/4/19/5479.png,Spain,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Left,82,82,21,14,25,13,22,57,62,28,77,43,70
+319,-6.240743751,-4.029665708,LW,Midfield,M. Rashford,https://cdn.sofifa.org/players/4/19/231677.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,89,75,72,83,78,65,93,88,87,68,79,71
+320,-4.782200099,-6.467440451,CAM,Midfield,Laure Santeiro,https://cdn.sofifa.org/players/4/19/230271.png,Brazil,Fluminense,https://cdn.sofifa.org/teams/2/light/567.png,Left,81,81,79,67,82,75,80,78,89,67,44,67,48
+321,-5.471527823,-5.231636441,LM,Midfield,L. Bailey,https://cdn.sofifa.org/players/4/19/229906.png,Jamaica,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,81,89,75,75,86,73,66,90,86,79,86,76,59
+322,-3.463326169,4.521601774,LCB,Defense,M. Akanji,https://cdn.sofifa.org/players/4/19/229237.png,Switzerland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,87,78,40,67,27,76,86,69,58,78,76,84
+323,-7.003203812,0.376695024,LDM,Midfield,F. de Jong,https://cdn.sofifa.org/players/4/19/228702.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,81,89,87,64,86,61,82,76,84,68,76,74,69
+324,-6.096181632,1.063675706,RB,Defense,Nélson Semedo,https://cdn.sofifa.org/players/4/19/227928.png,Portugal,FC Barcelona,https://cdn.sofifa.org/teams/2/light/241.png,Right,81,86,73,42,80,30,65,92,88,74,80,91,62
+325,-6.977911106,-0.333633328,CAM,Midfield,Pablo Fornals,https://cdn.sofifa.org/players/4/19/226456.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,81,86,84,70,81,60,80,66,79,75,59,77,67
+326,-7.146770344,-0.074145607,LM,Midfield,Fabián,https://cdn.sofifa.org/players/4/19/226271.png,Spain,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,89,80,65,81,59,80,67,73,75,46,73,69
+327,-2.318836011,4.600622002,CB,Defense,E. Bailly,https://cdn.sofifa.org/players/4/19/225508.png,Ivory Coast,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,87,70,42,60,43,56,79,65,55,85,72,85
+328,-6.789597441,-0.567626835,LCM,Midfield,Dani Ceballos,https://cdn.sofifa.org/players/4/19/222509.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,81,88,83,62,85,63,80,67,82,64,52,75,62
+329,-5.967619299,-4.305502254,LS,Attack,H. Lozano,https://cdn.sofifa.org/players/4/19/221992.png,Mexico,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,81,86,74,75,84,65,67,93,91,76,75,80,59
+330,-6.741915615,-2.872261828,LS,Attack,Morales,https://cdn.sofifa.org/players/4/19/216475.png,Spain,Levante UD,https://cdn.sofifa.org/teams/2/light/1853.png,Right,81,81,75,64,87,72,68,88,78,76,62,82,60
+331,-7.341141354,-0.672361994,LDM,Midfield,J. Seri,https://cdn.sofifa.org/players/4/19/216451.png,Ivory Coast,Fulham,https://cdn.sofifa.org/teams/2/light/144.png,Right,81,82,86,47,78,81,84,70,82,78,69,75,63
+332,-6.059322848,-4.960136614,RM,Midfield,M. Politano,https://cdn.sofifa.org/players/4/19/216409.png,Italy,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Left,81,84,78,73,84,75,74,84,90,78,50,79,45
+333,-7.598104785,0.274238339,LDM,Midfield,M. Brozovi?,https://cdn.sofifa.org/players/4/19/216352.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84,83,65,81,74,83,70,74,80,68,84,66
+334,-5.308547076,-2.758278821,LW,Midfield,Williams,https://cdn.sofifa.org/players/4/19/216201.png,Spain,Athletic Club de Bilbao,https://cdn.sofifa.org/teams/2/light/448.png,Right,81,87,79,68,82,53,66,94,80,85,86,75,85
+335,-6.740918845,-3.898180498,RM,Midfield,A. Correa,https://cdn.sofifa.org/players/4/19/214997.png,Argentina,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,81,87,73,79,87,65,65,82,87,80,50,74,63
+336,-1.999773465,5.306411112,LCB,Defense,A. Christensen,https://cdn.sofifa.org/players/4/19/213661.png,Denmark,Chelsea,https://cdn.sofifa.org/teams/2/light/5.png,Right,81,88,77,25,68,22,72,70,61,31,72,69,73
+337,-6.891691039,-1.118589391,CAM,Midfield,João Mário,https://cdn.sofifa.org/players/4/19/212814.png,Portugal,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84,83,69,83,67,78,69,81,76,64,79,68
+338,19.73165296,-1.744838091,GK,GoalKeper,T. Strakosha,https://cdn.sofifa.org/players/4/19/212151.png,Albania,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,81,86,26,11,14,12,22,46,31,18,49,23,56
+339,-4.95196346,2.760903273,RB,Defense,E. Hysaj,https://cdn.sofifa.org/players/4/19/210864.png,Albania,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,81,86,77,40,75,30,70,82,76,68,69,87,69
+340,-7.312315077,-1.368488926,RCM,Midfield,P. Zieli?ski,https://cdn.sofifa.org/players/4/19/210406.png,Poland,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Right,81,88,82,70,84,65,79,84,79,76,54,72,54
+341,-7.325971086,0.349094844,RB,Defense,Ricardo Pereira,https://cdn.sofifa.org/players/4/19/210243.png,Portugal,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,81,85,80,56,83,45,78,87,82,67,74,84,60
+342,-7.301028794,0.328680198,LB,Defense,Grimaldo,https://cdn.sofifa.org/players/4/19/210035.png,Spain,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Left,81,87,79,58,83,82,78,83,85,78,64,83,63
+343,-8.010727637,-1.334275513,LM,Midfield,R. Guerreiro,https://cdn.sofifa.org/players/4/19/209889.png,Portugal,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Left,81,86,84,78,83,82,75,68,88,79,63,72,49
+344,-6.422432138,2.168421359,RDM,Midfield,A. Doucouré,https://cdn.sofifa.org/players/4/19/208135.png,France,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,81,85,82,68,78,42,74,70,60,84,72,93,81
+345,-3.853986604,-5.206440968,LS,Attack,J. Martínez,https://cdn.sofifa.org/players/4/19/207877.png,Venezuela,Atlanta United,https://cdn.sofifa.org/teams/2/light/112885.png,Right,81,84,68,73,75,57,55,92,91,79,86,72,73
+346,-3.875916295,-3.891072477,LS,Attack,C. Bacca,https://cdn.sofifa.org/players/4/19/207664.png,Colombia,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,81,81,68,78,80,58,55,75,73,80,74,66,74
+347,-5.738435551,-3.639845426,LW,Midfield,A. Plea,https://cdn.sofifa.org/players/4/19/206467.png,France,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,83,76,81,78,74,68,77,79,83,75,82,77
+348,-6.164446057,2.17265263,LB,Defense,B. Davies,https://cdn.sofifa.org/players/4/19/205923.png,Wales,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,84,79,48,76,48,70,74,70,65,73,85,69
+349,-1.380349725,5.096006579,LCB,Defense,M. Nastasi?,https://cdn.sofifa.org/players/4/19/205362.png,Serbia,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Left,81,84,73,32,43,68,69,77,65,44,81,62,78
+350,-4.083917907,-3.088678531,CF,Attack,A. Milik,https://cdn.sofifa.org/players/4/19/205175.png,Poland,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,88,63,76,74,74,62,74,68,85,62,73,78
+351,-6.594897262,-1.903345844,LM,Midfield,M. Sabitzer,https://cdn.sofifa.org/players/4/19/204923.png,Austria,RB Leipzig,https://cdn.sofifa.org/teams/2/light/112172.png,Right,81,84,79,78,79,63,67,77,75,86,75,84,76
+352,-6.190963767,2.451128327,LB,Defense,B. Mendy,https://cdn.sofifa.org/players/4/19/204884.png,France,Manchester City,https://cdn.sofifa.org/teams/2/light/10.png,Left,81,86,80,31,80,34,69,86,68,79,71,81,81
+353,-4.381408236,3.30397886,CDM,Midfield,C. Kramer,https://cdn.sofifa.org/players/4/19/204024.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,82,80,49,71,51,72,52,66,53,51,93,69
+354,-5.825883096,2.223092367,RB,Defense,S. Vrsaljko,https://cdn.sofifa.org/players/4/19/203890.png,Croatia,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,84,77,53,74,57,70,79,67,75,85,90,73
+355,-6.255419214,-4.664479709,RW,Midfield,T. Hazard,https://cdn.sofifa.org/players/4/19/203486.png,Belgium,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,83,81,80,85,79,72,77,91,78,63,77,62
+356,-5.263245302,-4.155776825,RM,Midfield,K. Bellarabi,https://cdn.sofifa.org/players/4/19/202857.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81,78,72,87,58,58,91,86,85,75,73,68
+357,-5.137390976,-1.444980843,RS,Attack,S. Zaza,https://cdn.sofifa.org/players/4/19/202685.png,Italy,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Left,81,82,71,81,77,56,45,79,76,85,89,76,88
+358,-6.829457906,1.459910823,LB,Defense,F. Ghoulam,https://cdn.sofifa.org/players/4/19/201454.png,Algeria,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,82,79,52,79,68,74,82,72,80,73,88,68
+359,19.77342823,-1.770514479,GK,GoalKeper,B. Lecomte,https://cdn.sofifa.org/players/4/19/200726.png,France,Montpellier HSC,https://cdn.sofifa.org/teams/2/light/70.png,Left,81,84,17,10,11,19,21,40,36,18,62,34,55
+360,-5.758634438,-3.349437212,CAM,Midfield,J. Ili?i?,https://cdn.sofifa.org/players/4/19/200647.png,Slovenia,Atalanta,https://cdn.sofifa.org/teams/2/light/39.png,Left,81,81,82,80,83,84,74,70,70,87,33,64,74
+361,-6.438640121,-2.819853064,ST,Attack,K. Volland,https://cdn.sofifa.org/players/4/19/200610.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,81,83,81,77,79,76,67,77,73,85,78,88,82
+362,-4.761554147,-4.548051746,ST,Attack,Paco Alcácer,https://cdn.sofifa.org/players/4/19/200454.png,Spain,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,85,76,84,78,63,51,80,83,80,75,65,64
+363,-5.357015878,-3.133899696,LM,Midfield,Vitolo,https://cdn.sofifa.org/players/4/19/199715.png,Spain,Atlético Madrid,https://cdn.sofifa.org/teams/2/light/240.png,Right,81,81,79,75,84,62,80,77,74,77,70,80,81
+364,-5.513561513,1.817615463,LDM,Midfield,G. Xhaka,https://cdn.sofifa.org/players/4/19/199503.png,Switzerland,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Left,81,84,85,50,70,77,85,49,49,88,32,80,75
+365,-5.313766429,-3.890220817,LAM,Midfield,D. Tadi?,https://cdn.sofifa.org/players/4/19/199434.png,Serbia,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,81,81,81,73,85,76,77,68,82,69,64,69,62
+366,-7.382665203,-0.475182201,LDM,Midfield,C. Aránguiz,https://cdn.sofifa.org/players/4/19/199042.png,Chile,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81,84,68,75,76,83,65,80,80,61,87,63
+367,-6.979011526,-4.730816561,RW,Midfield,S. Verdi,https://cdn.sofifa.org/players/4/19/196889.png,Italy,Napoli,https://cdn.sofifa.org/teams/2/light/48.png,Left,81,81,82,74,84,84,76,86,92,81,51,75,48
+368,-1.010061451,5.818170255,RCB,Defense,D. Lovren,https://cdn.sofifa.org/players/4/19/195086.png,Croatia,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,81,82,69,42,63,18,66,55,50,63,81,68,82
+369,-5.22657796,2.852343463,RCB,Defense,G. Medel,https://cdn.sofifa.org/players/4/19/193532.png,Chile,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,81,81,79,58,63,45,78,70,78,65,89,84,83
+370,-7.094777334,-4.04369647,CAM,Midfield,X. Shaqiri,https://cdn.sofifa.org/players/4/19/193348.png,Switzerland,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Left,81,81,81,76,86,84,80,77,84,87,52,75,73
+371,-6.544404832,-5.126272018,RM,Midfield,J. Corona,https://cdn.sofifa.org/players/4/19/193165.png,Mexico,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,81,83,76,75,91,67,68,79,90,66,72,74,39
+372,18.86394395,-1.667318779,GK,GoalKeper,A. Areola,https://cdn.sofifa.org/players/4/19/193105.png,France,Paris Saint-Germain,https://cdn.sofifa.org/teams/2/light/73.png,Right,81,85,41,16,12,16,32,52,53,25,59,28,80
+373,-4.59736273,3.839857557,CB,Defense,K. Vogt,https://cdn.sofifa.org/players/4/19/192641.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,81,82,79,51,67,62,83,82,59,78,54,74,85
+374,-7.86068439,0.676935695,CM,Midfield,Ander Herrera,https://cdn.sofifa.org/players/4/19/191740.png,Spain,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,81,83,65,77,65,79,68,79,75,61,87,67
+375,-7.61699839,-2.244967146,RW,Midfield,E. Salvio,https://cdn.sofifa.org/players/4/19/190972.png,Argentina,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,81,81,75,72,85,64,72,87,83,80,87,85,63
+376,-5.446057738,-4.882646751,LM,Midfield,S. El Shaarawy,https://cdn.sofifa.org/players/4/19/190813.png,Italy,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,81,82,74,79,84,63,57,87,85,74,60,68,54
+377,-1.33914466,5.04692363,RCB,Defense,C. Smalling,https://cdn.sofifa.org/players/4/19/189881.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,82,63,49,59,22,63,74,55,42,76,71,87
+378,-6.786745756,-2.24216371,RCM,Midfield,Hulk,https://cdn.sofifa.org/players/4/19/189362.png,Brazil,Shanghai SIPG FC,https://cdn.sofifa.org/teams/2/light/112540.png,Left,81,81,78,73,82,81,72,80,69,94,69,86,92
+379,-5.878177459,-3.492505743,CAM,Midfield,S. Kagawa,https://cdn.sofifa.org/players/4/19/189358.png,Japan,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,81,83,76,86,63,72,60,87,54,65,82,39
+380,-5.368769881,-5.719042547,CAM,Midfield,M. Lanzini,https://cdn.sofifa.org/players/4/19/188988.png,Argentina,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,81,85,80,61,87,76,78,78,86,75,75,73,39
+381,-4.728118999,-4.195957809,ST,Attack,F. Smolov,https://cdn.sofifa.org/players/4/19/187491.png,Russia,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81,77,79,77,69,62,85,75,80,67,74,75
+382,-7.328969184,-1.810016414,CF,Attack,L. Stindl,https://cdn.sofifa.org/players/4/19/187072.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,81,85,86,78,69,69,67,70,81,73,78,69
+383,-2.616740486,4.341584025,CB,Defense,O. Toprak,https://cdn.sofifa.org/players/4/19/185239.png,Turkey,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,82,75,47,63,33,70,83,64,62,80,67,78
+384,-5.965802358,-4.305574297,LW,Midfield,D. Perotti,https://cdn.sofifa.org/players/4/19/183900.png,Argentina,Roma,https://cdn.sofifa.org/teams/2/light/52.png,Right,81,81,81,60,88,64,69,76,83,73,64,73,60
+385,18.12815768,-2.198416567,GK,GoalKeper,F. Muslera,https://cdn.sofifa.org/players/4/19/182494.png,Uruguay,Galatasaray SK,https://cdn.sofifa.org/teams/2/light/325.png,Right,81,81,44,10,25,10,47,62,68,25,84,45,68
+386,-2.418600381,4.539545297,RCB,Defense,B. Höwedes,https://cdn.sofifa.org/players/4/19/179784.png,Germany,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81,72,45,59,52,64,52,60,57,78,61,78
+387,-2.21503785,4.767379803,RCB,Defense,S. Kjær,https://cdn.sofifa.org/players/4/19/179645.png,Denmark,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,81,81,73,37,46,69,69,65,40,78,70,76,80
+388,-3.116892717,4.473606877,LCB,Defense,S. Bender,https://cdn.sofifa.org/players/4/19/177458.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Right,81,81,74,54,58,30,69,72,63,73,73,83,77
+389,-5.394344457,-5.450078258,LM,Midfield,M. Valbuena,https://cdn.sofifa.org/players/4/19/177326.png,France,Fenerbahçe SK,https://cdn.sofifa.org/teams/2/light/326.png,Right,81,81,82,76,83,77,77,79,86,75,60,73,37
+390,-5.608626928,-3.516224842,RM,Midfield,Pedro León,https://cdn.sofifa.org/players/4/19/175379.png,Spain,SD Eibar,https://cdn.sofifa.org/teams/2/light/467.png,Right,81,81,83,68,84,85,85,63,68,84,39,65,63
+391,-7.49116702,0.184597706,CM,Midfield,K. Boateng,https://cdn.sofifa.org/players/4/19/173909.png,Ghana,Sassuolo,https://cdn.sofifa.org/teams/2/light/111974.png,Right,81,81,82,83,79,71,78,65,77,84,76,68,78
+392,-6.611919896,2.056501098,RB,Defense,L. Piszczek,https://cdn.sofifa.org/players/4/19/173771.png,Poland,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,81,81,76,64,72,47,69,83,66,78,77,77,78
+393,-7.244863469,-2.149513427,RM,Midfield,A. Candreva,https://cdn.sofifa.org/players/4/19/173221.png,Italy,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,81,78,75,82,71,73,78,74,87,35,86,69
+394,-7.641270453,-0.359497028,RB,Defense,D. Wass,https://cdn.sofifa.org/players/4/19/172522.png,Denmark,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,81,81,82,71,80,85,79,76,79,86,59,90,70
+395,-6.720047918,-2.396747263,RM,Midfield,E. Lamela,https://cdn.sofifa.org/players/4/19/170368.png,Argentina,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,82,83,77,86,80,73,74,75,81,63,78,68
+396,-6.451297391,1.695063773,LB,Defense,D. Rose,https://cdn.sofifa.org/players/4/19/169595.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Left,81,81,76,64,80,57,66,78,69,68,75,78,72
+397,-5.540047065,-4.795713692,RW,Midfield,C. Vela,https://cdn.sofifa.org/players/4/19/169416.png,Mexico,Los Angeles FC,https://cdn.sofifa.org/teams/2/light/112996.png,Left,81,81,81,82,83,71,66,80,81,74,68,74,67
+398,-6.581449745,0.169161073,LCM,Midfield,Renato Augusto,https://cdn.sofifa.org/players/4/19/169195.png,Brazil,Beijing Sinobo Guoan FC,https://cdn.sofifa.org/teams/2/light/111768.png,Right,81,81,81,77,82,75,81,67,66,81,49,81,76
+399,-7.175243522,1.662612643,RM,Midfield,A. Valencia,https://cdn.sofifa.org/players/4/19/167905.png,Ecuador,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Right,81,81,81,64,80,66,72,85,72,85,69,79,79
+400,19.28811745,-1.760629309,GK,GoalKeper,L. Fabia?ski,https://cdn.sofifa.org/players/4/19/164835.png,Poland,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,81,81,20,17,14,12,32,47,52,14,68,25,65
+401,-7.448131733,-0.844310169,RCM,Midfield,João Moutinho,https://cdn.sofifa.org/players/4/19/162347.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Right,81,81,83,76,79,79,81,59,76,76,77,78,63
+402,-7.035882476,-0.980721269,CAM,Midfield,Borja Valero,https://cdn.sofifa.org/players/4/19/161956.png,Spain,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,81,81,89,70,85,76,85,52,74,72,67,69,66
+403,-5.158248758,-4.977672539,RS,Attack,F. Quagliarella,https://cdn.sofifa.org/players/4/19/159261.png,Italy,Sampdoria,https://cdn.sofifa.org/teams/2/light/1837.png,Right,81,81,76,87,76,78,73,67,71,87,69,66,76
+404,-4.038316215,-3.125159959,ST,Attack,B. Gomis,https://cdn.sofifa.org/players/4/19/159145.png,France,Al Hilal,https://cdn.sofifa.org/teams/2/light/605.png,Right,81,81,75,79,78,62,46,70,59,84,74,68,83
+405,-7.470275483,-1.202531266,LM,Midfield,Manuel Fernandes,https://cdn.sofifa.org/players/4/19/157960.png,Portugal,Lokomotiv Moscow,https://cdn.sofifa.org/teams/2/light/100765.png,Right,81,81,80,69,86,70,80,76,82,81,74,76,71
+406,-6.915253763,1.111630195,CM,Midfield,H. Herrera,https://cdn.sofifa.org/players/4/19/156519.png,Mexico,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,81,81,78,59,76,63,75,73,66,81,66,94,73
+407,-6.372774653,-3.978183696,CF,Attack,Raffael,https://cdn.sofifa.org/players/4/19/144622.png,Brazil,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,81,81,83,83,87,77,76,66,83,77,70,62,62
+408,-6.240201256,-5.278431499,LM,Midfield,Nani,https://cdn.sofifa.org/players/4/19/139068.png,Portugal,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Right,81,81,79,75,87,79,77,74,92,85,37,74,62
+409,-8.097035509,0.966818769,CM,Midfield,J. Milner,https://cdn.sofifa.org/players/4/19/138412.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,81,81,84,76,76,75,81,62,69,82,62,91,71
+410,-4.786925944,3.665911196,LCB,Defense,J. Mathieu,https://cdn.sofifa.org/players/4/19/112316.png,France,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,81,81,73,61,65,75,77,74,52,80,65,78,89
+411,-5.585305598,-3.942381536,LS,Attack,Joaquín,https://cdn.sofifa.org/players/4/19/45186.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,81,81,82,68,85,77,83,65,72,74,33,54,64
+412,-2.836965015,-2.557367364,ST,Attack,M. Gómez,https://cdn.sofifa.org/players/4/19/239207.png,Uruguay,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Right,80,85,76,76,76,53,58,65,45,79,73,71,80
+413,-4.807529608,-3.641123233,CAM,Midfield,K. Havertz,https://cdn.sofifa.org/players/4/19/235790.png,Germany,Bayer 04 Leverkusen,https://cdn.sofifa.org/teams/2/light/32.png,Left,80,89,82,71,81,53,73,86,78,66,69,73,61
+414,-7.119836821,0.16019794,CM,Midfield,T. Ndombele,https://cdn.sofifa.org/players/4/19/235569.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,80,89,82,59,86,63,79,76,83,80,63,78,78
+415,-6.876014989,-1.456281513,LM,Midfield,H. Aouar,https://cdn.sofifa.org/players/4/19/234906.png,France,Olympique Lyonnais,https://cdn.sofifa.org/teams/2/light/66.png,Right,80,90,84,68,84,59,78,79,81,61,61,79,61
+416,-6.874915085,-1.632902011,RM,Midfield,Carlos Soler,https://cdn.sofifa.org/players/4/19/234153.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,87,84,66,79,82,79,77,75,77,59,78,65
+417,-5.32993672,1.505163999,RB,Defense,Odriozola,https://cdn.sofifa.org/players/4/19/234035.png,Spain,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,80,88,77,48,69,30,70,82,78,58,71,80,63
+418,-5.944297596,-3.347380313,CAM,Midfield,M. Almirón,https://cdn.sofifa.org/players/4/19/230977.png,Paraguay,Atlanta United,https://cdn.sofifa.org/teams/2/light/112885.png,Left,80,84,79,75,81,70,70,89,86,78,46,85,52
+419,-6.421060873,0.822924615,LB,Defense,Welington Dano,https://cdn.sofifa.org/players/4/19/230347.png,Brazil,Cruzeiro,https://cdn.sofifa.org/teams/2/light/568.png,Left,80,80,78,47,77,52,71,80,83,55,71,89,68
+420,-5.601470835,1.979389447,CDM,Midfield,Everton Andrão,https://cdn.sofifa.org/players/4/19/230234.png,Brazil,Fluminense,https://cdn.sofifa.org/teams/2/light/567.png,Right,80,80,78,58,75,73,75,68,78,72,67,89,71
+421,-4.586481449,-3.839924943,CAM,Midfield,Oyarzabal,https://cdn.sofifa.org/players/4/19/230142.png,Spain,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Left,80,87,80,64,84,71,73,75,70,73,58,71,59
+422,0.127800733,6.14287651,RCB,Defense,F. Balbuena,https://cdn.sofifa.org/players/4/19/228229.png,Paraguay,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Right,80,83,71,24,47,34,56,65,42,71,73,76,84
+423,-3.485106554,-1.375488985,RS,Attack,M. Marega,https://cdn.sofifa.org/players/4/19/227536.png,Mali,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,80,80,68,75,62,37,52,88,67,86,74,91,90
+424,-4.576895407,3.359898121,RB,Defense,B. Pavard,https://cdn.sofifa.org/players/4/19/226851.png,France,VfB Stuttgart,https://cdn.sofifa.org/teams/2/light/36.png,Right,80,86,78,57,66,51,80,73,68,60,86,77,74
+425,-6.001367307,2.679375272,LDM,Midfield,W. Ndidi,https://cdn.sofifa.org/players/4/19/226790.png,Nigeria,Leicester City,https://cdn.sofifa.org/teams/2/light/95.png,Right,80,85,74,66,74,58,70,73,67,82,90,92,75
+426,18.21637174,-2.606504328,GK,GoalKeper,A. Onana,https://cdn.sofifa.org/players/4/19/226753.png,Cameroon,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Right,80,85,33,13,26,17,26,62,68,21,80,39,67
+427,-6.924510712,-1.163668364,RCM,Midfield,G. Lo Celso,https://cdn.sofifa.org/players/4/19/226226.png,Argentina,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,86,81,69,81,72,80,75,81,79,64,80,67
+428,-8.570083632,0.12001288,LB,Defense,M. Acuña,https://cdn.sofifa.org/players/4/19/224334.png,Argentina,Sporting CP,https://cdn.sofifa.org/teams/2/light/237.png,Left,80,80,78,68,85,78,76,75,84,83,69,90,84
+429,-6.460160751,0.656084138,LCM,Midfield,Rúben Neves,https://cdn.sofifa.org/players/4/19/224293.png,Portugal,Wolverhampton Wanderers,https://cdn.sofifa.org/teams/2/light/110.png,Right,80,87,84,74,73,83,85,64,65,83,68,78,70
+430,-4.959715667,-2.367404936,ST,Attack,Mariano,https://cdn.sofifa.org/players/4/19/221639.png,Dominican Republic,Real Madrid,https://cdn.sofifa.org/teams/2/light/243.png,Right,80,85,69,70,75,76,51,85,79,85,92,81,79
+431,-2.006425169,4.901763206,CB,Defense,Raúl,https://cdn.sofifa.org/players/4/19/221540.png,Brazil,SC Braga,https://cdn.sofifa.org/teams/2/light/1896.png,Left,80,80,68,49,56,43,62,51,59,67,85,75,85
+432,-0.173028022,5.66953983,CB,Defense,M. Caldara,https://cdn.sofifa.org/players/4/19/220477.png,Italy,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,86,63,51,62,24,58,69,58,38,76,67,79
+433,-7.279460013,1.518564588,LM,Midfield,M. Vecino,https://cdn.sofifa.org/players/4/19/219985.png,Uruguay,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,80,81,83,62,84,58,79,69,66,78,67,81,75
+434,-4.226025874,3.816081024,LCM,Midfield,T. Bakayoko,https://cdn.sofifa.org/players/4/19/219809.png,France,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,85,78,36,76,37,75,69,64,72,76,83,80
+435,-6.546244378,-0.862317631,CM,Midfield,M. Dahoud,https://cdn.sofifa.org/players/4/19/218339.png,Germany,Borussia Dortmund,https://cdn.sofifa.org/teams/2/light/22.png,Right,80,86,83,59,85,53,78,67,87,83,76,89,58
+436,-5.073811043,-5.380645365,RW,Midfield,Rafa,https://cdn.sofifa.org/players/4/19/216547.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,80,83,75,64,86,56,64,93,88,75,58,78,40
+437,-4.853004413,-4.594660468,RM,Midfield,K. Baldé,https://cdn.sofifa.org/players/4/19/215785.png,Senegal,Inter,https://cdn.sofifa.org/teams/2/light/44.png,Right,80,85,76,68,83,52,64,92,82,78,67,73,76
+438,18.74654944,-2.215045644,GK,GoalKeper,G. Rulli,https://cdn.sofifa.org/players/4/19/215316.png,Argentina,Real Sociedad,https://cdn.sofifa.org/teams/2/light/457.png,Right,80,85,32,16,14,20,23,48,58,24,65,42,73
+439,19.29446114,-1.073926164,GK,GoalKeper,F. Armani,https://cdn.sofifa.org/players/4/19/214584.png,Argentina,River Plate,https://cdn.sofifa.org/teams/2/light/1876.png,Right,80,80,34,18,19,16,21,40,40,25,65,28,82
+440,-4.571240876,-5.564382039,RM,Midfield,Rony Lopes,https://cdn.sofifa.org/players/4/19/212692.png,Portugal,AS Monaco,https://cdn.sofifa.org/teams/2/light/69.png,Left,80,85,79,56,82,74,72,76,84,76,51,70,56
+441,-5.389266908,-1.975383448,LS,Attack,Santi Mina,https://cdn.sofifa.org/players/4/19/212623.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,85,69,70,81,55,65,81,78,78,74,75,73
+442,-6.379268781,-1.718446178,RCM,Midfield,K. Demirbay,https://cdn.sofifa.org/players/4/19/211748.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Left,80,84,82,59,82,80,80,67,77,75,72,74,67
+443,-6.627719103,0.202883195,LB,Defense,Gayà,https://cdn.sofifa.org/players/4/19/211688.png,Spain,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Left,80,85,81,58,77,49,75,87,79,62,54,83,61
+444,-6.524946096,1.150240398,LDM,Midfield,André Gomes,https://cdn.sofifa.org/players/4/19/211575.png,Portugal,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,85,82,63,80,67,81,62,67,80,58,76,86
+445,-5.5394367,1.71002392,LB,Defense,N. Tagliafico,https://cdn.sofifa.org/players/4/19/211256.png,Argentina,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,80,82,75,38,74,40,67,86,79,66,90,91,63
+446,-7.64103376,0.082703488,RDM,Midfield,M. Sanson,https://cdn.sofifa.org/players/4/19/210896.png,France,Olympique de Marseille,https://cdn.sofifa.org/teams/2/light/219.png,Right,80,85,80,70,77,70,84,74,79,79,75,79,76
+447,19.02068682,-1.733005606,GK,GoalKeper,Pacheco,https://cdn.sofifa.org/players/4/19/209960.png,Spain,Deportivo Alavés,https://cdn.sofifa.org/teams/2/light/463.png,Left,80,83,24,13,13,20,27,42,62,21,72,43,72
+448,-7.196445464,2.044177512,CM,Midfield,E. Can,https://cdn.sofifa.org/players/4/19/208333.png,Germany,Juventus,https://cdn.sofifa.org/teams/2/light/45.png,Right,80,85,81,61,76,65,80,73,73,81,76,85,83
+449,-7.171224034,-2.645753116,CAM,Midfield,H. Çalhano?lu,https://cdn.sofifa.org/players/4/19/208128.png,Turkey,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Right,80,84,83,77,85,90,80,69,78,86,46,76,54
+450,-3.851465546,3.913245981,RWB,Defense,M. Ginter,https://cdn.sofifa.org/players/4/19/207862.png,Germany,Borussia Mönchengladbach,https://cdn.sofifa.org/teams/2/light/23.png,Right,80,82,75,53,62,42,70,69,55,74,65,74,81
+451,-2.213628712,4.63563352,RCB,Defense,M. Keane,https://cdn.sofifa.org/players/4/19/207599.png,England,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,83,71,40,66,33,69,65,59,58,82,68,85
+452,-7.261999613,0.033499762,CM,Midfield,L. Paredes,https://cdn.sofifa.org/players/4/19/207439.png,Argentina,,https://cdn.sofifa.org/flags/52.png,Right,80,85,84,73,78,78,82,69,77,82,61,79,69
+453,-5.192534699,2.830903112,RDM,Midfield,T. Stepanenko,https://cdn.sofifa.org/players/4/19/206413.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80,81,56,64,45,77,64,60,75,71,82,76
+454,-6.028718119,1.796861014,LB,Defense,L. Shaw,https://cdn.sofifa.org/players/4/19/205988.png,England,Manchester United,https://cdn.sofifa.org/teams/2/light/11.png,Left,80,85,78,54,82,58,68,85,74,65,73,77,75
+455,-1.471256719,5.458561325,CB,Defense,Z. Feddal,https://cdn.sofifa.org/players/4/19/205705.png,Morocco,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,80,76,39,56,38,68,62,50,67,73,64,81
+456,-3.539977356,-1.010832779,RS,Attack,S. Haller,https://cdn.sofifa.org/players/4/19/205693.png,France,Eintracht Frankfurt,https://cdn.sofifa.org/teams/2/light/1824.png,Right,80,83,70,79,72,46,35,76,68,77,80,72,91
+457,-5.349670414,-5.82942918,LM,Midfield,Bernard,https://cdn.sofifa.org/players/4/19/205525.png,Brazil,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Right,80,81,76,68,82,69,68,86,94,76,61,68,34
+458,-5.616455939,-4.34123467,LM,Midfield,T. Inui,https://cdn.sofifa.org/players/4/19/205114.png,Japan,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,80,80,76,68,88,65,70,77,94,72,63,76,51
+459,-6.630309937,-1.107506424,RM,Midfield,Portu,https://cdn.sofifa.org/players/4/19/205070.png,Spain,Girona FC,https://cdn.sofifa.org/teams/2/light/110062.png,Right,80,81,83,72,82,64,78,80,79,77,71,83,71
+460,-3.606780855,-4.1561304,ST,Attack,M. Batshuayi,https://cdn.sofifa.org/players/4/19/204529.png,Belgium,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,84,64,85,78,46,36,76,75,81,80,66,78
+461,-5.48022838,-3.732097105,LS,Attack,E. Zahavi,https://cdn.sofifa.org/players/4/19/204399.png,Israel,Guangzhou R&F; FC,https://cdn.sofifa.org/teams/2/light/112429.png,Right,80,80,78,77,81,78,69,72,88,79,74,74,68
+462,19.26946806,-1.20090229,GK,GoalKeper,T. Vaclík,https://cdn.sofifa.org/players/4/19/204120.png,Czech Republic,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,80,81,17,13,14,16,38,35,32,20,70,35,73
+463,19.23515547,-1.225237185,GK,GoalKeper,N. Pope,https://cdn.sofifa.org/players/4/19/203841.png,England,Burnley,https://cdn.sofifa.org/teams/2/light/1796.png,Right,80,83,32,14,15,12,35,47,36,17,72,37,73
+464,-5.348155132,1.101416148,RB,Defense,Héctor Bellerín,https://cdn.sofifa.org/players/4/19/203747.png,Spain,Arsenal,https://cdn.sofifa.org/teams/2/light/1.png,Right,80,85,76,41,75,50,59,91,82,52,63,84,58
+465,-5.027417396,2.627919914,RWB,Defense,P. Kade?ábek,https://cdn.sofifa.org/players/4/19/203605.png,Czech Republic,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Right,80,81,77,57,76,52,69,78,66,66,69,86,79
+466,18.44191134,-1.419983822,GK,GoalKeper,J. Butland,https://cdn.sofifa.org/players/4/19/203042.png,England,Stoke City,https://cdn.sofifa.org/teams/2/light/1806.png,Right,80,85,40,12,21,14,30,55,55,29,76,40,79
+467,-0.353812475,6.099868908,CB,Defense,J. Vestergaard,https://cdn.sofifa.org/players/4/19/202849.png,Denmark,Southampton,https://cdn.sofifa.org/teams/2/light/17.png,Right,80,81,67,28,44,52,80,38,29,83,33,54,94
+468,-2.796317362,4.500395944,RCB,Defense,J. Tarkowski,https://cdn.sofifa.org/players/4/19/202695.png,England,Burnley,https://cdn.sofifa.org/teams/2/light/1796.png,Right,80,83,73,40,66,57,72,63,58,63,82,69,81
+469,-4.789688491,-5.822015463,RS,Attack,Deulofeu,https://cdn.sofifa.org/players/4/19/202477.png,Spain,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,80,82,78,68,88,77,62,88,94,72,70,70,54
+470,-4.865142557,4.251042196,CDM,Midfield,E. Dier,https://cdn.sofifa.org/players/4/19/202335.png,England,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,80,84,77,51,65,74,78,68,52,82,77,78,89
+471,-2.114802974,4.394350883,LCB,Defense,J. Murillo,https://cdn.sofifa.org/players/4/19/201377.png,Colombia,Valencia CF,https://cdn.sofifa.org/teams/2/light/461.png,Right,80,84,68,54,58,26,62,76,77,68,89,72,80
+472,-5.6804896,1.963902739,CDM,Midfield,M. Badelj,https://cdn.sofifa.org/players/4/19/201144.png,Croatia,Lazio,https://cdn.sofifa.org/teams/2/light/46.png,Right,80,80,82,66,72,58,82,56,68,72,58,79,71
+473,-6.848893652,0.753906626,LB,Defense,Ismaily,https://cdn.sofifa.org/players/4/19/201119.png,Brazil,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80,81,55,83,50,67,80,72,75,59,88,75
+474,-5.310055677,1.612549196,LWB,Defense,N. Schulz,https://cdn.sofifa.org/players/4/19/200536.png,Germany,TSG 1899 Hoffenheim,https://cdn.sofifa.org/teams/2/light/10029.png,Left,80,81,78,49,79,42,70,86,76,65,60,79,76
+475,-6.619969618,1.273223888,LB,Defense,L. Digne,https://cdn.sofifa.org/players/4/19/200458.png,France,Everton,https://cdn.sofifa.org/teams/2/light/7.png,Left,80,84,81,45,76,67,69,75,68,77,73,79,69
+476,-4.796881642,-3.433140162,ST,Attack,M. Uth,https://cdn.sofifa.org/players/4/19/200318.png,Germany,FC Schalke 04,https://cdn.sofifa.org/teams/2/light/34.png,Left,80,81,72,74,78,57,68,76,74,85,77,75,67
+477,-4.795554582,-4.583699681,LM,Midfield,Cristian Tello,https://cdn.sofifa.org/players/4/19/200315.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Right,80,80,77,75,82,64,70,89,82,78,72,73,58
+478,-2.101615663,4.610853415,LCB,Defense,D. Vida,https://cdn.sofifa.org/players/4/19/199206.png,Croatia,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,80,80,66,36,53,35,60,80,64,54,79,76,77
+479,-4.590281326,-5.198989508,ST,Attack,L. Muriel,https://cdn.sofifa.org/players/4/19/199110.png,Colombia,Sevilla FC,https://cdn.sofifa.org/teams/2/light/481.png,Right,80,81,75,75,85,60,55,89,85,80,62,74,80
+480,-5.656568226,-3.399949724,ST,Attack,V. Aboubakar,https://cdn.sofifa.org/players/4/19/199069.png,Cameroon,FC Porto,https://cdn.sofifa.org/teams/2/light/236.png,Right,80,82,75,81,81,67,68,83,72,81,78,83,85
+481,-7.594450314,-1.177092745,CM,Midfield,A. Oxlade-Chamberlain,https://cdn.sofifa.org/players/4/19/198784.png,England,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,80,85,80,58,84,60,75,85,81,80,69,82,72
+482,-6.392542648,2.123756201,RB,Defense,S. Aurier,https://cdn.sofifa.org/players/4/19/197853.png,Ivory Coast,Tottenham Hotspur,https://cdn.sofifa.org/teams/2/light/18.png,Right,80,83,78,47,76,30,72,78,73,71,94,77,74
+483,-2.992894939,4.766229881,CB,Defense,J. Matip,https://cdn.sofifa.org/players/4/19/197061.png,Cameroon,Liverpool,https://cdn.sofifa.org/teams/2/light/9.png,Right,80,82,77,50,65,22,74,69,55,66,66,73,77
+484,-6.140465675,2.518255628,LCB,Defense,Y. Rakitskyi,https://cdn.sofifa.org/players/4/19/195861.png,Ukraine,Shakhtar Donetsk,https://cdn.sofifa.org/teams/2/light/101059.png,Left,80,80,78,53,69,77,84,72,68,87,74,82,84
+485,-4.706911508,-1.977422317,RS,Attack,Sergi Enrich,https://cdn.sofifa.org/players/4/19/194879.png,Spain,SD Eibar,https://cdn.sofifa.org/teams/2/light/467.png,Right,80,80,79,82,76,47,61,65,70,77,81,80,83
+486,-5.898840861,-2.706320069,RM,Midfield,A. Yarmolenko,https://cdn.sofifa.org/players/4/19/194794.png,Ukraine,West Ham United,https://cdn.sofifa.org/teams/2/light/19.png,Left,80,80,78,74,86,75,74,76,73,83,61,60,76
+487,-4.077377409,3.154625703,RB,Defense,Hugo Mallo,https://cdn.sofifa.org/players/4/19/194229.png,Spain,RC Celta,https://cdn.sofifa.org/teams/2/light/450.png,Right,80,81,71,28,69,38,68,71,77,74,82,91,69
+488,-5.835718912,3.03547381,RB,Defense,André Almeida,https://cdn.sofifa.org/players/4/19/194022.png,Portugal,SL Benfica,https://cdn.sofifa.org/teams/2/light/234.png,Right,80,80,78,45,75,42,75,66,66,70,77,84,78
+489,-6.119121256,-2.068646642,CAM,Midfield,D. Didavi,https://cdn.sofifa.org/players/4/19/193886.png,Germany,VfB Stuttgart,https://cdn.sofifa.org/teams/2/light/36.png,Left,80,80,80,73,81,75,75,67,75,88,76,66,76
+490,-7.157259537,0.82825834,LB,Defense,R. Rodríguez,https://cdn.sofifa.org/players/4/19/193352.png,Switzerland,Milan,https://cdn.sofifa.org/teams/2/light/47.png,Left,80,83,78,67,76,84,78,73,73,78,73,77,75
+491,-7.046382317,-1.16962108,LM,Midfield,R. Pereyra,https://cdn.sofifa.org/players/4/19/193061.png,Argentina,Watford,https://cdn.sofifa.org/teams/2/light/1795.png,Right,80,80,82,73,84,72,75,76,75,68,65,77,63
+492,-6.015710107,2.054769347,RB,Defense,Mario Gaspar,https://cdn.sofifa.org/players/4/19/192789.png,Spain,Villarreal CF,https://cdn.sofifa.org/teams/2/light/483.png,Right,80,80,77,77,73,54,69,80,68,81,73,77,79
+493,-2.175392881,5.207176252,CB,Defense,Maicon,https://cdn.sofifa.org/players/4/19/191687.png,Brazil,Galatasaray SK,https://cdn.sofifa.org/teams/2/light/325.png,Right,80,80,67,29,55,74,75,60,33,85,71,70,90
+494,-6.405130375,1.973640875,LB,Defense,D. Blind,https://cdn.sofifa.org/players/4/19/190815.png,Netherlands,Ajax,https://cdn.sofifa.org/teams/2/light/245.png,Left,80,80,83,62,73,62,83,53,72,68,72,83,74
+495,18.4392576,-2.15370985,GK,GoalKeper,J. Zoet,https://cdn.sofifa.org/players/4/19/190778.png,Netherlands,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,80,83,37,19,15,20,38,45,54,25,57,40,65
+496,-5.054631724,-4.737669994,CAM,Midfield,A. Ljaji?,https://cdn.sofifa.org/players/4/19/190544.png,Serbia,Be?ikta? JK,https://cdn.sofifa.org/teams/2/light/327.png,Right,80,81,78,74,87,83,71,76,81,76,63,60,58
+497,-4.089048575,-3.904796511,RCM,Midfield,Canales,https://cdn.sofifa.org/players/4/19/190286.png,Spain,Real Betis,https://cdn.sofifa.org/teams/2/light/449.png,Left,80,80,84,63,81,79,70,62,69,71,36,55,56
+498,-5.709177107,-4.838794088,RW,Midfield,Iago Falqué,https://cdn.sofifa.org/players/4/19/190264.png,Spain,Torino,https://cdn.sofifa.org/teams/2/light/54.png,Left,80,80,82,69,84,75,74,76,85,70,36,74,53
+499,-3.908385594,-0.905559201,ST,Attack,L. de Jong,https://cdn.sofifa.org/players/4/19/189805.png,Netherlands,PSV,https://cdn.sofifa.org/teams/2/light/247.png,Right,80,80,76,83,66,66,64,57,58,84,81,83,84
