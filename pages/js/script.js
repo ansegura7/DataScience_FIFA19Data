@@ -96,7 +96,7 @@ ast.changeOrder = () => {
 	// Charts variables
 	let xTitle = "Weight";
 	let yTitle = "";
-	let cTitle = "Players by Zones";
+	let cTitle = "Force-Directed Graph of Players";
 	let svgNetwork1 = d3.select("#svgNetwork1");
 
 	// Update data
@@ -119,6 +119,7 @@ ast.activePlayerImage = (checked) => {
 
 // Create Network chart
 ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage) => {
+	svg.empty();
 	svg.html("");
 
 	// Network margins
@@ -126,12 +127,14 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		iwidth = ast.width - margin.left - margin.right,
 		iheight = ast.height - margin.top - margin.bottom;
 
-	// Legend - Item list
+	// Chart variables
+	let adjlist = [];
 	let legendList = ["Player", "Position", "GoalKeper", "Defense", "Midfield", "Attack"];
 	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
 	let nNodes = nodes.length;
 	let maxNodes = 500;
-	
+	let maxV = util.getMaxValue(nodes, "count");
+
  	// Create scales
 	let c = d3.scaleOrdinal()
 				.domain(legendList)
@@ -139,20 +142,13 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		r = d3.scaleOrdinal()
 				.domain(["Player", "Position", "Zone"])
 				.range([3, 5, 7]),
-		y = d3.scaleLinear()
-				.domain([1, util.getMaxValue(nodes, "count")])
-				.range([iheight, margin.bottom]),
 		x = d3.scaleLinear()
 				.domain([0, 70])
 				.range([0, iwidth]);
 	
-    // Nodes tooltip
-    let tooltip = svg.append("text");
-    let adjlist = [];
-	
 	// Simulation Force system
 	let simulation = d3.forceSimulation(nodes);
-	let factor = nNodes / maxNodes;  // By default is one (1)
+	let factor = nNodes / maxNodes;  // By default could be one (1)
 	
 	if (ordered) {
 		simulation
@@ -192,7 +188,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("class", "link")
 		.attr("stroke", "#aaa")
 		.style("stroke-width", "2px")
-		.style("opacity", 0.5)
+		.style("opacity", 0.5);
 
 	// Drawing nodes
 	let selNodes = svg.selectAll(".node")
@@ -201,13 +197,6 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.append("g")
 		.attr("class", "node")
 		.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
-		.on("mouseover", (d) => {
-			tooltip.text(d.name)
-				.transition()
-				.duration(500)
-				.attr("x", d.x + 5)
-				.attr("y", d.y + 5);
-		})
 		.call(d3.drag()
 			.on("start", dragstarted)
 			.on("drag", dragged)
@@ -216,7 +205,9 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	// Add circle to node
 	selNodes.append("circle")
 		.style("fill", (d) => { return (d.group == "Zone" ? c(d.name) : c(d.group)) })
-		.attr("r", (d) => r(d.group));
+		.attr("r", (d) => r(d.group))
+		.attr("stroke", "#090909")
+    .style("stroke-width", 1);
 	
 	// Add text to 'position' nodes
 	selNodes.append("text")
@@ -225,7 +216,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("x", "6")
 		.text((d) => { return (d.group == "Position" ? d.name.toUpperCase() : "") });
 	
-		// Add tooltip text to node
+	// Add tooltip text to node
 	selNodes.append("title")
 		.text(d => (d.name  + " [weight = " + d.count + "]"))
 		.style("fill", "#000000")
@@ -246,10 +237,10 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.on("mouseout", unfocus);
 	selNodes.on("mouseover", focus)
 		.on("mouseout", unfocus);
-
+	
 	links.forEach(function(d) {
 		adjlist[d.source.index + "-" + d.target.index] = true;
-    	adjlist[d.target.index + "-" + d.source.index] = true;
+    adjlist[d.target.index + "-" + d.source.index] = true;
 	});
 
 	// Graph object
@@ -264,8 +255,19 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.style("text-anchor", "middle")
 		.style("font-family", "sans-serif")
 		.style("font-size", "16pt")
-		.text(cTitle + " [" + nNodes + "]")
-		.style("color", "steelblue");
+		.text(cTitle)
+		.style("fill", "black");
+	
+	// Add title
+	g.append("text")
+		.attr("x", (iwidth - 40))
+		.attr("y", (iheight - 45))
+		.attr("dy", "1em")
+		.style("text-anchor", "middle")
+		.style("font-family", "sans-serif")
+		.style("font-size", "12pt")
+		.text("# Nodes: " + nNodes)
+		.style("fill", "black");
 
 	if (ordered) {
 		// Add width scale
@@ -288,7 +290,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 
 	// Add legend
 	var legend = g.append("g")
-    	.attr("transform", "translate(" + (iwidth*0.16) + "," + (iheight*0.985) + ")");
+    .attr("transform", "translate(" + (iwidth*0.16) + "," + (iheight*0.985) + ")");
 	
 	legend.selectAll(".circle")
 		.data(legendList)
@@ -297,6 +299,8 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("class", "circle")
 		.style("fill", (d, i) => { return legendColors[i] })
 		.attr("r", "8")
+		.attr("stroke", "black")
+    .style("stroke-width", 1)
 		.attr("cx", (d, i) => { return i*120; })
 		.attr("cy", (d, i) => { return 10; });
 
@@ -349,6 +353,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		d.fy = null;
 	}
 
+	// Node focus event
 	function focus(d) {
 		var index = d3.select(d3.event.target).datum().index;
 		selNodes.style("opacity", function(o) {
@@ -357,11 +362,20 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		selLinks.style("opacity", function(o) {
 			return o.source.index == index || o.target.index == index ? 1 : 0.1;
 		});
+		d3.select(this).select("circle")
+			.transition()
+      .duration(500)
+			.attr("r", (d) => r(d.group) * 3);
 	}
-    
-    function unfocus() {
+	
+	// Node unfocus event
+  function unfocus() {
 		selNodes.style("opacity", 1);
 		selLinks.style("opacity", 1);
+		d3.select(this).select("circle")
+			.transition()
+      .duration(300)
+			.attr("r", (d) => r(d.group));
 	}
 
 	function neigh(a, b) {
