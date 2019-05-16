@@ -69,7 +69,7 @@ ast.evActivePlayerImage = (checked) => {
 
 // Load the page filters into combobox
 ast.loadFilters = (currData) => {
-	var variableList = ["Overall", "Potential"];
+	var variableList = ["Overall", "Potential", "ShortPassing", "Volleys", "Dribbling", "FKAccuracy", "LongPassing", "SprintSpeed", "Agility", "ShotPower", "Jumping", "Stamina", "Strength"].sort();
 	var nationalityList = util.getDistinctValueFromJsonArray(currData, "Nationality", "All");
 	var clubList = util.getDistinctValueFromJsonArray(currData, "Club", "All");
 	
@@ -88,7 +88,6 @@ ast.createNetworks = (currData) => {
 	// Create Network chart
 	let orderType = d3.select("#cmbOrder").node().value.toLowerCase() || "No Ordered";
 	let currVariable = d3.select("#cmbVariable").node().value || "Overall";
-	console.log("orderType: " + orderType + ", currVariable: " + currVariable);
 
 	// Load and parse current data
 	currData.forEach(function(d, i) {		
@@ -97,12 +96,16 @@ ast.createNetworks = (currData) => {
 		let zone = d.Zone;
 		let playerPosition = player + "|" + position;
 		let positionZone = position + "|" + zone;
+		let vWeigth = d[currVariable];
 		
-		util.addCounterToDict(ast.playerList, player);
-		util.addCounterToDict(ast.zoneList, zone);
-		util.addCounterToDict(ast.positionList, position);
-		util.addCounterToDict(ast.linkList, playerPosition);
-		util.addCounterToDict(ast.linkList, positionZone);
+		if (vWeigth && vWeigth > 0) {
+			
+			if (!(zone in ast.zoneList)) ast.zoneList[zone] = 1;
+			if (!(position in ast.positionList)) ast.positionList[position] = 20;
+			util.addOrUpdateToDict(ast.playerList, player, vWeigth);
+			util.addCounterToDict(ast.linkList, playerPosition);
+			util.addCounterToDict(ast.linkList, positionZone);
+		}
 	});
 
 	// Update data
@@ -112,10 +115,10 @@ ast.createNetworks = (currData) => {
 	util.addDictToJsonArray(nodes, ast.positionList, "Position");
 	util.addDictToJsonArray(nodes, ast.zoneList, "Zone");
 	util.addDictToJsonArrayWithSplit(links, ast.linkList, "|");
-	
+
 	// Network variables
-	let xTitle = "Weight";
-	let yTitle = "";
+	let xTitle = "";
+	let yTitle = "Weight";
 	let cTitle = "Force-Directed Graph of Players";
 	let svgNetwork = d3.select("#svgNetwork1");
 	let ordered = (orderType.indexOf("no") == -1);
@@ -128,7 +131,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	svg.html("");
 
 	// Network margins
-	let margin = {top: 20, right: 20, bottom: 20, left: 20},
+	let margin = {top: 30, right: 20, bottom: 30, left: 20},
 		iwidth = ast.width - margin.left - margin.right,
 		iheight = ast.height - margin.top - margin.bottom;
 
@@ -137,9 +140,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	let legendList = ["Player", "Position", "GoalKeper", "Defense", "Midfield", "Attack"];
 	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
 	let nNodes = nodes.length;
-	let maxNodes = 500;
-	let maxV = util.getMaxValue(nodes, "count");
-
+	
  	// Create scales
 	let c = d3.scaleOrdinal()
 				.domain(legendList)
@@ -148,25 +149,27 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 				.domain(["Player", "Position", "Zone"])
 				.range([3, 5, 7]),
 		x = d3.scaleLinear()
-				.domain([0, 70])
-				.range([0, iwidth]);
+				.domain([0, 100])
+				.range([0, iwidth]),
+		y = d3.scaleLinear()
+				.domain([0, 100])
+				.range([0, iheight - 30]);
 	
 	// Simulation Force system
 	let simulation = d3.forceSimulation(nodes);
-	let factor = nNodes / maxNodes;  // By default could be one (1)
 	
 	if (ordered) {
 		simulation
-			.force("center", d3.forceCenter(250, iheight / 2))
+			.force("center", d3.forceCenter((iwidth / 2 - 10), (iheight * 2 / 3)))
 			.force("charge", d3.forceManyBody()
-				.strength(-2.5))
-			.force("x", d3.forceX((d) => { return (d.group == "Zone" ? x(d.count) * 1.7 : (d.group == "Position" ? x(d.count) * 1.3 : x(d.count))) })
-				.strength(0.08))
-			.force("collide", d3.forceCollide(d => r(d.group) * 2))
+				.strength(-5))
+			.force("y", d3.forceY((d) => y(d.weight))
+				.strength(4))
+			.force("collide", d3.forceCollide(d => r(d.group) * 3))
 			.force("link", d3.forceLink(links)
 				.id((d) => d.name)
-				.distance(30)
-				.strength(0.15))
+				.distance(40)
+				.strength(0.25))
 			.on("tick", ticked);
 	}
 	else {
@@ -184,13 +187,13 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 				.strength(0.5))
 			.on("tick", ticked);
 	}
-
+	
 	// Create adjacency matrix
 	links.forEach(function(d) {
 		adjlist[d.source.index + "-" + d.target.index] = true;
     adjlist[d.target.index + "-" + d.source.index] = true;
 	});
-
+	
 	// Drawing links
 	let selLinks = svg.selectAll(".link")
 		.data(links)
@@ -229,7 +232,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	
 	// Add tooltip text to node
 	selNodes.append("title")
-		.text(d => (d.name  + " [weight = " + d.count + "]"))
+		.text(d => (d.name  + " [weight = " + d.weight + "]"))
 		.style("fill", "#000000")
 		.style("font-family", "Calibri")
 		.style("font-size", "11pt");
@@ -267,7 +270,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	// Add title
 	g.append("text")
 		.attr("x", (iwidth - 40))
-		.attr("y", (iheight - 45))
+		.attr("y", (iheight - 35))
 		.attr("dy", "1em")
 		.style("text-anchor", "middle")
 		.style("font-family", "sans-serif")
@@ -279,19 +282,9 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		// Add width scale
 		g.append("g")
 			.attr("class", "axis")
-			.attr("transform", "translate(0," + (iheight*0.91) + ")")  
+			.attr("transform", "translate(" + margin.left + ", 0)")  
 			.style("font-size", "12px")
-			.call(d3.axisBottom(x));
-		
-		// text label for the x axis
-		g.append("text")
-			.attr("x", (iwidth / 2))
-			.attr("y", (iheight * 0.94))
-			.attr("dy", "1em")
-			.style("text-anchor", "middle")
-			.style("font-family", "sans-serif")
-			.style("font-size", "11pt")
-			.text(xTitle);
+			.call(d3.axisLeft(y));
 	}
 
 	// Add legend
@@ -308,14 +301,14 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("stroke", "black")
     .style("stroke-width", 1)
 		.attr("cx", (d, i) => { return i*120; })
-		.attr("cy", (d, i) => { return 10; });
-
+		.attr("cy", (d, i) => { return 20; });
+	
 	legend.selectAll("text")
 		.data(legendList)
 		.enter()
 		.append("text")
 		.attr("x", (d, i) => { return 14 + (i*120); })
-		.attr("y", "1em")
+		.attr("y", margin.bottom - 5)
 		.attr("font-size", 15)
 		.text((d, i) => {
 			return legendList[i];
@@ -323,9 +316,9 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	
 	svg.append("line")
 		.attr("x1", x(0))
-		.attr("y1", iheight)
+		.attr("y1", iheight + 20)
 		.attr("x2", x(iwidth))
-		.attr("y2", iheight)
+		.attr("y2", iheight + 20)
 		.style("stroke-width", 1)
 		.style("stroke", "#337ab7")
 		.style("fill", "none");
@@ -394,7 +387,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 util.addDictToJsonArray = (list, dict, category) => {
 	let node = {};
 	for(var k in dict) {
-		node = { name: k, group: category, count: dict[k] }
+		node = { name: k, group: category, weight: dict[k] }
 		list.push(node);
 	}
 }
@@ -405,7 +398,7 @@ util.addDictToJsonArrayWithSplit = (list, dict, token) => {
 		let params = ("" + k).split(token);
 		let s = params[0];
 		let t = params[1];
-		node = { source: s, target: t , count: 0} //dict[k]}
+		node = { source: s, target: t , weight: 0}
 		list.push(node);
 	}
 }
@@ -416,6 +409,14 @@ util.addCounterToDict = (dict, elem) => {
 		dict[elem] = 1;
 	else
 		dict[elem]++;
+}
+
+util.addOrUpdateToDict = (dict, elem, value) => {
+	elem = elem.trim();
+	if (!(elem in dict))
+		dict[elem] = value;
+	else
+		dict[elem] += value;
 }
 
 util.getMinValue = (data, varname) => {
