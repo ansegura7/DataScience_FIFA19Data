@@ -122,11 +122,12 @@ ast.createNetworks = (currData) => {
 	let cTitle = "Force-Directed Graph of Players";
 	let svgNetwork = d3.select("#svgNetwork1");
 	let ordered = (orderType.indexOf("no") == -1);
-	ast.doNetworkChart(svgNetwork, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage);
+	let avgValue = util.sumValueJsonArray(currData, currVariable);
+	ast.doNetworkChart(svgNetwork, nodes, links, xTitle, yTitle, cTitle, ordered, ast.bImage, avgValue);
 }
 
 // Create Network diagram
-ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage) => {
+ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage, threshold) => {
 	svg.empty();
 	svg.html("");
 
@@ -140,7 +141,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	let legendList = ["Player", "Position", "GoalKeper", "Defense", "Midfield", "Attack"];
 	let legendColors = ["#9467bd", "#8c564b", "#dc3912", "#3366cc", "#ff9900", "#109618"];
 	let nNodes = nodes.length;
-	
+
  	// Create scales
 	let c = d3.scaleOrdinal()
 				.domain(legendList)
@@ -267,7 +268,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.text(cTitle)
 		.style("fill", "black");
 	
-	// Add title
+	// Add sub-title
 	g.append("text")
 		.attr("x", (iwidth - 40))
 		.attr("y", (iheight - 35))
@@ -278,13 +279,35 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.text("# Nodes: " + nNodes)
 		.style("fill", "black");
 
+	// Add Y scale
 	if (ordered) {
-		// Add width scale
 		g.append("g")
 			.attr("class", "axis")
 			.attr("transform", "translate(" + margin.left + ", 0)")  
 			.style("font-size", "12px")
 			.call(d3.axisLeft(y));
+
+		// Add threshold line
+		if (threshold) {
+			let thColor = d3.schemeCategory10[0];
+			svg.append("line")
+				.attr("x1", (2 * margin.left))
+				.attr("y1", y(threshold))
+				.attr("x2", x(iwidth))
+				.attr("y2", y(threshold))
+				.style("stroke", thColor)
+				.style("stroke-dasharray", ("3, 3"));
+
+			svg.append("text")
+				.attr("x", (iwidth - 30))
+				.attr("y",  y(threshold))
+				.attr("dy", "1em")
+				.style("text-anchor", "middle")
+				.style("font-family", "sans-serif")
+				.style("font-size", "10pt")
+				.text("Var Mean: " + threshold)
+				.style("fill", thColor);
+		}
 	}
 
 	// Add legend
@@ -419,12 +442,11 @@ util.addOrUpdateToDict = (dict, elem, value) => {
 		dict[elem] += value;
 }
 
-util.getMinValue = (data, varname) => {
-	return d3.min(data, (d) => d[varname]);
-}
-
-util.getMaxValue = (data, varname) => {
-	return d3.max(data, (d) => d[varname]);
+util.sumValueJsonArray = (currdata, varname, colfilter, valfilter) => {
+	if (colfilter && valfilter)
+		currdata = currdata.filter((d) => d[colfilter] === valfilter);
+	let value = d3.mean(currdata, (d) => d[varname]);
+	return parseFloat(value).toFixed(2);
 }
 
 util.titleCase = (str) => {
