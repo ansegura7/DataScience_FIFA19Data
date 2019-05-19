@@ -1,6 +1,7 @@
 // Init parameters
-var ast = { "width": 1000, "height": 800, "bImage": false, "photoList": {}},
-    util = {};
+var ast = {
+	"width": 1000, "height": 800, "bImage": false, "photoList": {}
+}, util = {};
 
 // Init dynamic components
 ast.init = () => {
@@ -281,7 +282,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.text("# Nodes: " + nNodes)
 		.style("fill", "black");
 
-	// Add Y scale
+	// Add Y axis
 	if (ordered) {
 		g.append("g")
 			.attr("class", "axis")
@@ -361,7 +362,8 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	}
 
 	function dragstarted(d) {
-		if (!d3.event.active) simulation.alphaTarget(0.4).restart();
+		if (!d3.event.active)
+			simulation.alphaTarget(0.5).restart();
 		d.fx = d.x;
 		d.fy = d.y;
 	}
@@ -372,7 +374,8 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 	}
 
 	function dragended(d) {
-		if (!d3.event.active) simulation.alphaTarget(0);
+		if (!d3.event.active)
+			simulation.alphaTarget(0);
 		d.fx = null;
 		d.fy = null;
 	}
