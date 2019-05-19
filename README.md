@@ -8,6 +8,7 @@
 
 ## Abstract
 Data Science Project to analyze and discover insights of the attributes of each player registered in the latest edition of FIFA 19 database.
+Most of the project was done with Jupyter Notebook, so that the reader can see and understand the code implemented.
 
 ## Data
 Detailed attributes for every player registered in the latest edition of FIFA 19 database:

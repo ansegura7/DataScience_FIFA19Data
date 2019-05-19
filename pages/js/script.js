@@ -204,14 +204,16 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 		.attr("stroke", "#aaa")
 		.style("stroke-width", "2px")
 		.style("opacity", 0.6);
-
+	
 	// Drawing nodes
+	let xAvg = iwidth/2,
+		yAvg = iheight/2;
 	let selNodes = svg.selectAll(".node")
 		.data(nodes)
 		.enter()
 		.append("g")
 		.attr("class", "node")
-		.attr("transform", function(d) { return "translate(" + d.x + "," + d.y + ")"; })
+		.attr("transform", (n) => "translate(" + xAvg + "," + yAvg + ")")
 		.call(d3.drag()
 			.on("start", dragstarted)
 			.on("drag", dragged)
@@ -355,7 +357,7 @@ ast.doNetworkChart = (svg, nodes, links, xTitle, yTitle, cTitle, ordered, bImage
 			.attr("y2", (l) => l.target.y);
 
 		selNodes
-			.attr("transform", (n) => "translate(" + n.x + "," + n.y + ")");  
+			.attr("transform", (n) => "translate(" + n.x + "," + n.y + ")");
 	}
 
 	function dragstarted(d) {
