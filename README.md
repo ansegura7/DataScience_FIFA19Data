@@ -20,13 +20,15 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html" target="_blank" >Querying Data</a>
 3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html" target="_blank" >Principal Component Analysis</a>
 4. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ClusteringData.html" target="_blank" >Clustering Data - KMeans</a>
-5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" target="_blank" >Networks and Force System</a>
+5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/SimilarityFunctions.html" target="_blank" >Analysis of Similarity</a>
+6. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" target="_blank" >Networks and Force System</a>
 
 ## Insights
 - It is possible to perform a PCA of the skills of the players and maintain 80.5% of the variance of the data with only 2 components. Which allows us to plot the players on the plane and analyze which players resemble each other.
 - The similarity between players is better identified with 2 components (2D plot and 80.5% variance explained) than with 3 components (3D plot and 84.8% variance explained).
 - Using the Jambu Elbow technique, you can visually select a k = 4 (number of clusters between which the data will be grouped).
 - Players can be grouped into 4 groups. These groups are highly related to the zones in which players play on the field (goalkeepers, defenders, midfielders and strikers).
+- The N players most similar to a specific player can be calculated, using the similarity functions.
 - Others:
     - The team with the most potential is FC Barcelona, whose players initially have an overall average of 78 but can reach 85.
     - The player with the most potential is MBappe from PSG, who can reach 95 of overall.
@@ -45,7 +47,9 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - pandas_profiling
 - numpy
 - pandasql
+- stats
 - sklearn
+- sklearn.metrics.pairwise
 - StandardScaler
 - PCA
 - KMeans
