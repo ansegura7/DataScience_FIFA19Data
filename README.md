@@ -29,6 +29,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Using the Jambu Elbow technique, you can visually select a k = 4 (number of clusters between which the data will be grouped).
 - Players can be grouped into 4 groups. These groups are highly related to the zones in which players play on the field (goalkeepers, defenders, midfielders and strikers).
 - The N players most similar to a specific player can be calculated, using the similarity functions.
+- The matrix of correlation by individuals allows to see the correlation that exists between the players. It is the same item-item approach of the recommendation systems.
 - Others:
     - The team with the most potential is FC Barcelona, whose players initially have an overall average of 78 but can reach 85.
     - The player with the most potential is MBappe from PSG, who can reach 95 of overall.
