@@ -13187,9 +13187,28 @@ div#notebook {
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read FIFA 19 players data only using the current skill values</span>
 <span class="n">dataURL</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/data/fifa19_overall_data.csv&quot;</span>
 <span class="n">rawdata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">dataURL</span><span class="p">)</span>
+<span class="nb">print</span><span class="p">(</span><span class="n">rawdata</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
 
     </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+    <div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>(18207, 89)
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -13230,7 +13249,7 @@ div#notebook {
 <div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set a Overall threshold</span>
+<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Set an Overall threshold</span>
 <span class="n">threshold</span> <span class="o">=</span> <span class="mi">80</span>
 <span class="n">threshold</span>
 </pre></div>
@@ -13570,7 +13589,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Explained Variance Ratio: 88.99078649524124
+<pre>Explained Variance Ratio: 88.99078649524131
 </pre>
 </div>
 </div>
@@ -13641,8 +13660,8 @@ div#notebook {
       <td>16.489354</td>
       <td>-1.978795</td>
       <td>0.312424</td>
-      <td>2.100683</td>
-      <td>2.824600</td>
+      <td>2.100684</td>
+      <td>2.824599</td>
       <td>De Gea</td>
     </tr>
     <tr>
@@ -13659,7 +13678,7 @@ div#notebook {
       <td>-4.936598</td>
       <td>-4.930870</td>
       <td>0.985261</td>
-      <td>1.042246</td>
+      <td>1.042247</td>
       <td>1.841818</td>
       <td>E. Hazard</td>
     </tr>
@@ -13669,7 +13688,7 @@ div#notebook {
       <td>-1.682930</td>
       <td>-0.712501</td>
       <td>3.359507</td>
-      <td>1.979453</td>
+      <td>1.979452</td>
       <td>L. Modrić</td>
     </tr>
     <tr>
@@ -13678,7 +13697,7 @@ div#notebook {
       <td>-2.126353</td>
       <td>3.635059</td>
       <td>1.426361</td>
-      <td>2.758876</td>
+      <td>2.758875</td>
       <td>L. Suárez</td>
     </tr>
     <tr>
@@ -13687,7 +13706,7 @@ div#notebook {
       <td>3.403521</td>
       <td>1.141814</td>
       <td>0.939394</td>
-      <td>2.542292</td>
+      <td>2.542291</td>
       <td>Sergio Ramos</td>
     </tr>
     <tr>
@@ -13837,6 +13856,13 @@ div#notebook {
 </div>
 </div>
 
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Similarity-function-used">Similarity function used<a class="anchor-link" href="#Similarity-function-used">&#182;</a></h3>$$ cosine(X, Y) = cos(\theta) = \frac{\vec{X}.\vec{Y}}{\|\vec{X}\|.\|\vec{Y}\|} = \frac{\sum_{i=1}^n X_i.Y_i}{\sqrt{\sum_{i=1}^n X_i^2}.\sqrt{\sum_{i=1}^n Y_i^2}} $$
+</div>
+</div>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
@@ -14489,8 +14515,8 @@ div#notebook {
       <td>16.489354</td>
       <td>-1.978795</td>
       <td>0.312424</td>
-      <td>2.100683</td>
-      <td>2.824600</td>
+      <td>2.100684</td>
+      <td>2.824599</td>
       <td>De Gea</td>
     </tr>
     <tr>
@@ -14660,9 +14686,9 @@ div#notebook {
       <td>2.350692</td>
       <td>0.254852</td>
       <td>1.682914</td>
-      <td>2.100683</td>
+      <td>2.100684</td>
       <td>2.143308</td>
-      <td>1.042246</td>
+      <td>1.042247</td>
       <td>3.359507</td>
       <td>1.426361</td>
       <td>0.939394</td>
@@ -14676,7 +14702,7 @@ div#notebook {
       <td>0.072369</td>
       <td>1.424341</td>
       <td>-2.284941</td>
-      <td>-1.859234</td>
+      <td>-1.859235</td>
       <td>0.395377</td>
     </tr>
     <tr>
@@ -14684,24 +14710,24 @@ div#notebook {
       <td>3.071318</td>
       <td>4.140921</td>
       <td>2.750608</td>
-      <td>2.824600</td>
+      <td>2.824599</td>
       <td>1.320396</td>
       <td>1.841818</td>
-      <td>1.979453</td>
-      <td>2.758876</td>
-      <td>2.542292</td>
+      <td>1.979452</td>
+      <td>2.758875</td>
+      <td>2.542291</td>
       <td>2.526036</td>
       <td>...</td>
       <td>1.839766</td>
       <td>1.676578</td>
-      <td>1.193249</td>
+      <td>1.193250</td>
       <td>2.274901</td>
       <td>0.921945</td>
       <td>0.647842</td>
       <td>2.221131</td>
       <td>0.546272</td>
       <td>1.184943</td>
-      <td>2.331786</td>
+      <td>2.331787</td>
     </tr>
   </tbody>
 </table>
@@ -14719,6 +14745,13 @@ div#notebook {
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Step-2---Calculate-Pearson-correlation-matrix">Step 2 - Calculate Pearson correlation matrix<a class="anchor-link" href="#Step-2---Calculate-Pearson-correlation-matrix">&#182;</a></h3>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+$$ pearson(X, Y) = \frac{cov(X, Y)}{\sigma_X . \sigma_Y} = \frac{\sum_{i=1}^n (X_i - \bar{X}).(Y_i - \bar{Y})}{\sqrt{\sum_{i=1}^n (X_i - \bar{X})^2 . (Y_i - \bar{Y})^2}} $$
 </div>
 </div>
 </div>
@@ -14932,13 +14965,14 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">plotCorrTriangle</span><span class="p">(</span><span class="n">corr</span><span class="p">):</span>
+    
     <span class="c1"># Generate a mask for the upper triangle</span>
     <span class="n">mask</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros_like</span><span class="p">(</span><span class="n">corr</span><span class="p">,</span> <span class="n">dtype</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">bool</span><span class="p">)</span>
     <span class="n">mask</span><span class="p">[</span><span class="n">np</span><span class="o">.</span><span class="n">triu_indices_from</span><span class="p">(</span><span class="n">mask</span><span class="p">)]</span> <span class="o">=</span> <span class="kc">True</span>
-
+    
     <span class="c1"># Set up the matplotlib figure</span>
     <span class="n">fig</span><span class="p">,</span> <span class="n">ax1</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">subplots</span><span class="p">(</span><span class="n">figsize</span> <span class="o">=</span> <span class="p">(</span><span class="mi">18</span><span class="p">,</span> <span class="mi">18</span><span class="p">))</span>
-
+    
     <span class="c1"># Generate a custom diverging colormap</span>
     <span class="n">cmap</span> <span class="o">=</span> <span class="n">sns</span><span class="o">.</span><span class="n">diverging_palette</span><span class="p">(</span><span class="mi">10</span><span class="p">,</span> <span class="mi">240</span><span class="p">,</span> <span class="n">n</span><span class="o">=</span><span class="mi">9</span><span class="p">)</span>
     
