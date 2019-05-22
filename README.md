@@ -24,16 +24,17 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 6. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" >Networks and Force System</a>
 
 ## Insights
-- It is possible to perform a PCA of the skills of the players and maintain 80.5% of the variance of the data with only 2 components. Which allows us to plot the players on the plane and analyze which players resemble each other.
+- With these data it is possible to perform a PCA of the skills of the players and maintain 80.5% of the variance of the data with only 2 components. Which allows us to plot the players on the plane and analyze which players resemble each other.
 - The similarity between players is better identified with 2 components (2D plot and 80.5% variance explained) than with 3 components (3D plot and 84.8% variance explained).
-- Using the Jambu Elbow technique, you can visually select a k = 4 (number of clusters between which the data will be grouped).
+- Using the Jambu elbow technique, you can visually select the optimal value of k = 4 (number of clusters between which the data will be grouped).
 - Players can be grouped into 4 groups. These groups are highly related to the zones in which players play on the field (goalkeepers, defenders, midfielders and strikers).
-- The N players most similar to a specific player can be calculated, using the similarity functions.
+- You can calculate the N players most similar to a specific player, using the similarity functions.
 - The matrix of correlation by individuals allows to see the correlation that exists between the players. It is the same item-item approach of the recommendation systems.
 - Others:
     - The team with the most potential is FC Barcelona, whose players initially have an overall average of 78 but can reach 85.
     - The player with the most potential is MBappe from PSG, who can reach 95 of overall.
     - However, the player with the most improvement margen is Donnarumma of AC Milan, who initially has an overall of 82 but can reach 93 (+11).
+	- The PCA was succeeded because there are a great number of correlated variables in the original dataset. This allowed the eigenvector to be significant.
 
 ## Technologies and Techniques
 - Python 3.7.3
@@ -62,5 +63,5 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 ## License Type
 This project is licensed under the terms of the MIT license.
 
-## Contributing and feedback
+## Contributing and Feedback
 Any kind of feedback/criticism would be greatly appreciated (software design, documentation, improvement ideas, spelling mistakes, etc...).
