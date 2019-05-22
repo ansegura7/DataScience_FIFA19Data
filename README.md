@@ -35,9 +35,10 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
     - The player with the most potential is MBappe from PSG, who can reach 95 of overall.
     - However, the player with the most improvement margen is Donnarumma of AC Milan, who initially has an overall of 82 but can reach 93 (+11).
 	- The PCA was succeeded because there are a great number of correlated variables in the original dataset. This allowed the eigenvector to be significant.
+	- There is a large number of correlated variables in the original dataset, which is an ideal scenario to run a PCA and thus reduce the dimensions while maintaining the variance and the direction of the data.
 
 ## Technologies and Techniques
-- Python 3.7.3
+- Python 3.6.8
 - <a href="https://www.anaconda.com/distribution/" target="_blank" >Anaconda Navigator 1.9.7</a>
 - Jupyter Notebook 5.7.8
 - <a href="https://github.com/d3/d3-force/" target="_blank" >Force System of d3.js </a>
