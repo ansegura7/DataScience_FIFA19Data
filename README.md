@@ -6,7 +6,7 @@
 
 ![PCA Network](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/force-directed-graph.jpg)
 
-## Abstract
+## Overview
 Data Science Project to analyze and discover insights of the attributes of each player registered in the latest edition of FIFA 19 database.
 Most of the project was done with Jupyter Notebook, so that the reader can see and understand the code implemented.
 
@@ -16,12 +16,12 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Project data in <a href="https://github.com/ansegura7/DataScience_FIFA19Data/tree/master/data" target="_blank" >GitHub</a>
 
 ## Analysis List
-1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" target="_blank" >Exploration and Profiling</a>
-2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html" target="_blank" >Querying Data</a>
-3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html" target="_blank" >Principal Component Analysis</a>
-4. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ClusteringData.html" target="_blank" >Clustering Data - KMeans</a>
-5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/SimilarityFunctions.html" target="_blank" >Analysis of Similarity</a>
-6. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" target="_blank" >Networks and Force System</a>
+1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" >Exploration and Profiling</a>
+2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html" >Querying Data</a>
+3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html" >Principal Component Analysis</a>
+4. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ClusteringData.html" >Clustering Data - KMeans</a>
+5. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/SimilarityFunctions.html" >Analysis of Similarity</a>
+6. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/ForceSystem.html" >Networks and Force System</a>
 
 ## Insights
 - It is possible to perform a PCA of the skills of the players and maintain 80.5% of the variance of the data with only 2 components. Which allows us to plot the players on the plane and analyze which players resemble each other.
@@ -61,3 +61,6 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 
 ## License Type
 This project is licensed under the terms of the MIT license.
+
+## Contributing and feedback
+Any kind of feedback/criticism would be greatly appreciated (software design, documentation, improvement ideas, spelling mistakes, etc...).
