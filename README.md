@@ -15,7 +15,7 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - Original data from <a href="https://www.kaggle.com/karangadiya/fifa19" target="_blank" >Kaggle</a>
 - Project data in <a href="https://github.com/ansegura7/DataScience_FIFA19Data/tree/master/data" target="_blank" >GitHub</a>
 
-## Analysis List
+## Analysis Performed
 1. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/InitialExploration.html" >Exploration and Profiling</a>
 2. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/QueryingData.html" >Querying Data</a>
 3. <a href="https://ansegura7.github.io/DataScience_FIFA19Data/pages/PrincipalComponentAnalysis.html" >Principal Component Analysis</a>
@@ -65,4 +65,4 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 This project is licensed under the terms of the MIT license.
 
 ## Contributing and Feedback
-Any kind of feedback/criticism would be greatly appreciated (software design, documentation, improvement ideas, spelling mistakes, etc...).
+Any kind of feedback/criticism would be greatly appreciated (algorithm design, documentation, improvement ideas, spelling mistakes, etc...).
