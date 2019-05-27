@@ -1,14 +1,10 @@
 # Visual and Data Analysis - FIFA 19
-- **Created by Andrés Segura Tinoco**
-- **Created on May 1, 2019**
+Data Science Project to analyze and discover insights of the attributes of each player registered in the latest edition of FIFA 19 database.
+Most of the project was done with Jupyter Notebook, so that the reader can see and understand the code implemented.
 
 ![PCA Plot](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/pca-results.jpg)
 
 ![PCA Network](https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/images/force-directed-graph.jpg)
-
-## Overview
-Data Science Project to analyze and discover insights of the attributes of each player registered in the latest edition of FIFA 19 database.
-Most of the project was done with Jupyter Notebook, so that the reader can see and understand the code implemented.
 
 ## Data
 Detailed attributes for every player registered in the latest edition of FIFA 19 database:
@@ -61,8 +57,12 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - seaborn
 - ipywidgets
 
-## License Type
-This project is licensed under the terms of the MIT license.
-
 ## Contributing and Feedback
 Any kind of feedback/criticism would be greatly appreciated (algorithm design, documentation, improvement ideas, spelling mistakes, etc...).
+
+## Authors
+- Created by Andrés Segura Tinoco
+- Created on May 1, 2019
+
+## License
+This project is licensed under the terms of the MIT license.
