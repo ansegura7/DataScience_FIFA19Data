@@ -13769,8 +13769,9 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filter/Delete player with an overall below 85</span>
+<span class="n">var_filter</span> <span class="o">=</span> <span class="s2">&quot;Overall&quot;</span>
 <span class="n">threshold</span> <span class="o">=</span> <span class="mi">85</span>
-<span class="n">skills</span> <span class="o">=</span> <span class="n">skills</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">skills</span><span class="p">[</span><span class="s2">&quot;Overall&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">threshold</span><span class="p">]</span>
+<span class="n">skills</span> <span class="o">=</span> <span class="n">skills</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">skills</span><span class="p">[</span><span class="n">var_filter</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">threshold</span><span class="p">]</span>
 <span class="nb">len</span><span class="p">(</span><span class="n">skills</span><span class="p">)</span>
 </pre></div>
 

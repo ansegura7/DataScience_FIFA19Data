@@ -13186,7 +13186,7 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Read FIFA 19 players data only using the current skill values</span>
-<span class="n">dataURL</span> <span class="o">=</span> <span class="s2">&quot;https://raw.githubusercontent.com/ansegura7/DataScience_FIFA19Data/master/data/fifa19_overall_data.csv&quot;</span>
+<span class="n">dataURL</span> <span class="o">=</span> <span class="s2">&quot;../data/fifa19_overall_data.csv&quot;</span>
 <span class="n">rawdata</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">dataURL</span><span class="p">)</span>
 <span class="nb">print</span><span class="p">(</span><span class="n">rawdata</span><span class="o">.</span><span class="n">shape</span><span class="p">)</span>
 </pre></div>
@@ -13286,7 +13286,8 @@ div#notebook {
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Filter/Delete player with an overall below the threshold</span>
-<span class="n">rawdata</span> <span class="o">=</span> <span class="n">rawdata</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">rawdata</span><span class="p">[</span><span class="s2">&quot;Overall&quot;</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">threshold</span><span class="p">]</span>
+<span class="n">var_filter</span> <span class="o">=</span> <span class="s2">&quot;Overall&quot;</span>
+<span class="n">rawdata</span> <span class="o">=</span> <span class="n">rawdata</span><span class="o">.</span><span class="n">loc</span><span class="p">[</span><span class="n">rawdata</span><span class="p">[</span><span class="n">var_filter</span><span class="p">]</span> <span class="o">&gt;=</span> <span class="n">threshold</span><span class="p">]</span>
 <span class="nb">len</span><span class="p">(</span><span class="n">rawdata</span><span class="p">)</span>
 </pre></div>
 
@@ -13590,7 +13591,7 @@ div#notebook {
 
 
 <div class="output_subarea output_stream output_stdout output_text">
-<pre>Explained Variance Ratio: 88.99078649524115
+<pre>Explained Variance Ratio: 88.99078649524053
 </pre>
 </div>
 </div>
@@ -13634,7 +13635,7 @@ div#notebook {
       <td>-5.526306</td>
       <td>-5.808015</td>
       <td>2.076504</td>
-      <td>2.350692</td>
+      <td>2.350693</td>
       <td>3.071318</td>
       <td>L. Messi</td>
     </tr>
@@ -13644,7 +13645,7 @@ div#notebook {
       <td>-3.568653</td>
       <td>4.896926</td>
       <td>0.254852</td>
-      <td>4.140921</td>
+      <td>4.140920</td>
       <td>Cristiano Ronaldo</td>
     </tr>
     <tr>
@@ -13653,7 +13654,7 @@ div#notebook {
       <td>-5.803934</td>
       <td>1.127417</td>
       <td>1.682914</td>
-      <td>2.750609</td>
+      <td>2.750608</td>
       <td>Neymar Jr</td>
     </tr>
     <tr>
@@ -13661,8 +13662,8 @@ div#notebook {
       <td>16.489354</td>
       <td>-1.978795</td>
       <td>0.312424</td>
-      <td>2.100684</td>
-      <td>2.824600</td>
+      <td>2.100682</td>
+      <td>2.824602</td>
       <td>De Gea</td>
     </tr>
     <tr>
@@ -13671,7 +13672,7 @@ div#notebook {
       <td>-1.962398</td>
       <td>1.298546</td>
       <td>2.143308</td>
-      <td>1.320396</td>
+      <td>1.320397</td>
       <td>K. De Bruyne</td>
     </tr>
     <tr>
@@ -13680,7 +13681,7 @@ div#notebook {
       <td>-4.930870</td>
       <td>0.985261</td>
       <td>1.042246</td>
-      <td>1.841817</td>
+      <td>1.841818</td>
       <td>E. Hazard</td>
     </tr>
     <tr>
@@ -13689,7 +13690,7 @@ div#notebook {
       <td>-1.682930</td>
       <td>-0.712501</td>
       <td>3.359507</td>
-      <td>1.979453</td>
+      <td>1.979452</td>
       <td>L. Modrić</td>
     </tr>
     <tr>
@@ -13697,8 +13698,8 @@ div#notebook {
       <td>-4.291498</td>
       <td>-2.126353</td>
       <td>3.635059</td>
-      <td>1.426361</td>
-      <td>2.758875</td>
+      <td>1.426362</td>
+      <td>2.758876</td>
       <td>L. Suárez</td>
     </tr>
     <tr>
@@ -13715,7 +13716,7 @@ div#notebook {
       <td>17.572773</td>
       <td>-1.278344</td>
       <td>0.143841</td>
-      <td>0.435352</td>
+      <td>0.435353</td>
       <td>2.526036</td>
       <td>J. Oblak</td>
     </tr>
@@ -14516,7 +14517,7 @@ div#notebook {
       <td>-5.526306</td>
       <td>-5.808015</td>
       <td>2.076504</td>
-      <td>2.350692</td>
+      <td>2.350693</td>
       <td>3.071318</td>
       <td>L. Messi</td>
     </tr>
@@ -14526,7 +14527,7 @@ div#notebook {
       <td>-3.568653</td>
       <td>4.896926</td>
       <td>0.254852</td>
-      <td>4.140921</td>
+      <td>4.140920</td>
       <td>Cristiano Ronaldo</td>
     </tr>
     <tr>
@@ -14535,7 +14536,7 @@ div#notebook {
       <td>-5.803934</td>
       <td>1.127417</td>
       <td>1.682914</td>
-      <td>2.750609</td>
+      <td>2.750608</td>
       <td>Neymar Jr</td>
     </tr>
     <tr>
@@ -14543,8 +14544,8 @@ div#notebook {
       <td>16.489354</td>
       <td>-1.978795</td>
       <td>0.312424</td>
-      <td>2.100684</td>
-      <td>2.824600</td>
+      <td>2.100682</td>
+      <td>2.824602</td>
       <td>De Gea</td>
     </tr>
     <tr>
@@ -14553,7 +14554,7 @@ div#notebook {
       <td>-1.962398</td>
       <td>1.298546</td>
       <td>2.143308</td>
-      <td>1.320396</td>
+      <td>1.320397</td>
       <td>K. De Bruyne</td>
     </tr>
   </tbody>
@@ -14711,49 +14712,49 @@ div#notebook {
     </tr>
     <tr>
       <th>PC4</th>
-      <td>2.350692</td>
+      <td>2.350693</td>
       <td>0.254852</td>
       <td>1.682914</td>
-      <td>2.100684</td>
+      <td>2.100682</td>
       <td>2.143308</td>
       <td>1.042246</td>
       <td>3.359507</td>
-      <td>1.426361</td>
+      <td>1.426362</td>
       <td>0.939394</td>
-      <td>0.435352</td>
+      <td>0.435353</td>
       <td>...</td>
-      <td>0.674164</td>
+      <td>0.674165</td>
       <td>2.322269</td>
       <td>-0.242884</td>
       <td>-2.193921</td>
       <td>-1.299742</td>
       <td>0.072369</td>
       <td>1.424341</td>
-      <td>-2.284941</td>
+      <td>-2.284942</td>
       <td>-1.859234</td>
       <td>0.395377</td>
     </tr>
     <tr>
       <th>PC5</th>
       <td>3.071318</td>
-      <td>4.140921</td>
-      <td>2.750609</td>
-      <td>2.824600</td>
-      <td>1.320396</td>
-      <td>1.841817</td>
-      <td>1.979453</td>
-      <td>2.758875</td>
+      <td>4.140920</td>
+      <td>2.750608</td>
+      <td>2.824602</td>
+      <td>1.320397</td>
+      <td>1.841818</td>
+      <td>1.979452</td>
+      <td>2.758876</td>
       <td>2.542291</td>
       <td>2.526036</td>
       <td>...</td>
-      <td>1.839765</td>
+      <td>1.839766</td>
       <td>1.676578</td>
-      <td>1.193249</td>
+      <td>1.193250</td>
       <td>2.274901</td>
       <td>0.921945</td>
       <td>0.647842</td>
       <td>2.221131</td>
-      <td>0.546271</td>
+      <td>0.546273</td>
       <td>1.184943</td>
       <td>2.331787</td>
     </tr>
