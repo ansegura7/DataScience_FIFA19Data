@@ -66,12 +66,18 @@ Detailed attributes for every player registered in the latest edition of FIFA 19
 - seaborn
 - ipywidgets
 
+## Python Dependencies
+``` console
+  conda install -c conda-forge pandas-profiling
+```
+
 ## Contributing and Feedback
-Any kind of feedback/criticism would be greatly appreciated (algorithm design, documentation, improvement ideas, spelling mistakes, etc...).
+Any kind of feedback/suggestions would be greatly appreciated (algorithm design, documentation, improvement ideas, spelling mistakes, etc...). If you want to make a contribution to the course you can do it through a PR.
 
 ## Author
 - Created by Andrés Segura Tinoco
 - Created on May 1, 2019
+- Updated on Setp 14, 2021
 
 ## License
-This project is licensed under the terms of the MIT license.
+This project is licensed under the terms of the <a href="https://github.com/ansegura7/DataScience_FIFA19Data/blob/master/LICENSE">MIT license</a>.
